@@ -1,0 +1,186 @@
+// 50 things home intro
+
+#intro-container {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+		position: relative;
+		text-align: center;
+		z-index:1;
+		@include media($mobile) {
+			@include span-columns(7);
+			background: $blue;
+			left: 2%;
+			top: 0;
+			padding: .5em .25em .25em .25em;
+		}
+		@include media($portrait) {
+			@include span-columns(5);
+			left: 10%;
+			top: 0;
+		}
+		@include media($tablet) {
+			@include span-columns(5);
+			background: $blue;
+			left: 8%;
+			top: 0;
+			padding: .5em .25em .25em .25em;
+		}
+		@include media($desktop) {
+			@include span-columns(4);
+			background: none;
+			left: 7%;
+			top: 5%;
+		}
+		img {
+			width:100%;
+			padding-left: 7%;
+		}
+	}
+
+.title-container {
+		position: relative;
+		clear:both;
+		padding: 0;
+		margin:0;
+		z-index:1;
+		@include media($mobile) {
+			@include span-columns(7);
+			left: 2%;
+		}
+		@include media($portrait) {
+			@include span-columns(7);
+			left: 10%;
+		}
+		@include media($tablet) {
+			@include span-columns(7);
+			left: 7%;
+			top: 15%;
+		}
+		@include media($desktop) {
+			width:100%;
+			left: 8.5%;
+			top: 20%;
+		}
+		h1 {
+			display: block;
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			letter-spacing: .01em;
+			font-weight:500;
+			margin:0;
+			clear:both;
+			@include media($mobile){
+				float:none;
+				padding: .5em 0 0;
+				font-size: $font-size-h1/2;
+				line-height: .75em;
+			}
+			@include media($portrait){
+				float:none;
+				padding: 0;
+				font-size: $font-size-h1/2;
+				line-height: .75em;
+			}
+			@include media($tablet){
+				float:none;
+				padding: 0;
+				font-size: $font-size-h1*1;
+				line-height: .75em;
+			}
+			@include media($desktop){
+				float:left;
+				padding: 0;
+				font-size: $font-size-h1*1.15;
+				line-height: .95em;
+			}
+		}
+		h2 {
+			display: block;
+			color: $blue;
+			font-family: $serif-font !important;
+			font-style: italic;
+			font-weight: 300;
+			margin-top: 0;
+			letter-spacing: -.025em;
+			line-height:1.10em;
+			.normal {
+				display:block;
+				color: $yellow;
+				font-family: $sans-serif-font !important;
+				font-weight: 500;
+				font-style: normal;
+				@include media($portrait) {
+				font-size: $font-size-h2/.75;
+				}
+				@include media($portrait) {
+				font-size: $font-size-h2;
+				}
+				@include media($tablet) {
+				font-size: $font-size-h2*1.45;
+				}
+				@include media($desktop) {
+				font-size: $font-size-h2*1.45;
+				}
+			}
+			@include media($mobile) {
+				font-size: $font-size-h2/.75;
+			}
+			@include media($portrait) {
+				font-size: $font-size-h2;
+			}
+			@include media($tablet) {
+				font-size: $font-size-h2*1.65;
+			}
+			@include media($desktop) {
+				font-size: $font-size-h2*1.65;
+			}
+		}
+	}
+
+#photo {
+		width: 100%;
+		height: 100%;
+		background: url('/css/images/front-photo.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-repeat: no-repeat;
+		@include media($mobile){
+			background-position: 75% center;
+		}
+		@include media($portrait){
+			background-position: 50% center;
+		}
+		@include media($tablet){
+			background-position: 70% center;
+		}
+		@include media($desktop){
+			background-position: center center;
+			z-index:0;
+			position: fixed;
+			background-attachment: fixed;
+		}
+	}
+.home-description {
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 640px;
+	clear:both;
+	background: $blue;
+	z-index:1;
+	padding: 1em;
+	color: $white;
+	top: 20%;
+	left: 9%;
+	p {
+		margin-bottom: 1em;
+		line-height: 1.5em;
+	}
+}
