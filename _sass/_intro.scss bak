@@ -1,0 +1,249 @@
+// 50 things home intro
+
+#intro-container {
+	width: 100%;
+	height: 100%;
+	max-height:1080px;
+	padding: 0;
+	margin: 0;
+}
+.logo {
+	position: relative;
+	text-align: center;
+	z-index:1;
+	@include media($mobile){
+		@include span-columns(7);
+		background: $blue;
+		left: 2%;
+		top: 0;
+		padding: .5em .25em .25em .25em;
+	}
+	@include media($portrait){
+		@include span-columns(5);
+		left: 10%;
+		top: 0;
+	}
+	@include media($tablet){
+		@include span-columns(5);
+		background: $blue;
+		left: 8%;
+		top: 0;
+		padding: .5em .25em .25em .25em;
+	}
+	@include media($desktop){
+		@include span-columns(4);
+		background: none;
+		left: 7%;
+		top: 5%;
+	}
+	img {
+		width:100%;
+		padding-left: 7%;
+	}
+}
+.title-container {
+	position: relative;
+	clear:both;
+	padding: 0;
+	margin:0;
+	z-index:1;
+	@include media($mobile){
+		@include span-columns(7);
+		left: 2%;
+		top:17%;
+	}
+	@include media($portrait){
+		@include span-columns(7);
+		left: 10%;
+		top: 20%;
+	}
+	@include media($tablet){
+		@include span-columns(7);
+		left: 7%;
+		top: 15%;
+	}
+	@include media($desktop){
+		width:100%;
+		left: 5%;
+		top: 13%;
+	}
+	h1 {
+		display: block;
+		font-size: $font-size-h1*1.25;
+		color: $yellow;
+		letter-spacing: .01em;
+		font-weight:500;
+		margin:0;
+		clear:both;
+		@include media($mobile){
+			float:none;
+			padding: .5em 0 0;
+			font-size: $font-size-h1/2;
+			line-height: .75em;
+		}
+		@include media($portrait){
+			float:none;
+			padding: 0;
+			font-size: $font-size-h1/2;
+			line-height: .75em;
+		}
+		@include media($tablet){
+			float:none;
+			padding: 0;
+			font-size: $font-size-h1*1;
+			line-height: .75em;
+		}
+		@include media($desktop){
+			float:left;
+			padding: 0;
+			font-size: $font-size-h1*1.15;
+			line-height: .95em;
+		}
+	}
+	h2 {
+		display: block;
+		color: $blue;
+		font-family: $serif-font !important;
+		font-style: italic;
+		font-weight: 300;
+		margin-top: 0;
+		letter-spacing: -.025em;
+		line-height:1.10em;
+		.normal {
+			display:block;
+			color: $yellow;
+			font-family: $sans-serif-font !important;
+			font-weight: 500;
+			font-style: normal;
+			@include media($mobile) {
+			font-size: $font-size-h2/.75;
+			}
+			@include media($tablet) {
+			font-size: $font-size-h2*1.45;
+			}
+			@include media($desktop) {
+			font-size: $font-size-h2*1.45;
+			}
+		}
+		@include media($mobile) {
+			font-size: $font-size-h2/.75;
+		}
+		@include media($portrait) {
+			font-size: $font-size-h2;
+		}
+		@include media($tablet) {
+			font-size: $font-size-h2*1.65;
+		}
+		@include media($desktop) {
+			font-size: $font-size-h2*1.65;
+		}
+	}
+}
+
+#photo {
+		width: 100%;
+		height: 100%;
+		background: url('/css/images/front-photo.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-repeat: no-repeat;
+		@include media($mobile){
+			background-position: 75% center;
+		}
+		@include media($portrait){
+			background-position: 50% center;
+		}
+		@include media($tablet){
+			background-position: 70% center;
+		}
+		@include media($desktop){
+			background-position: center center;
+			z-index:0;
+			position: fixed;
+			background-attachment: fixed;
+		}
+	}
+.home-description {
+	display: block;
+	clear:both;
+	background: $blue;
+	padding: 1em;
+	color: $white;
+	p {
+		margin-bottom: 1em;
+		line-height: 1.5em;
+	}
+	@include media($mobile) {
+		width: 100%;
+		max-width: 599px;
+		top: 70%;
+		left: 0;
+		position: none;
+		z-index: 1;
+	}
+	@include media($portrait) {
+		width: 100%;
+		max-width: 500px;
+		top: 50%;
+		left: 8%;
+		position: absolute;
+		z-index: 1;
+	}
+	@include media($tablet) {
+		width: 100%;
+		max-width: 640px;
+		top: 45%;
+		left: 8.25%;
+		position: absolute;
+		z-index: 1;
+	}
+	@include media($desktop) {
+		width: 100%;
+		max-width: 635px;
+		top: 40%;
+		left: 5.75%;
+		position: absolute;
+		z-index: 1;
+	}
+}
+#list-container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: $blue;
+}
+ul .number{
+	@include outer-container;
+	margin: 0 auto 0 auto;
+	list-style: none;
+	padding: 0;
+	background: $blue;
+}
+ul li.number:first-child{
+	@include media(12);
+	margin: 4em auto 0;
+	padding: 0;
+	list-style: none;
+	height: 100%;
+	max-height: 412px;
+}
+ul li.number{
+	@include media(12);
+	margin: 2em auto 0;
+	padding: 0;
+	list-style: none;
+	height: 100%;
+	max-height: 412px;
+	clear:both;
+}
+.title {
+	@include span-columns(4.75);
+	@include shift(.35);
+	height: 100%;
+	max-height: 412px;
+	@include background-opacity($blue, .95);
+	position: absolute;
+	z-index: 2;
+}

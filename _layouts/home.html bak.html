@@ -1,35 +1,47 @@
 
 <html>
 <head>
-<meta name="viewport" content="initial-scale=1.0">
+<meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
 <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
 </head>
-<body class="loading">
-	<section id="slide-1" class="homeSlide">
-		<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
-			<div class="hsContainer">
-	    		<div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2">
-		    		<h1>FIFTY</h1>
-		    		<p>When UC Santa Cruz began, it was hailed by then-UC President Clark Kerr as "the most significant educational experiment in the history of the University of California." It still is.</p>
+<body>
+	
+<div id="intro-container">
+	<div class="logo">{% image "logo.svg" alt="UC Santa Cruz" %}</div>
+	<div class="title-container"><h1>FIFTY</h1><h2>ways<span class="normal">TO BE AMAZING</span></h2></div>
+	<div id="photo"></div>
+	<div class="home-description">
+		<p> UC Santa Cruz began, it was hailed by then-UC President Clark Kerr as "the most significant educational experiment in the history of the University of California." It still is.</p>
 
-<p>In our first 50 years, we've assembled the DNA sequence of the human genome and made it publicly available; pioneered the country’s first organic farm and garden program; and developed the first computer game design major in the UC system.</p>
+<p>In our first 50 years, we've assembled the DNA sequence of the human genome and made it publicly available; pioneered the country's first organic farm and garden program&#59; and developed the first computer game design major in the UC system.</p>
 
 <p>All this is taking place on one of the most visually stunning campus settings in the world, a magical stretch of rolling meadows and majestic redwoods overlooking Monterey Bay. The place invites collaboration, and encourages original thinking, while cultivating an offbeat charm and endearing quirkiness that captures global attention.</p>
 
-<p>And we’re just getting started</p>
+<p>And we're just getting started</p>
 
-<p>IN HONOR OF THE CAMPUS’S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</p>
-	    		</div>
-        	</div>
-		</div>
-	</section>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/imagesloaded.js"></script>
-        <script src="js/skrollr.js"></script>
-        <script src="js/_main.js"></script>
+<p><strong>IN HONOR OF THE CAMPUS'S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</strong></p>
+	</div>
+</div>
+<div id="list-container">
+	<ul class="number">
+	<li class="number">
+		<a href="#">
+			<div class="title"><h1>One</h1><h2><em>be quietly</em> influential</h2></div>
+			{% image list-photos/1.jpg alt="Alt Text" %}
+		</a>
+	</li>
+	<li class="number">
+		<a href="#">
+			<div class="title"><h1>One</h1><h2><em>be quietly</em> influential</h2></div>
+			{% image list-photos/1.jpg alt="Alt Text" %}
+		</a>
+	</li>
+	
+	</ul>
+</div>
 </body>
 </html>

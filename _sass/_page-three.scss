@@ -1,0 +1,105 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: $sans-serif-font;
+}
+
+.container {
+	display: block;
+	width: 100%;
+	padding: 0;
+	@include media($mobile){
+		margin: 0;
+	}
+	@include media($portrait){
+		margin: 0;
+	}
+	@include media($tablet){
+		margin: 0;
+	}
+	@include media($desktop){
+		margin: 0;
+	}
+}
+
+.content-container {
+	@include outer-container;
+	margin: 0 auto 0 auto;
+	background: rgba (255, 255, 255, .9);
+}
+
+.left {
+	@include media($mobile){
+		display: none;
+	}
+	@include media($portrait){
+		display: none;
+	}
+	@include media($tablet){
+		display: none;
+	}
+	@include media($desktop){
+		@include span-columns(4);
+		display: block;
+		text-align: right;
+	}
+}
+
+h1 {
+	font-size: $font-size-h1*1.25;
+	color: $yellow;
+	text-transform: uppercase;
+	font-weight:500 !important;
+
+}
+.desktop-logo {
+	@include media($mobile){
+		display: none;
+	}
+	@include media($portrait){
+		display: none;
+	}
+	@include media($tablet){
+		display: none;
+	}
+	@include media($desktop){
+		display: block;
+	}
+}
+.content-box {
+	@include media($mobile){
+		@include span-columns(12);
+	}
+	@include media($portrait){
+		@include span-columns(12);
+	}
+	@include media($tablet){
+		@include span-columns(12);
+	}
+	@include media($desktop){
+		@include span-columns(8);
+	}
+	h1 {
+		@include media($mobile){
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			text-transform: uppercase;
+			font-weight:500 !important;
+		}
+		@include media($portrait){
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			text-transform: uppercase;
+			font-weight:500 !important;
+		}
+		@include media($tablet){
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			text-transform: uppercase;
+			font-weight:500 !important;
+		}
+		@include media($desktop){
+			display: none;
+		}
+	}
+}
