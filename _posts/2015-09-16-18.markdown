@@ -1,0 +1,15 @@
+---
+layout: vertical
+title:  "18 shake up the paradigm"
+title-one: "18"
+title-two: "shake up"
+title-three: "the paradigm"
+img: /css/images/18.jpg
+mimg: 
+alt: "Hands holding bone and wood"
+teaser-image: /css/images/list-photos/18.jpg
+date:   2015-09-16
+categories: list
+number: 18
+---
+Anthropologist Adrienne Zihlman's research has had major impacts on the fields of physical anthropology and human evolution. Her legacy includes a 1970s critique of the "Man the Hunter" paradigm and a radical whole-body approach to the study of evolution that has shaken up a field that heretofore relied solely on fossils. She once organized a meeting of prominent anthropologists to discuss female biology and evolution, which prompted a furor because no men were invited.

@@ -1,0 +1,15 @@
+---
+layout: full
+title:  "20 go beyond"
+title-one: "20"
+title-two: "go"
+title-three: "beyond"
+img: /css/images/20.jpg
+mimg: /css/images/list-photos/20.jpg
+alt: "Redwoods"
+teaser-image: /css/images/list-photos/20.jpg
+date:   2015-09-16
+categories: list
+number: 20
+---
+The National Enquirer has nothing on us when it comes to spying on the stars. Astronomer Jerry Nelson developed the revolutionary segmented-mirror design for the powerful twin Keck Telescopes in Hawaii. Now, Nelson and other UC Santa Cruz astronomers are working on an even bigger telescope, one that will allow astronomers to look back in time to when the first stars and galaxies were forming. The Thirty Meter Telescope, an international project now under construction on Mauna Kea, incorporates Nelson's pioneering segmented-mirror design as well as other advanced technologies developed at UC Santa Cruz and elsewhere. See also No. 10.
