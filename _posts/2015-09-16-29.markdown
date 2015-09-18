@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: side-by-side
 title:  "29 write up a storm"
 title-one: "29"
 title-two: "write up"

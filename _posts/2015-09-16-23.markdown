@@ -1,0 +1,19 @@
+---
+layout: side-by-side
+title:  "23 make the oceans your classroom"
+title-one: "23"
+title-two: "make the oceans"
+title-three: "your classroom"
+img: /css/images/23.jpg
+mimg: 
+alt: "Campus view bike trail at night"
+teaser-image: /css/images/list-photos/23.jpg
+date:   2015-09-16
+categories: list
+number: 23
+---
+Ocean scientist Jon Zehr discovered an unusual partnership between two microbes that plays a crucial role in marine ecosystems, fertilizing the oceans by taking nitrogen from the atmosphere 
+and "fixing" it into a form that other organisms can use. One member of this partnership appears to 
+be the most widespread nitrogen-fixing organism 
+in the oceans. It lacks the genes needed to carry 
+out photosynthesis and other essential metabolic pathways, but that's okay because it lives in intimate symbiosis with a tiny single-celled algae. Together, they function almost as a single organism and provide essential nutrients for marine life.
