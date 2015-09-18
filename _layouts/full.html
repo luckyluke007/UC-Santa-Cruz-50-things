@@ -1,15 +1,16 @@
 ---
-img: /css/images/full.jpg
+
 ---
 <html>
 <head>
+<title>{{ page.title }}</title>
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
-<script src="js/vendor/modernizr-2.7.1.min.js"></script>
-<link rel="stylesheet" href="css/normalize.css">
+<script src="/js/vendor/modernizr-2.7.1.min.js"></script>
+<link rel="stylesheet" href="/css/normalize.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
 <!-- PAGE CSS -->
-<link rel="stylesheet" href="css/page-three.css">
+<link rel="stylesheet" href="/css/page-three.css">
 <style>
   body, html {
   margin-left: auto;
@@ -32,7 +33,7 @@ img: /css/images/full.jpg
       } }
   @media screen and (min-width: 60em) {
     body, html {
-      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, .90), rgba(255, 255, 255, 0)), url("{{ page.img }}");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -48,19 +49,20 @@ img: /css/images/full.jpg
 <div class="container">
 	<div class="content-container">
     <div class="left">
-  			<h1>One</h1>
+  			<h1>{{ page.title-one }}</h1>
         {% image 'blue-logo.svg' "UC Santa Cruz" class="desktop-logo" %}
     </div>
+    <img src="{{ page.img }}" alt="page.alt" class="mphoto">
     <div class="content-box">
-      <h1>One</h1>
-      <h2><em>be quietly</em> influential</h2>
+      <h1>{{ page.title-one }}</h1>
+      <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
       <div class="text-box">
-      UC Santa Cruz was ranked first in research influence as measured by how often its faculty's published work is cited by scholars around the world. Published as part of the Times Higher Education World University Rankings 2014-15, the analysis used a database of more than 50 million citations to 6 million journal articles published from 2008 to 2012 to determine the average number of citations per paper.
+      {{ page.content }}
       {% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
       </div>
-      
     </div>
 	</div>
+   
 </div>
 </body>
 </html>

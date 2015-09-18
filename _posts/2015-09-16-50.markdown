@@ -1,0 +1,15 @@
+---
+layout: vertical
+title:  "50 share your passion"
+title-one: "50"
+title-two: "share your"
+title-three: "passion"
+img: /css/images/50.jpg
+mimg: /css/images/list-photos/50.jpg
+alt: "Peace sign folk"
+teaser-image: /css/images/list-photos/50.jpg
+date:   2015-09-16
+categories: list
+number: 50
+---
+Our organic farm and garden program was the first established on a university campus. Today it is the country's leading university program in sustainable agriculture and food systems and has pioneered the use of organic horticulture techniques internationally. More than 1,500 graduates of the Apprenticeship in Ecological Horticulture have fanned out around the globe, spreading the seeds of sustainable agriculture. 

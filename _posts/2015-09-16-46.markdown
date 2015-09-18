@@ -1,0 +1,15 @@
+---
+layout: full
+title:  "46 think globally"
+title-one: "46"
+title-two: "think"
+title-three: "globally"
+img: /css/images/46.jpg
+mimg: 
+alt: "Country Flags"
+teaser-image: /css/images/list-photos/46.jpg
+date:   2015-09-16
+categories: list
+number: 46
+---
+While the vast majority of our students are California residents, we have always offered a distinctive world-class education, and our campus reflects a global population. Current students come from 47 states and 69 countries. Out-of-state and international students add important exposure to different cultures and perspectives.

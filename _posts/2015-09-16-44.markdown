@@ -1,0 +1,15 @@
+---
+layout: full
+title:  "44 start young"
+title-one: "44"
+title-two: "start"
+title-three: "young"
+img: /css/images/44.jpg
+mimg: /css/images/list-photos/44.jpg
+alt: "students jump"
+teaser-image: /css/images/list-photos/44.jpg
+date:   2015-09-16
+categories: list
+number: 44
+---
+With help from the campus's Educational Partnership Center and other university personnel, we help students in five counties prepare for college and provide the opportunity for every 7th grader in Santa Cruz County to visit either our campus or another local university for a day. While on campus, the 7th graders learn about college eligibility and preparation, and engage with current UC Santa Cruz students.
