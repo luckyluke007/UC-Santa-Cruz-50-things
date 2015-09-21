@@ -235,7 +235,7 @@ li.number:first-child{
 	max-height: 412px;
 	clear:both;
 	@include media($mobile) {
-		margin: 34em auto 0;
+		margin: 20em auto 0;
 	}
 	@include media($portrait) {
 		margin: 30em auto 0;
@@ -244,7 +244,7 @@ li.number:first-child{
 		margin: 15em auto 0;
 	}
 	@include media($desktop) {
-		
+		margin: 2em auto 0;
 	}
 }
 ul li.number{
