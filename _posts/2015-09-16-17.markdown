@@ -1,13 +1,13 @@
 ---
-layout: vertical
+layout: full-nophoto
 title:  "17 write to live"
 title-one: "17"
 title-two: "write to"
 title-three: "live"
-img: /css/images/18.jpg
+img: /css/images/no-photo.jpg
 mimg: 
 alt: "UC Santa Cruz seal"
-teaser-image: /css/images/list-photos/18.jpg
+teaser-image: /css/images/list-photos/no-photo.jpg
 date:   2015-09-16
 categories: list
 number: 17
