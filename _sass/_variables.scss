@@ -33,4 +33,5 @@ $line-height: 24px;
 $desktop:   new-breakpoint(min-width em(960) 12);
 $tablet:    new-breakpoint(min-width em(768) 12);
 $portrait:  new-breakpoint(min-width em(600) 12);
-$mobile:    new-breakpoint(max-width em(599) 12);
+$mobile:    new-breakpoint(min-width em(499) 12);
+$mobile-portrait:    new-breakpoint(max-width em(498) 12);

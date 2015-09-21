@@ -2,17 +2,15 @@
 
 #intro-container {
 	width: 100%;
-	max-height: 681px;
 	padding: 0;
 	margin: 0;
 	clear: both;
 	background: $blue;
+	text-align: center;
 }
 
 .bg-container {
 	@include outer-container;
-	max-height: 681px;
-	height: 100%;
 	margin:0 auto;
 	background: $blue url('/css/images/front-photo.jpg');
 	background-size: cover;
@@ -20,22 +18,41 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-repeat: no-repeat;
+	@include media($mobile-portrait){
+		background-position: 75% center;
+		max-height: 100%;
+		height: 100%;
+	}
 	@include media($mobile){
 		background-position: 75% center;
+		max-height: 100%;
+		height: 100%;
 	}
 	@include media($portrait){
 		background-position: 65% center;
+		max-height: 681px;
+		height: 100%;
 	}
 	@include media($tablet){
 		background-position: 70% center;
+		max-height: 681px;
+		height: 100%;
 	}
 	@include media($desktop){
 		background-position: center center;
+		max-height: 681px;
+		height: 100%;
 	}
 	// LOGO
 	.logo {
 	display: block;
 	text-align: center;
+		@include media($mobile-portrait){
+			@include span-columns(7);
+			background: $blue;
+			margin-left: 2%;
+			padding: .5em .25em .25em .25em;
+		}
 		@include media($mobile){
 			@include span-columns(7);
 			background: $blue;
@@ -69,11 +86,18 @@
 	// TITLE
 	.title-container {
 		clear: both;
-		@include media($mobile){
+		text-align: left;
+		@include media($mobile-portrait){
 			@include span-columns(7);
 			margin-left: 8%;
 			margin-top: 5%;
 			margin-bottom: 10%;
+		}
+		@include media($mobile){
+			@include span-columns(7);
+			margin-left: 8%;
+			margin-top: 5%;
+			margin-bottom: 5%;
 		}
 		// iphone 6
 		@include media($portrait){
@@ -98,6 +122,13 @@
 			letter-spacing: .01em;
 			font-weight:500;
 			margin:0;
+			@include media($mobile-portrait){
+				float:none;
+				padding: .5em 0 0;
+				font-size: $font-size-h1/2;
+				line-height: .75em;
+				text-shadow: 2px 2px #666;
+			}
 			@include media($mobile){
 				float:none;
 				padding: .5em 0 0;
@@ -140,6 +171,10 @@
 				font-family: $sans-serif-font !important;
 				font-weight: 500;
 				font-style: normal;
+				@include media($mobile-portrait) {
+					font-size: $font-size-h2/.75;
+					text-shadow: 2px 2px #666;
+				}
 				@include media($mobile) {
 					font-size: $font-size-h2/.75;
 					text-shadow: 2px 2px #666;
@@ -155,6 +190,10 @@
 					font-size: $font-size-h2;
 					text-shadow: 0px 0px #666;
 				}
+			}
+			@include media($mobile-portrait) {
+				font-size: $font-size-h2/.75;
+				text-shadow: 1px 1px #666;
 			}
 			@include media($mobile) {
 				font-size: $font-size-h2/.75;
@@ -183,9 +222,13 @@
 	@include background-opacity($blue, .90);
 	padding: 1em;
 	color: $white;
+	text-align: left;
 	p {
 		margin-bottom: 1em;
 		line-height: 1.5em;
+	}
+	@include media($mobile-portrait) {
+		width: 100%;
 	}
 	@include media($mobile) {
 		width: 100%;
@@ -234,6 +277,9 @@ li.number:first-child{
 	list-style: none;
 	max-height: 412px;
 	clear:both;
+	@include media($mobile-portrait) {
+		margin: 34em auto 0;
+	}
 	@include media($mobile) {
 		margin: 34em auto 0;
 	}
@@ -261,6 +307,11 @@ ul li.number{
 	z-index: 0;
 	height: 100%;
 	text-align: center;
+	@include media($mobile-portrait){
+		max-height: 412px;
+		@include span-columns(6);
+		@include shift(0);
+	}
 	@include media($mobile){
 		max-height: 412px;
 		@include span-columns(5.5);
@@ -286,8 +337,11 @@ ul li.number{
 	.vert-align {
 		display: inline-block;
 		vertical-align: middle;
+		@include media($mobile-portrait){
+			padding-top: 5%;
+		}
 		@include media($mobile){
-			padding-top: 9%;
+			padding-top: 17%;
 		}
 		@include media($portrait){
 			padding-top: 10%;
@@ -304,8 +358,11 @@ ul li.number{
 			text-transform: uppercase;
 			color: $yellow;
 			font-weight: 500;
+			@include media($mobile-portrait){
+				font-size: $font-size-h1/3;
+			}
 			@include media($mobile){
-				font-size: $font-size-h1/2.5;
+				font-size: $font-size-h1/2.9;
 			}
 			@include media($portrait){
 				font-size: $font-size-h1/1.25;
@@ -324,6 +381,9 @@ ul li.number{
 			color: $yellow;
 			text-transform: uppercase;
 			font-weight: 500;
+			@include media($mobile-portrait){
+				font-size: $font-size-h2/2.25;
+			}
 			@include media($mobile){
 				font-size: $font-size-h2/2;
 			}
@@ -344,6 +404,9 @@ ul li.number{
 				font-family: $serif-font;
 				text-transform: lowercase;
 				font-weight: 400;
+				@include media($mobile-portrait){
+					font-size: $font-size-h2/2.25;
+				}
 				@include media($mobile){
 					font-size: $font-size-h2/2;
 				}
@@ -367,10 +430,15 @@ ul li.number{
 	margin: .5em auto 0 auto;
 	overflow: -9000px;
 	text-indent: -9000px;
+	@include media ($mobile-portrait) {
+		width: 20px;
+		height: 20px;
+		background-size: 40px;
+	}
 	@include media ($mobile) {
-		width: 30px;
-		height: 30px;
-		background-size: 60px;
+		width: 20px;
+		height: 20px;
+		background-size: 40px;
 	}
 	@include media ($portrait) {
 		width: 30px;
