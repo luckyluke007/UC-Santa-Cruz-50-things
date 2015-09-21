@@ -40,6 +40,10 @@ body, html {
 	@include media($desktop) {
 		@include span-columns(6);
 	}
+	-webkit-animation-name: right-left; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: right-left;
+    animation-duration: 4s;
 	.title-container {
 		@include span-columns(12);
 		float: right;
@@ -97,8 +101,6 @@ body, html {
 	}
 }
 
-
-
 .photo-box {
 	@include span-columns(6);
 	margin-top: 2em;
@@ -118,6 +120,10 @@ body, html {
 	img {
 		width: 100%;
 	}
+	-webkit-animation-name: left-right; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: left-right;
+    animation-duration: 4s;
 }
 
 
@@ -128,6 +134,7 @@ h1 {
 	text-transform: uppercase;
 	@include span-columns(12);
 	font-weight:500 !important;
+	margin: 0;
 	@include media($mobile){
 		font-size: $font-size-h1/1.35;
 	}
@@ -165,6 +172,7 @@ h2 {
 	font-size: $font-size-h2*2;
 	color: $yellow;
 	@include span-columns(12);
+	margin: 0;
 	@include media($mobile){
 		font-size: $font-size-h2*1.5;
 	}
@@ -177,4 +185,14 @@ h2 {
 	@include media($desktop){
 		font-size: $font-size-h2*2;
 	}
+}
+
+@-webkit-keyframes left-right {
+	from {margin-left: -6em; opacity: 0; -webkit-opacity: 0; -moz-opacity: 0; -o-opacity: 0;}
+	to: {margin-left: 0; opacity: 1; -webkit-opacity: 1; -moz-opacity: 1; -o-opacity: 1;}
+}
+
+@-webkit-keyframes right-left {
+	from {margin-right: -6em; opacity: 0; -webkit-opacity: 0; -moz-opacity: 0; -o-opacity: 0;}
+	to: {margin-right: 0; opacity: 1; -webkit-opacity: 1; -moz-opacity: 1; -o-opacity: 1;}
 }
