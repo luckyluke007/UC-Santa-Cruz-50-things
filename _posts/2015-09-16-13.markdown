@@ -1,0 +1,15 @@
+---
+layout: side-by-side
+title:  "13 lawyer up"
+title-one: "13"
+title-two: "lawyer"
+title-three: "up"
+img: /css/images/14.jpg
+mimg: 
+alt: "Emily Brodsky"
+teaser-image: /css/images/list-photos/14.jpg
+date:   2015-09-16
+categories: list
+number: 13
+---
+We've partnered with UC Hastings College of the Law in a new joint program, the first of its kind in the UC system, that will enable UC Santa Cruz students to earn a bachelor's degree and law degree in six years instead of the usual seven. "3+3 B.A./J.D." program students will complete three years at UC Santa Cruz and then move on to UC Hastings to begin the three-year law curriculum.

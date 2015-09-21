@@ -1,0 +1,17 @@
+---
+layout: vertical
+title:  "11 walk to the beat of your own drum"
+title-one: "11"
+title-two: "walk to the beat"
+title-three: "of your own drum"
+img: /css/images/11.jpg
+mimg: /css/images/11-mobile.jpg
+alt: "Playing drum"
+teaser-image: /css/images/list-photos/11.jpg
+date:   2015-09-16
+categories: list
+number: 11
+---
+Our founders wanted the campus to be an antidote 
+to the big, faceless educational institutions of the time. In their first show of independence, pioneer faculty members threw letter grades out the window, replacing them with narrative evaluations 
+for each student. The goal was to create intense engagement and intellectual risk-taking. While letter grades were reinstituted in 2001 with optional written evaluations available, the idea of learning based on passionate exploration and student-teacher relationships remains a touchstone for UC Santa Cruz.

@@ -1,0 +1,14 @@
+---
+layout: side-by-side
+title:  "Two share your work"
+title-one: "Two"
+title-two: "share your"
+title-three: "work"
+img: /css/images/two.jpg
+alt: "UC Santa Cruz grad student holding chemical cylinders"
+teaser-image: /css/images/list-photos/2.jpg
+date:   2015-09-16
+categories: list
+number: 2
+---
+Who says expertise and generosity can't go hand in hand? At UC Santa Cruz, we don't hoard cutting-edge scientific knowledge-we share it. In 2000, our researchers were the first to assemble the complete DNA sequence of the human genome, and we chose to make it publicly available. Today, thousands of biomedical researchers worldwide use the UCSC Genome Browser in their work to uncover the causes of diseases and develop treatments. The browser serves about 150,000 users and gets about a million hits a day. Additionally, a UC Santa Cruz team built the Cancer Genomics Hub to tackle the significant computational challenges posed by storing, serving, and interpreting cancer genomics data. And in 2014, the UC Santa Cruz Genomics Institute helped counter the Ebola crisis by releasing a new Ebola genome browser to assist global efforts to develop a vaccine and antiserum to help stop the spread of the virus.

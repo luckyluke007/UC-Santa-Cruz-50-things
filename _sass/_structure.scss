@@ -4,24 +4,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	font-family: $sans-serif-font;
-	background: $blue url('/css/images/front-photo.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-repeat: no-repeat;
-	@include media($mobile){
-		background-position: 75% center;
-	}
-	@include media($portrait){
-		background-position: 65% center;
-	}
-	@include media($tablet){
-		background-position: 70% center;
-	}
-	@include media($desktop){
-		background-position: center center;
-	}
+	background: $blue;
 }
 
 h1, h2, h3, h4, h5, h6 {

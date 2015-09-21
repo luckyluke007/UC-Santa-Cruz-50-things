@@ -1,0 +1,15 @@
+---
+layout: side-by-side
+title:  "Six protect the vulnerable"
+title-one: "Six"
+title-two: "protect"
+title-three: "the vulnerable"
+img: /css/images/6.jpg
+mimg: /css/images/6-mobile.jpg
+alt: "Print letters"
+teaser-image: /css/images/list-photos/6.jpg
+date:   2015-09-16
+categories: list
+number: 6
+---
+The Marine Mammal Protection Act of 1972 was co-written by the late Professor of Natural History Ken Norris. Passage of the act marked the first time Congress took an ecosystem approach to natural resource management and conservation. Professor Norris was known for his joy-filled, intellectually challenging, field-based approach to natural history education, and our new Kenneth S. Norris Center for Natural History expands his ideals of hands-on learning. The center offers students and the community a workspace, meeting area, museum exhibits, and access to the campus's Museum of Natural History Collections. 
