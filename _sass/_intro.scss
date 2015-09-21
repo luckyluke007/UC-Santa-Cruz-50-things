@@ -235,7 +235,7 @@ li.number:first-child{
 	max-height: 412px;
 	clear:both;
 	@include media($mobile) {
-		margin: 20em auto 0;
+		margin: 34em auto 0;
 	}
 	@include media($portrait) {
 		margin: 30em auto 0;
@@ -361,7 +361,7 @@ ul li.number{
 
 	}
 }
-a.arrow, a.arrow:active {
+.arrow {
 	display: block;
 	background: url('/css/images/arrow-right.svg') no-repeat 0 0;
 	margin: .5em auto 0 auto;
@@ -386,19 +386,5 @@ a.arrow, a.arrow:active {
 		width: 40px;
 		height: 40px;
 		background-size: 80px;
-	}
-}
-a.arrow:hover {
-	@include media ($mobile) {
-		background-position: -30px 0;
-	}
-	@include media ($portrait) {
-		background-position: -30px 0;
-	}
-	@include media ($tablet) {
-		background-position: -30px 0;
-	}
-	@include media ($desktop) {
-		background-position: -40px 0;
 	}
 }
