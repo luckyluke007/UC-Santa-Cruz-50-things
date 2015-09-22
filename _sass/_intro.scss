@@ -268,10 +268,7 @@ ul.number{
 	background: $blue;
 	clear: both;
 }
-{
-
-}
-a.li.number:first-child{
+a:first-child li.number{
 	@include span-columns(12);
 	padding: 0;
 	list-style: none;
@@ -293,7 +290,7 @@ a.li.number:first-child{
 		margin: 2em auto 0;
 	}
 }
-a.li.number{
+a li.number{
 	@include span-columns(12);
 	margin: 2em auto 0;
 	padding: 0;
