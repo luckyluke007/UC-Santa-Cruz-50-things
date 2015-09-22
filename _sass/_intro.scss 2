@@ -251,6 +251,9 @@
 	}
 }
 
+
+
+
 // LIST
 
 #list-container {
@@ -272,7 +275,8 @@ li.number:first-child{
 	@include span-columns(12);
 	padding: 0;
 	list-style: none;
-	max-height: 25.75em;
+	min-height: 412px;
+	height: 100%;
 	clear:both;
 	@include media($mobile-portrait) {
 		margin: 34em auto 0;
@@ -295,58 +299,60 @@ ul li.number{
 	margin: 2em auto 0;
 	padding: 0;
 	list-style: none;
-	max-height: 25.75em;
-	//height: 100%;
+	min-height: 412px;
+	height: 100%;
 	clear:both;
 }
 .title {
-	@include background-opacity($red, .95);
-	//position: absolute;
-	//z-index: 0;
-	max-height: 25.75em;
+	@include background-opacity($red, 1);
+	position: absolute;
+	z-index: 0;
+	height: 100%;
 	text-align: center;
 
 	@include media($mobile-portrait){
+		max-height: 412px;
 		@include span-columns(5);
 		@include shift(0);
 	}
 	@include media($mobile){
+		max-height: 412px;
 		@include span-columns(5);
 		@include shift(.35);
 	}
 	@include media($portrait){
+		max-height: 412px;
 		@include span-columns(5);
 		@include shift(.35);
 	}
 	@include media($tablet){
+		max-height: 412px;
 		@include span-columns(5);
 		@include shift(.35);
 	}
 	@include media($desktop){
+		max-height: 412px;
 		@include span-columns(4);
 		@include shift(.5);
-		padding: .5em;
+		padding: .25em;
 	}
 	.vert-align {
 		display: inline-block;
 		vertical-align: middle;
 		@include media($mobile-portrait){
-			padding-top: 2%;
+			padding-top: 5%;
 		}
 		@include media($mobile){
 			padding-top: 17%;
-			padding-bottom: 17%;
 		}
 		@include media($portrait){
-			padding-top: 7%;
-			padding-bottom: 7%;
+			padding-top: 10%;
 		}
 		@include media($tablet){
 			padding-top: 10%;
 		}
 		@include media($desktop){
 			padding-top: 20%;
-			padding-bottom: 20%;
 		}
 
 		h1 {
@@ -396,7 +402,7 @@ ul li.number{
 				display: inline-block;
 				@include span-columns(12);
 				font-size: $font-size-h2;
-				color: $blue;
+				color: $white;
 				font-family: $serif-font;
 				text-transform: lowercase;
 				font-weight: 400;
@@ -423,7 +429,7 @@ ul li.number{
 .arrow {
 	display: block;
 	background: url('/css/images/arrow-right.svg') no-repeat 0 0;
-	margin: .5em auto 1em auto;
+	margin: .5em auto 0 auto;
 	overflow: -9000px;
 	text-indent: -9000px;
 	@include media ($mobile-portrait) {

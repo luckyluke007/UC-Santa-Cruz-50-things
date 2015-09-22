@@ -29,16 +29,16 @@
 <div id="list-container">
 	<ul class="number">
 	{% for post in site.categories.list reversed %}
-	<li class="number">
-		<a href="{{ post.url | prepend: site.baseurl }}">
-			<div class="title">
-				<div class="vert-align">
-					<h1>{{ post.title-one }}</h1><h2><em>{{ post.title-two }}</em> {{ post.title-three }}</h2></div>
-					<span class="arrow"></span>
-				</div>
-			<img src="{{ post.teaser-image }}" alt="{{ post.alt }}">
-		</a>
+	<a href="{{ post.url | prepend: site.baseurl }}">
+	<li class="number" style="background:url('{{ post.teaser-image }}') no-repeat; background-size: 100%; ">
+		<div class="title">
+			<div class="vert-align">
+				<h1>{{ post.title-one }}</h1><h2><em>{{ post.title-two }}</em> {{ post.title-three }}</h2>
+				<span class="arrow"></span>
+			</div>
+		</div>
 	</li>
+	</a>
 	{% endfor %}
 	</ul>
 </div>
