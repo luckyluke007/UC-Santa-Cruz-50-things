@@ -4,12 +4,11 @@ body, html {
 	margin: 0;
 	padding: 0;
 	font-family: $sans-serif-font;
-	background-image: url('/css/images/bg-seal.svg') no-repeat center center;
+	background: $blue url('/css/images/bg-seal.svg') no-repeat center center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-color: $blue;
 	background-attachment: fixed;
 }
 

@@ -24,6 +24,7 @@
 			<p>And we're just getting started</p>
 
 			<p><strong>IN HONOR OF THE CAMPUS'S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</strong></p>
+			<a href="#list" class="read">Read More</a>
 		</div>
 	</div>
 </div>
@@ -41,11 +42,13 @@
 			<p>And we're just getting started</p>
 
 			<p><strong>IN HONOR OF THE CAMPUS'S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</strong></p>
+			<a href="#list" class="read">Read More</a>
 		</div>
 	</div>
 </div>
 <div id="list-container">
 	<ul class="number">
+	<a name="list"></a>
 	{% for post in site.categories.list reversed %}
 	<a href="{{ post.url | prepend: site.baseurl }}">
 	<li class="number" style="background:url('{{ post.teaser-image }}') no-repeat; background-size: 100%; ">
