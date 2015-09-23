@@ -4,7 +4,13 @@ body, html {
 	margin: 0;
 	padding: 0;
 	font-family: $sans-serif-font;
-	background: $blue;
+	background-image: url('/css/images/bg-seal.svg') no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: $blue;
+	background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
