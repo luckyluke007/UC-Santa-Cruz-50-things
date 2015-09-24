@@ -1,0 +1,6 @@
+.pagination-container {
+	@include span-columns(12);
+	padding: .25em;
+	background: $gray;
+	text-align: center;
+}
