@@ -10,6 +10,7 @@ timezone: America/Los_Angeles
 
 permalink: /:title
 
+
 # Build settings
 markdown: rdiscount
 rdiscount:

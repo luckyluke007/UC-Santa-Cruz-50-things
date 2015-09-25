@@ -9,7 +9,7 @@ alt: "Print letters"
 teaser-image: /css/images/list-photos/8.jpg
 date:   2015-09-16
 categories: list
-number: 08
+number: 8
 ---
 Did you text your friend a photo today? Thank a 
 UC Santa Cruz professor. The late David Huffman, founding Computer Science Department faculty member, developed a data compression scheme called Huffman coding—which is now used in the MP3 and JPEG files on your smart phone, and on your high-definition television.

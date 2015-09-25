@@ -9,6 +9,6 @@ alt: "UC Santa Cruz grad student holding chemical cylinders"
 teaser-image: /css/images/list-photos/1.jpg
 date:   2015-09-16
 categories: list
-number: 01
+number: 1
 ---
 UC Santa Cruz was ranked first in research influence as measured by how often its faculty's published work is cited by scholars around the world. Published as part of the Times Higher Education World University Rankings 2014-15, the analysis used a database of more than 50 million citations to 6 million journal articles published from 2008 to 2012 to determine the average number of citations per paper.
