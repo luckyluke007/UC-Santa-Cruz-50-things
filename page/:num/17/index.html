@@ -1,9 +1,6 @@
----
-
----
 <html>
 <head>
-<title>{{ page.title }}</title>
+<title>17 write to live</title>
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
 <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 <link rel="stylesheet" href="/css/normalize.css">
@@ -33,7 +30,7 @@
       } }
   @media screen and (min-width: 60em) {
     body, html {
-      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("{{ page.img }}");
+      background: url("/css/images/no-photo.jpg");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -49,23 +46,21 @@
 <div class="container">
 	<div class="content-container">
     <div class="left">
-  			<h1>{{ page.title-one }}</h1>
-        {% image 'blue-logo.svg' "UC Santa Cruz" class="desktop-logo" %}
+  			<h1>17</h1>
+        <img src="/assets/blue-logo-534bb76832910d66271c0215c86cf2af.svg" "UC Santa Cruz" class="desktop-logo">
     </div>
-    <img src="{{ page.img }}" alt="page.alt" class="mphoto">
     <div class="content-box">
-      <h1>{{ page.title-one }}</h1>
-      <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
+      <h1>17</h1>
+      <h2><em>write to</em> live</h2>
       <div class="text-box">
-      {{ page.content }}
-      {% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
+      How often do budding writers get a first-person chance to hear from nationally acclaimed writers and poets? At UC Santa Cruz the answer is "regularly," thanks to the Creative Writing Program's popular Living Writers Series. Award-winning authors like Tobias Wolff (This Boy's Life), Karen Joy Fowler (The Jane Austen Book Club), and alumna Reyna Grande (Kresge '99, creative writing/film and video) (Across a Hundred Mountains) have brought information and inspiration to scores of students who are contemplating a writing life. See also No. 40.
+      <img src="/assets/blue-logo-534bb76832910d66271c0215c86cf2af.svg" "UC Santa Cruz" class="logo">
       </div>
     </div>
-	</div> 
-  <div class="pagination-container">
-  {% assign int = page.number %}
-  {{ int }}
-  </div>
+    <!-- PAGINATION -->
+   
+     <!-- END PAGINATION -->
+	</div>
 </div>
 </body>
 </html>

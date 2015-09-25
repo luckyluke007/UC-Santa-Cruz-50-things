@@ -1,9 +1,6 @@
----
-
----
 <html>
 <head>
-<title>{{ page.title }}</title>
+<title>22 branch out</title>
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
 <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 <link rel="stylesheet" href="/css/normalize.css">
@@ -33,7 +30,7 @@
       } }
   @media screen and (min-width: 60em) {
     body, html {
-      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("/css/images/22.jpg");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -49,23 +46,22 @@
 <div class="container">
 	<div class="content-container">
     <div class="left">
-  			<h1>{{ page.title-one }}</h1>
-        {% image 'blue-logo.svg' "UC Santa Cruz" class="desktop-logo" %}
+  			<h1>22</h1>
+        <img src="/assets/blue-logo-534bb76832910d66271c0215c86cf2af.svg" "UC Santa Cruz" class="desktop-logo">
     </div>
-    <img src="{{ page.img }}" alt="page.alt" class="mphoto">
+    <img src="/css/images/22.jpg" alt="page.alt" class="mphoto">
     <div class="content-box">
-      <h1>{{ page.title-one }}</h1>
-      <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
+      <h1>22</h1>
+      <h2><em>branch</em> out</h2>
       <div class="text-box">
-      {{ page.content }}
-      {% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
+      Who says academics are stuffy and boring? Our unique History of Consciousness program is an interdisciplinary graduate program in the humanities with links to the sciences, social sciences, and arts. The program was started in the first year of the campus by a small group of faculty members. William "Bro" Adams, chair of the National Endowment for the Humanities, is a graduate, earning his Ph.D. in 1982. Another well-known graduate is Huey P. Newton, cofounder of the Black Panther Party. Newton received his Ph.D. here in 1980.
+      <img src="/assets/blue-logo-534bb76832910d66271c0215c86cf2af.svg" "UC Santa Cruz" class="logo">
       </div>
     </div>
+    <!-- PAGINATION -->
+    
+     <!-- END PAGINATION -->
 	</div> 
-  <div class="pagination-container">
-  {% assign int = page.number %}
-  {{ int }}
-  </div>
 </div>
 </body>
 </html>

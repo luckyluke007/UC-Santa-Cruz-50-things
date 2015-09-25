@@ -1,9 +1,6 @@
----
-
----
 <html>
 <head>
-<title>{{ page.title }}</title>
+<title>33 entertain big ideas</title>
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
 <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 <link rel="stylesheet" href="/css/normalize.css">
@@ -33,7 +30,7 @@
       } }
   @media screen and (min-width: 60em) {
     body, html {
-      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("/css/images/33.jpg");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -49,23 +46,22 @@
 <div class="container">
 	<div class="content-container">
     <div class="left">
-  			<h1>{{ page.title-one }}</h1>
-        {% image 'blue-logo.svg' "UC Santa Cruz" class="desktop-logo" %}
+  			<h1>33</h1>
+        <img src="/assets/blue-logo-534bb76832910d66271c0215c86cf2af.svg" "UC Santa Cruz" class="desktop-logo">
     </div>
-    <img src="{{ page.img }}" alt="page.alt" class="mphoto">
+    <img src="/css/images/33.jpg" alt="page.alt" class="mphoto">
     <div class="content-box">
-      <h1>{{ page.title-one }}</h1>
-      <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
+      <h1>33</h1>
+      <h2><em>entertain</em> big ideas</h2>
       <div class="text-box">
-      {{ page.content }}
-      {% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
+      A number of our alumni have gone on to become movers and shakers in the entertainment industry, including Emmy-winning True Detective director Cary Fukunaga (College Eight '99, history); Nebraska producer Ron Yerxa (Grad Division '74); Lionsgate Television chairman Kevin Beggs (Porter '89, politics/theater arts); Mad Men television writer and producer Marti Noxon (Oakes '87, theater arts); Jurassic Park, Lincoln, and Avatar production designer and Academy Award–winner Rick Carter (Kresge '74, art); Star Trek writer and executive producer Brannon Braga (Crown '90, film and digital media) see No. 24; Emmy-winning Days of Our Lives producer/composer Kenneth Corday (Porter '75, aesthetic studies); Jennie Morris (Porter '93, individual major), of Participant Media/Pivot TV; and the Academy Award–winning film editor Stephen Mirrione (Porter '91, music/theater arts) of Traffic and Birdman fame.
+      <img src="/assets/blue-logo-534bb76832910d66271c0215c86cf2af.svg" "UC Santa Cruz" class="logo">
       </div>
     </div>
+    <!-- PAGINATION -->
+    
+     <!-- END PAGINATION -->
 	</div> 
-  <div class="pagination-container">
-  {% assign int = page.number %}
-  {{ int }}
-  </div>
 </div>
 </body>
 </html>
