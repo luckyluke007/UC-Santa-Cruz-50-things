@@ -11,6 +11,9 @@ teaser-image: /css/images/list-photos/23.jpg
 date:   2015-09-16
 categories: list
 number: 23
+tags:
+- ucsc
+- 50amazing
 ---
 Ocean scientist Jon Zehr discovered an unusual partnership between two microbes that plays a crucial role in marine ecosystems, fertilizing the oceans by taking nitrogen from the atmosphere 
 and "fixing" it into a form that other organisms can use. One member of this partnership appears to 

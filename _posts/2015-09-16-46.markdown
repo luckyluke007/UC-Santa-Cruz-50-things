@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/46.jpg
 date:   2015-09-16
 categories: list
 number: 46
+tags:
+- ucsc
+- 50amazing
 ---
 While the vast majority of our students are California residents, we have always offered a distinctive world-class education, and our campus reflects a global population. Current students come from 47 states and 69 countries. Out-of-state and international students add important exposure to different cultures and perspectives.

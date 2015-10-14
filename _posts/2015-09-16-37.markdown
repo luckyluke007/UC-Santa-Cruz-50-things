@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/37.jpg
 date:   2015-09-16
 categories: list
 number: 37
+tags:
+- ucsc
+- 50amazing
 ---
 The UC Santa Cruz Arboretum, started in 1964, was presented with a gift of 90 species of eucalyptus, which served as the foundation for what is now the largest collection of Australian plants outside of Australia. Outside the Arboretum, our campus is home to more than 500 plant species, an extraordinary level of diversity on its 2,000 acres. With its range of ecosystems, from forest to grassland and more, the campus regularly becomes a classroom without walls. From hunting for bacteriophages (viruses that attack bacteria), to learning organic farming, to using the outdoors to spark creativity, students often find one of their favorite teachers on campus is the natural world.

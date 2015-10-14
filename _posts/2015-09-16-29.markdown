@@ -11,6 +11,9 @@ teaser-image: /css/images/list-photos/29.jpg
 date:   2015-09-16
 categories: list
 number: 29
+tags:
+- ucsc
+- 50amazing
 ---
 One of the country's most prolific writers is an alumna. Best-selling romance novelist Jayne Ann Krentz (Stevenson '70, history), who also writes under the names Amanda Quick and Jayne Castle, has over 35 million copies of her books in print. 
 She even included the work of one of her favorite professors, G. William Domhoff, in her 2004 novel Falling Awake. Other best-selling alumni authors include legal novelist Steve Martini (Cowell '68, politics) and mystery writer Laurie R. King (Kresge '77, religious studies).

@@ -11,6 +11,9 @@ teaser-image: /css/images/list-photos/12.jpg
 date:   2015-09-16
 categories: list
 number: 12
+tags:
+- ucsc
+- 50amazing
 ---
 A campus doesn't need to have a football stadium 
 or throw tailgate parties to prove its devotion to the sporting life. We have vibrant club and intramural programs, hosting a diversity of teams including Ultimate Frisbee, basketball, softball, soccer, 

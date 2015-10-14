@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/24.jpg
 date:   2015-09-16
 categories: list
 number: 24
+tags:
+- ucsc
+- 50amazing
 ---
 Ready, set, action: If you want to study film, video, and photographic arts, we're making our mark. The Arts Division's Film and Digital Media Department was ranked seventh in the country by College Factual. The program has produced many notable alumni, such as Brannon Braga (Crown '90, film and digital media), writer and executive producer of Star Trek: Next Generation, Star Trek: Voyager, and Star Trek: Enterprise. See also No. 33. 

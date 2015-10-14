@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/48.jpg
 date:   2015-09-16
 categories: list
 number: 48
+tags:
+- ucsc
+- 50amazing
 ---
 By pioneering the use of satellite tags to monitor the migrations of elephant seals, our researchers compiled one of the largest datasets available for any marine mammal species, revealing their movements and diving behavior at sea in unprecedented detail. The tags have recorded elephant seal dives to depths of well over a mile and documented their annual migrations throughout the entire northeast Pacific Ocean and as far as the Aleutian Islands in western Alaska, almost 3,000 miles from the rookery at Año Nuevo Island north of Santa Cruz.

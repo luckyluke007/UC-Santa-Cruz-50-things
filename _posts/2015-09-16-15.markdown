@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/no-photo.jpg
 date:   2015-09-16
 categories: list
 number: 15
+tags:
+- ucsc
+- 50amazing
 ---
 Researchers with our Santa Cruz Puma Project have outfitted more than 40 mountain lions in the Santa Cruz Mountains with high-tech tracking collars. The collars, innovative devices developed by an interdisciplinary team consisting of a UC Santa Cruz engineer and wildlife biologists, bring new awareness of the big cats' range and activities in the wilderness that borders a highly developed and populated area-valuable information for developing better wildlife management plans.

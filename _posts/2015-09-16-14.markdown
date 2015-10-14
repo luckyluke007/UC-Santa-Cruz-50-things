@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/14.jpg
 date:   2015-09-16
 categories: list
 number: 14
+tags:
+- ucsc
+- 50amazing
 ---
 Geophysicist Emily Brodsky captured the first measurement of friction during an earthquake—the magnitude 9.0 Tohoku-Oki earthquake that struck off the coast of Japan in 2011 and triggered a devastating tsunami.

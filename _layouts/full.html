@@ -58,6 +58,9 @@
       <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
       <div class="text-box">
       {{ page.content }}
+
+      {% include sharing.html %}
+
       {% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
 
       <div class="pagination-container">

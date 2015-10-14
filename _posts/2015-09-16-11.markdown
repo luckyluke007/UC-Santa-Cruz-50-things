@@ -11,6 +11,9 @@ teaser-image: /css/images/list-photos/11.jpg
 date:   2015-09-16
 categories: list
 number: 11
+tags:
+- ucsc
+- 50amazing
 ---
 Our founders wanted the campus to be an antidote 
 to the big, faceless educational institutions of the time. In their first show of independence, pioneer faculty members threw letter grades out the window, replacing them with narrative evaluations 

@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/26.jpg
 date:   2015-09-16
 categories: list
 number: 26
+tags:
+- ucsc
+- 50amazing
 ---
 A team of scientists led by Biomolecular Engineering Professor Ed Green obtained a draft sequence of the Neanderthal genome in 2010, yielding important new insights into the evolution of modern humans.

@@ -11,6 +11,9 @@ teaser-image: /css/images/list-photos/38.jpg
 date:   2015-09-16
 categories: list
 number: 38
+tags:
+- ucsc
+- 50amazing
 ---
 The peregrine falcon was removed from the 
 endangered species list in 1999 thanks to 

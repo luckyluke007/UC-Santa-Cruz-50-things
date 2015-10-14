@@ -72,8 +72,10 @@
 				</div>
         <img src="{{ page.mimg }}" alt="{{ page.alt }}" class="mobile-photo">
 				<div class="text-box">
-				<p>{{ content }}
-				</p>
+				<p>{{ content }}</p>
+
+        {% include sharing.html %}
+        
 				{% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
         <div class="pagination-container">
         <div class="PageNavigation">

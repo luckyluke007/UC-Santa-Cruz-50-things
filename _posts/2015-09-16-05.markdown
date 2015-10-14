@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/5.jpg
 date:   2015-09-16
 categories: list
 number: 5
+tags:
+- ucsc
+- 50amazing
 ---
 A lot of what happens in science and engineering may seem like science fiction. But if you're looking for real science fiction, you'll find some of the most famous works of the genre archived at McHenry Library. Hugo Award–winning science fiction writer Robert Heinlein—author of Stranger in a Strange Land, Starship Troopers, and other classics-lived in Santa Cruz for two decades and was one of the first "friends" of McHenry Library. The author's complete archive, including original manuscripts, is available in Special Collections. See also No. 42.

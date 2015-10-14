@@ -11,5 +11,8 @@ teaser-image: /css/images/list-photos/no-photo.jpg
 date:   2015-09-16
 categories: list
 number: 17
+tags:
+- ucsc
+- 50amazing
 ---
 How often do budding writers get a first-person chance to hear from nationally acclaimed writers and poets? At UC Santa Cruz the answer is "regularly," thanks to the Creative Writing Program's popular Living Writers Series. Award-winning authors like Tobias Wolff (This Boy's Life), Karen Joy Fowler (The Jane Austen Book Club), and alumna Reyna Grande (Kresge '99, creative writing/film and video) (Across a Hundred Mountains) have brought information and inspiration to scores of students who are contemplating a writing life. See also No. 40.
