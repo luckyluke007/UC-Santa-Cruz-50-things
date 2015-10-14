@@ -8,6 +8,25 @@
 <link rel="stylesheet" href="/css/normalize.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+
+<!-- SOCIAL -->
+<meta content="{{ page.title }}" property="og:title"/>
+<meta content="og:url" content="{{ site.url }}{{ page.url }}">
+<meta content="article" property="og:type"/>
+<meta content="{{ site.url }}{{ page.img }}" property="og:image"/>
+<meta content="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta content="{{ site.title }}" property="og:site_name"/>
+<meta content="1322847221,508316988" property="fb:admins"/>
+<meta content="https://www.facebook.com/ucsantacruz" property="article:publisher"/>
+
+<meta content="summary" name="twitter:card"/>
+<meta content="@ucsc" name="twitter:site"/>
+<meta content="{{ site.url }}{{ page.url }}" name="twitter:url"/>
+<meta content="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta content="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta content="{{ site.url }}{{ page.img }}" name="twitter:image"/>
+
+
 <!-- PAGE CSS -->
 <link rel="stylesheet" href="/css/page-one.css">
 </head>
