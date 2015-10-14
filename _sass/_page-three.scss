@@ -100,19 +100,15 @@ h1 {
 .content-box {
 	@include media($mobile-portrait){
 		@include span-columns(12);
-		padding-left: 1em;
 	}
 	@include media($mobile){
 		@include span-columns(12);
-		padding-left: 1em;
 	}
 	@include media($portrait){
 		@include span-columns(12);
-		padding-left: 1em;
 	}
 	@include media($tablet){
 		@include span-columns(12);
-		padding-left: 1em;
 	}
 	@include media($desktop){
 		@include span-columns(8);
@@ -124,24 +120,28 @@ h1 {
 			color: $yellow;
 			text-transform: uppercase;
 			font-weight:500 !important;
+			padding-left: .1em;
 		}
 		@include media($mobile){
 			font-size: $font-size-h1*1.25;
 			color: $yellow;
 			text-transform: uppercase;
 			font-weight:500 !important;
+			padding-left: .1em;
 		}
 		@include media($portrait){
 			font-size: $font-size-h1*1.25;
 			color: $yellow;
 			text-transform: uppercase;
 			font-weight:500 !important;
+			padding-left: .1em;
 		}
 		@include media($tablet){
 			font-size: $font-size-h1*1.25;
 			color: $yellow;
 			text-transform: uppercase;
 			font-weight:500 !important;
+			padding-left: .1em;
 		}
 		@include media($desktop){
 			display: none;
@@ -152,17 +152,20 @@ h1 {
 		color: $yellow;
 		@include media($mobile-portrait){
 			font-size: $font-size-h2*1.5;
+			padding-left: .25em;
 		}
 		@include media($mobile){
 			font-size: $font-size-h2*1.5;
+			padding-left: .25em;
 		}
 		@include media($portrait){
 			font-size: $font-size-h2*1.5;
-
+			padding-left: .25em;
 		}
 		@include media($tablet){
 			font-size: $font-size-h2*2;
 			text-shadow: 0px 0px #666;
+			padding-left: .25em;
 		}
 		@include media($desktop){
 			font-size: $font-size-h2*2;
@@ -177,26 +180,26 @@ h1 {
 				font-size: $font-size-h2*1.5;
 				color: $blue;
 				@include span-columns(12);
-				padding-bottom: .25em;
+				padding-bottom: .0em;
 			}
 			@include media($mobile){
 				font-size: $font-size-h2*1.5;
 				color: $blue;
 				@include span-columns(12);
-				padding-bottom: .25em;
+				padding-bottom: .0em;
 			}
 			@include media($portrait){
 				font-size: $font-size-h2*1.5;
 				color: $blue;
 				@include span-columns(12);
-				padding-bottom: .25em;
+				padding-bottom: .0em;
 			}
 			@include media($tablet){
 				font-size: $font-size-h2*2;
 				color: $blue;
 				text-shadow: 0px 0px #666;
 				@include span-columns(12);
-				padding-bottom: .25em;
+				padding-bottom: .0em;
 			}
 			@include media($desktop){
 				font-size: $font-size-h2*2;
@@ -214,16 +217,16 @@ h1 {
 		color: $blue;
 		line-height: $line-height;
 		@include media($mobile-portrait) {
-			padding-right: 1em;
+			padding: 1em;
 		}
 		@include media($mobile) {
-			padding-right: 1em;
+			padding: 1em;
 		}
 		@include media($portrait) {
-			padding-right: 1em;
+			padding: 1em;
 		}
 		@include media($tablet) {
-			padding-right: 1em;
+			padding: 1em;
 		}
 		@include media($desktop) {
 			padding: 1em 1em 0 0;
