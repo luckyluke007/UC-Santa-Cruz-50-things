@@ -5,7 +5,7 @@ title-one: "18"
 title-two: "shake up"
 title-three: "the paradigm"
 img: /css/images/18.jpg
-mimg: 
+mimg: /css/images/18-mobile.jpg
 alt: "Hands holding bone and wood"
 teaser-image: /css/images/list-photos/18.jpg
 date:   2015-09-16
