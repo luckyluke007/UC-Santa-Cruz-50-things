@@ -1,3 +1,9 @@
+{% assign tagStr = '' %}
+{% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
+    {% for tag in page.tags %}
+        {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}
+    {% endfor %}
+
  <div class="sharing-container">
         <div class="container">
           <span>Sharing it:</span> <a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}?ref=50amazingshare&via=ucsc&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"><span>Share on Twitter</span></a>
