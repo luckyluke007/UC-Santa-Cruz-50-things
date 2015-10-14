@@ -75,36 +75,19 @@
 				<p>{{ content }}
 				</p>
 				{% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
+        <div class="pagination-container">
+        <div class="PageNavigation">
+          <a href="/index.html" class="home"><span>Home</span></a>
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}"><span>Next &raquo;</span></a>
+        {% endif %}
+        </div>
+      </div>
 				</div>
 			</div>
-      <!-- PAGINATION -->
-    {% if paginator.total_pages > 1 %}
-<div class="pagination-container">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-     <!-- END PAGINATION -->
-	</div>
-</div>
+  </div>
 </body>
 </html>

@@ -584,32 +584,31 @@ a li.number{
 	clear:both;
 }
 .title {
-	@include background-opacity($red, .95);
+	@include background-opacity($blue, .90);
 	//position: absolute;
 	//z-index: 0;
 	max-height: 25.75em;
-	text-align: center;
+	text-align: left;
 
 	@include media($mobile-portrait){
 		@include span-columns(5);
-		@include shift(0);
+		padding: .5em 0 .5em .5em;
 	}
 	@include media($mobile){
 		@include span-columns(5);
-		@include shift(.35);
+		padding: .5em 0 .5em .5em;
 	}
 	@include media($portrait){
 		@include span-columns(5);
-		@include shift(.35);
+		padding: .5em 0 .5em .5em;
 	}
 	@include media($tablet){
-		@include span-columns(5);
-		@include shift(.35);
+		@include span-columns(6);
+		padding: .25em 0 .5em 1.5em;
 	}
 	@include media($desktop){
-		@include span-columns(4);
-		@include shift(.5);
-		padding: .5em;
+		@include span-columns(5);
+		padding: 0 .5em 0 2.25em;
 	}
 	.vert-align {
 		display: inline-block;
@@ -639,6 +638,7 @@ a li.number{
 			font-weight: 500;
 			@include media($mobile-portrait){
 				font-size: $font-size-h1/3;
+				line-height: 1em;
 			}
 			@include media($mobile){
 				font-size: $font-size-h1/2.9;
@@ -706,7 +706,7 @@ a li.number{
 .arrow {
 	display: block;
 	background: url('/css/images/arrow-right.svg') no-repeat 0 0;
-	margin: .5em auto 1em auto;
+	margin: .5em 0 1em 0;
 	overflow: -9000px;
 	text-indent: -9000px;
 	@include media ($mobile-portrait) {
@@ -739,7 +739,7 @@ a li.number{
 a.arrow, a.arrow:active {
 	display: block;
 	background: url('/css/images/arrow-right.svg') no-repeat 0 0;
-	margin: .5em auto 1em auto;
+	margin: .5em 0 1em 0;
 	overflow: -9000px;
 	text-indent: -9000px;
 	@include media ($mobile-portrait) {
