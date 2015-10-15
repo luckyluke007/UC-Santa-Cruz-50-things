@@ -9,8 +9,45 @@
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
 <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 <link rel="stylesheet" href="/css/normalize.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+
+<!-- PAGE TRANSITION -->
+
+<link rel="stylesheet" href="/css/animsition.min.css">
+<script src="/js/animsition.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+  
+	  $(".animsition").animsition({
+	  
+	    inClass               :   'fade-in-left',
+	    outClass              :   'fade-out-right',
+	    inDuration            :    1500,
+	    outDuration           :    800,
+	    linkElement           :   '.animsition-link',
+	    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+	    loading               :    true,
+	    loadingParentElement  :   'body', //animsition wrapper element
+	    loadingClass          :   'animsition-loading',
+	    unSupportCss          : [ 'animation-duration',
+	                              '-webkit-animation-duration',
+	                              '-o-animation-duration'
+	                            ],
+	    //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+	    //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+	    
+	    overlay               :   false,
+	    
+	    overlayClass          :   'animsition-overlay-slide',
+	    overlayParentElement  :   'body'
+	  });
+});
+
+</script>
+
 <!-- PAGE CSS -->
 <link rel="stylesheet" href="/css/main.css">
 </head>
@@ -82,7 +119,7 @@
 	<ul class="number">
 	<a name="list"></a>
 	{% for post in site.categories.list reversed %}
-	<a href="{{ post.url | prepend: site.baseurl }}">
+	<a href="{{ post.url | prepend: site.baseurl }}" class="animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="2000">
 	<li class="number" style="background:url('{{ post.teaser-image }}') no-repeat; background-size: 100%; ">
 		<div class="title">
 			<div class="vert-align">
