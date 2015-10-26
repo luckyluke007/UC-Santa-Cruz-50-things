@@ -1,3 +1,5 @@
+/* VARIABLES */
+
 //COLORS
 
 $blue: #27578c;
@@ -35,3 +37,18 @@ $tablet:    new-breakpoint(min-width em(768) 12);
 $portrait:  new-breakpoint(min-width em(600) 12);
 $mobile:    new-breakpoint(min-width em(499) 12);
 $mobile-portrait:    new-breakpoint(max-width em(498) 12);
+
+
+/* MIXINS */
+
+@mixin background-opacity($color, $opacity: .3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+}
