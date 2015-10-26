@@ -176,14 +176,7 @@
 				font-family: $sans-serif-font !important;
 				font-weight: 500;
 				font-style: normal;
-				@include media($mobile-portrait) {
-					font-size: $font-size-h2/.75;
-					text-shadow: 2px 2px #666;
-				}
-				@include media($mobile) {
-					font-size: $font-size-h2/.75;
-					text-shadow: 2px 2px #666;
-				}
+			
 				@include media($portrait) {
 					font-size: $font-size-h2/.75;
 					text-shadow: 2px 2px #666;
@@ -216,7 +209,6 @@
 				color: $white;
 			}
 			@include media($desktop) {
-				font-size: $font-size-h2*1.35;
 				text-shadow: 0px 0px #666;
 				color: $blue;
 			}
@@ -352,7 +344,6 @@
 			display: block;
 			width: 100%;
 			max-width: 100%;
-			//margin-left: 8%;
 		}
 		@include media($tablet) {
 			display: block;
@@ -387,11 +378,6 @@
 			height: 40px;
 			background-size: 80px;
 		}
-		@include media($desktop){
-			width:40px;
-			height: 40px;
-			background-size: 80px;
-		}
 	}
 	a.read:hover{
 		@include media($mobile-portrait){
@@ -406,11 +392,8 @@
 		@include media($tablet){
 			background-position: -40px 0;
 		}
-		@include media($desktop){
-			background-position: -40px 0;
-		}
 
-	}
+	  }
 	}
 	.title-container {
 		clear: both;
@@ -430,9 +413,6 @@
 			margin-top: 1em;
 		}
 		@include media($tablet){
-			display: none;
-		}
-		@include media($desktop){
 			display: none;
 		}
 		h1 {
@@ -501,9 +481,6 @@
 				@include media($tablet) {
 					display: none;
 				}
-				@include media($desktop) {
-					display: none;
-				}
 			}
 			@include media($mobile-portrait) {
 				display: block;
@@ -522,12 +499,6 @@
 			}
 			@include media($tablet) {
 				display: none;
-				font-size: $font-size-h2*1.35;
-			}
-			@include media($desktop) {
-				display: none;
-				font-size: $font-size-h2*1.35;
-				text-shadow: 0px 0px #666;
 			}
 		}
 	}
