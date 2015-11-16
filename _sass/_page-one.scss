@@ -132,7 +132,7 @@ body, html {
 		display: none;
 	}
 	@include media($desktop) {
-			display: block;
+		display: block;
 	}
 	img {
 		width: 100%;
@@ -160,9 +160,6 @@ h1 {
 	@include media($tablet){
 		font-size: $font-size-h1*1.25;
 	}
-	@include media($desktop){
-		font-size: $font-size-h1*1.25;
-	}
 }
 em {
 	font-size: $font-size-h2*2;
@@ -183,9 +180,6 @@ em {
 	@include media($tablet){
 		font-size: $font-size-h2*2;
 	}
-	@include media($desktop){
-		font-size: $font-size-h2*2;
-	}
 }
 h2 {
 	font-size: $font-size-h2*2;
@@ -202,9 +196,6 @@ h2 {
 		font-size: $font-size-h2*1.5;
 	}
 	@include media($tablet){
-		font-size: $font-size-h2*2;
-	}
-	@include media($desktop){
 		font-size: $font-size-h2*2;
 	}
 }
