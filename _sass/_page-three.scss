@@ -122,6 +122,27 @@ h1 {
 			font-weight:500 !important;
 			padding-left: .1em;
 		}
+		@include media($mobile){
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			text-transform: uppercase;
+			font-weight:500 !important;
+			padding-left: .1em;
+		}
+		@include media($portrait){
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			text-transform: uppercase;
+			font-weight:500 !important;
+			padding-left: .1em;
+		}
+		@include media($tablet){
+			font-size: $font-size-h1*1.25;
+			color: $yellow;
+			text-transform: uppercase;
+			font-weight:500 !important;
+			padding-left: .1em;
+		}
 		@include media($desktop){
 			display: none;
 		}
