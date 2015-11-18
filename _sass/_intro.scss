@@ -19,23 +19,19 @@
 	-o-background-size: cover;
 	background-repeat: no-repeat;
 	@include media($mobile-portrait){
-		background-position: 75% center;
-		max-height: 681px;
-		height: 70%;
+		background-position: 75% top;
+		height: 350px;
 	}
 	@include media($mobile){
-		background-position: 75% center;
-		max-height: 681px;
-		height: 70%;
+		background-position: 50% top;
+		height: 275px;
 	}
 	@include media($portrait){
-		background-position: 65% center;
-		max-height: 681px;
-		height: 70%;
+		background-position: 50% top;
+		height: 275px;
 	}
 	@include media($tablet){
 		background-position: 70% center;
-		max-height: 681px;
 		height: 60%;
 	}
 	@include media($desktop){
@@ -179,7 +175,6 @@
 			
 				@include media($portrait) {
 					font-size: $font-size-h2/.75;
-					text-shadow: 2px 2px #666;
 				}
 				@include media($tablet) {
 					font-size: $font-size-h2;
@@ -324,7 +319,6 @@
 	//TITLE CONTAINER
 	.home-teaser {
 		clear:both;
-		@include background-opacity($blue, .9);
 		padding: 1em;
 		color: $white;
 		text-align: left;

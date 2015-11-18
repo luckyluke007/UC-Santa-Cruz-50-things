@@ -25,40 +25,7 @@ body, html {
 	}
 }
 
-//.content-container {
-	//@include outer-container;
-	//height: 100%;
-	//@include media($mobile) {
-		//background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
-		//background-size: cover;
-		//-webkit-background-size: cover;
-		//-moz-background-size: cover;
-		//-o-background-size: cover;
-		//background-repeat: no-repeat;
-		//background-position: center center;
-	//} 
-	//@include media($portrait) {
-		//background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
-		//background-size: cover;
-		//-webkit-background-size: cover;
-		//-moz-background-size: cover;
-		//-o-background-size: cover;
-		//background-repeat: no-repeat;
-		//background-position: center center;
-	//} 
-	//@include media($tablet) {
-		//background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
-		//background-size: cover;
-		//-webkit-background-size: cover;
-		//-moz-background-size: cover;
-		//-o-background-size: cover;
-		//background-repeat: no-repeat;
-		//background-position: center center;
-	//} 
-	//@include media($desktop) {
-		//background: none;
-	//}
-//}
+
 .title-container {
 	@include span-columns(12);
 	text-align: right;
