@@ -1,16 +1,32 @@
----
-
----
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
 <title>{{ page.title }}</title>
- <meta name="description" content="UC Santa Cruz - Fifty ways to be amazing" />
+<meta content="description" content="{% if page.content %}{{ page.content | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.description }}{% endif %}"/>
 <meta charset="utf-8">
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <link href="/favicon.ico" rel="shortcut icon"/>
 <link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
+
+<!-- SOCIAL -->
+<meta content="{{ page.title }}" property="og:title"/>
+<meta content="og:url" content="{{ site.url }}{{ page.url }}">
+<meta content="article" property="og:type"/>
+<meta content="{{ site.url }}{{ page.img }}" property="og:image"/>
+<meta content="og:description" content="{% if page.content %}{{ page.content  | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.description }}{% endif %}"/>
+<meta content="{{ site.title }}" property="og:site_name"/>
+<meta content="1322847221,508316988" property="fb:admins"/>
+<meta content="https://www.facebook.com/ucsantacruz" property="article:publisher"/>
+
+<meta content="summary" name="twitter:card"/>
+<meta content="@ucsc" name="twitter:site"/>
+<meta content="{{ site.url }}{{ page.url }}" name="twitter:url"/>
+<meta content="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta content="twitter:description" content="{% if page.content %}{{ page.content  | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.description }}{% endif %}"/>
+<meta content="{{ site.url }}{{ page.img }}" name="twitter:image"/>
+
+
 <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 <link rel="stylesheet" href="/css/normalize.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -51,24 +67,6 @@ $(document).ready(function() {
 });
 
 </script>
-
-
-<!-- SOCIAL -->
-<meta content="{{ page.title }}" property="og:title"/>
-<meta content="og:url" content="{{ site.url }}{{ page.url }}">
-<meta content="article" property="og:type"/>
-<meta content="{{ site.url }}{{ page.img }}" property="og:image"/>
-<meta content="og:description" content="{% if page.content %}{{ page.content }}{% else %}{{ site.description }}{% endif %}"/>
-<meta content="{{ site.title }}" property="og:site_name"/>
-<meta content="1322847221,508316988" property="fb:admins"/>
-<meta content="https://www.facebook.com/ucsantacruz" property="article:publisher"/>
-
-<meta content="summary" name="twitter:card"/>
-<meta content="@ucsc" name="twitter:site"/>
-<meta content="{{ site.url }}{{ page.url }}" name="twitter:url"/>
-<meta content="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-<meta content="twitter:description" content="{% if page.content %}{{ page.content }}{% else %}{{ site.description }}{% endif %}"/>
-<meta content="{{ site.url }}{{ page.img }}" name="twitter:image"/>
 
 <!-- PAGE CSS -->
 <link rel="stylesheet" href="/css/page-three.css">
