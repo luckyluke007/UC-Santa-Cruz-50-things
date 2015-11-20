@@ -139,10 +139,7 @@ body, html {
 	}
 }
 
-
-
 h1 {
-	
 	color: $yellow;
 	text-transform: uppercase;
 	@include span-columns(12);
@@ -160,12 +157,8 @@ h1 {
 	@include media($tablet){
 		font-size: $font-size-h1*1.25;
 	}
-	@include media($desktop){
-		font-size: $font-size-h1*1.25;
-	}
 }
 em {
-	font-size: $font-size-h2*2;
 	color: $blue;
 	@include span-columns(12);
 	font-style: italic;
@@ -183,12 +176,8 @@ em {
 	@include media($tablet){
 		font-size: $font-size-h2*2;
 	}
-	@include media($desktop){
-		font-size: $font-size-h2*2;
-	}
 }
 h2 {
-	font-size: $font-size-h2*2;
 	color: $yellow;
 	@include span-columns(12);
 	margin: 0;
@@ -202,9 +191,6 @@ h2 {
 		font-size: $font-size-h2*1.5;
 	}
 	@include media($tablet){
-		font-size: $font-size-h2*2;
-	}
-	@include media($desktop){
 		font-size: $font-size-h2*2;
 	}
 }
