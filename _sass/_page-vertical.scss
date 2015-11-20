@@ -10,57 +10,10 @@ body, html {
 	width: 100%;
 	padding: 0;
 	height: 100%;
-	@include media($mobile-portrait){
-		margin: 0;
-	}
-	@include media($mobile){
-		margin: 0;
-	}
-	@include media($portrait){
-		margin: 0;
-	}
-	@include media($tablet){
-		margin: 0;
-	}
-	@include media($desktop){
-		margin: 0;
-	}
+	margin: 0;
 }
 
-//.content-container {
-	//@include outer-container;
-	//height: 100%;
-	//@include media($mobile) {
-		//background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
-		//background-size: cover;
-		//-webkit-background-size: cover;
-		//-moz-background-size: cover;
-		//-o-background-size: cover;
-		//background-repeat: no-repeat;
-		//background-position: center center;
-	//} 
-	//@include media($portrait) {
-		//background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
-		//background-size: cover;
-		//-webkit-background-size: cover;
-		//-moz-background-size: cover;
-		//-o-background-size: cover;
-		//background-repeat: no-repeat;
-		//background-position: center center;
-	//} 
-	//@include media($tablet) {
-		//background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
-		//background-size: cover;
-		//-webkit-background-size: cover;
-		//-moz-background-size: cover;
-		//-o-background-size: cover;
-		//background-repeat: no-repeat;
-		//background-position: center center;
-	//} 
-	//@include media($desktop) {
-		//background: none;
-	//}
-//}
+
 .title-container {
 	@include span-columns(12);
 	text-align: right;
@@ -190,7 +143,6 @@ body, html {
 
 
 h1 {
-	
 	color: $yellow;
 	text-transform: uppercase;
 	@include span-columns(12);
@@ -214,7 +166,6 @@ h1 {
 	}
 }
 em {
-	font-size: $font-size-h2*2;
 	@include span-columns(12);
 	font-style: italic;
 	font-family: $serif-font;
@@ -243,7 +194,6 @@ em {
 	}
 }
 h2 {
-	font-size: $font-size-h2*2;
 	color: $yellow;
 	@include span-columns(12);
 	@include media($mobile-portrait){
