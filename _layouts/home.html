@@ -23,9 +23,9 @@ $(document).ready(function() {
   
 	  $(".animsition").animsition({
 	  
-	    inClass               :   'fade-in-left',
-	    outClass              :   'fade-out-right',
-	    inDuration            :    1500,
+	    inClass               :   'fade-in',
+	    outClass              :   'fade-out',
+	    inDuration            :    700,
 	    outDuration           :    800,
 	    linkElement           :   '.animsition-link',
 	    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
@@ -52,6 +52,7 @@ $(document).ready(function() {
 <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+<div class="page-transition animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="500">
 <div id="intro-container">
 	<div class="bg-container">
 		<div class="logo">{% image "logo.svg" alt="UC Santa Cruz" %}</div>
@@ -131,6 +132,7 @@ $(document).ready(function() {
 	</a>
 	{% endfor %}
 	</ul>
+</div>
 </div>
 </body>
 </html>

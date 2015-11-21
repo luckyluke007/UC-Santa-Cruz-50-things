@@ -45,7 +45,7 @@ $(document).ready(function() {
     
       inClass               :   'fade-in-left',
       outClass              :   'fade-out-right',
-      inDuration            :    1500,
+      inDuration            :    700,
       outDuration           :    800,
       linkElement           :   '.animsition-link',
       // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
@@ -80,18 +80,22 @@ $(document).ready(function() {
     content: "";
     display: table; }
   @media screen and (max-width: 37.4375em) {
-    body, html {
+    .page-transition {
       background: #fff;
-      } }
+    }
+  }
   @media screen and (min-width: 37.5em) {
-    body, html {
-      background: #fff; } }
-  @media screen and (min-width: 48em) {
-    body, html {
+      .page-transition {
       background: #fff;
-      } }
+      }
+    }
+  @media screen and (min-width: 48em) {
+    .page-transition {
+      background: #fff;
+    }
+  }
   @media screen and (min-width: 60em) {
-    body, html {
+    .page-transition {
       background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("{{ page.img }}");
       background-size: cover;
       -webkit-background-size: cover;
@@ -101,10 +105,12 @@ $(document).ready(function() {
       background-position: center center;
       width:100%;
       height: 100%;
-      } }
+    }
+  }
 </style>
 </head>
 <body>
+<div class="page-transition animsition">
 <div class="container">
 	<div class="content-container">
     <div class="left">
@@ -125,12 +131,12 @@ $(document).ready(function() {
 
       <div class="pagination-container">
     <div class="PageNavigation">
-    <a href="/index.html" class="home"><span>Home</span></a>
+    <a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
       {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
+        <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
       {% endif %}
       {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}"><span>Next &raquo;</span></a>
+        <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="{{page.next.url}}"><span>Next &raquo;</span></a>
       {% endif %}
     </div>
   </div>
@@ -138,6 +144,7 @@ $(document).ready(function() {
     </div>
 	</div> 
    
+  </div>
   </div>
 </body>
 </html>

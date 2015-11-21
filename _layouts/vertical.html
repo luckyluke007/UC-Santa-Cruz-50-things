@@ -26,7 +26,7 @@ $(document).ready(function() {
     
       inClass               :   'fade-in-left',
       outClass              :   'fade-out-right',
-      inDuration            :    1500,
+      inDuration            :    700,
       outDuration           :    800,
       linkElement           :   '.animsition-link',
       // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
@@ -118,7 +118,7 @@ $(document).ready(function() {
 </style>
 </head>
 <body>
-<div class="container">
+<div class="container animsition">
 	<div class="content-container">
 			<div class="photo-box" style="background: url({{ page.img }}); background-size: cover; -webkit-background-size: cover; -moz-background-size:cover; background-position: center center; background-repeat: no-repeat;">
 				<div class="title-container">
@@ -138,12 +138,12 @@ $(document).ready(function() {
 				{% image 'blue-logo.svg' "UC Santa Cruz" class="logo" %}
         <div class="pagination-container">
         <div class="PageNavigation">
-          <a href="/index.html" class="home"><span>Home</span></a>
+          <a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
         {% if page.previous.url %}
-          <a class="prev" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
+          <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
         {% endif %}
         {% if page.next.url %}
-          <a class="next" href="{{page.next.url}}"><span>Next &raquo;</span></a>
+          <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="{{page.next.url}}"><span>Next &raquo;</span></a>
         {% endif %}
         </div>
       </div>

@@ -4,9 +4,9 @@ title:  "13 lawyer up"
 title-one: "13"
 title-two: "lawyer"
 title-three: "up"
-img: /css/images/bg-seal.svg
+img: /css/images/no-photo.jpg
 mimg: 
-alt: 
+alt: "UC Santa Cruz's seal"
 teaser-image: /css/images/list-photos/no-photo.jpg
 date:   2015-09-16
 categories: list
