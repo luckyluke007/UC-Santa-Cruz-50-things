@@ -11,3 +11,9 @@ group :development do
   gem 'guard-livereload'
   gem 'thin'
 end
+
+group :test do
+  gem 'rake'
+  gem 'scss_lint'
+  gem 'html-proofer'
+end

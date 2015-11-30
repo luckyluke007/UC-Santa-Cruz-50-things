@@ -1,0 +1,9 @@
+scss_files: 'source/assets/stylesheets/*.scss'
+
+exclude: 'source/assets/stylesheets/print.scss'
+
+linters:
+  UrlFormat:
+    enabled: false
+  VendorPrefix:
+    enabled: false
