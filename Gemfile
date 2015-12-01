@@ -4,12 +4,15 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'jekyll-assets'
 gem 'rdiscount'
+gem 'neat'
+gem 'bourbon'
+gem 'sass'
+gem 'thin'
 
 group :development do
   gem 'guard'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
-  gem 'thin'
 end
 
 group :test do

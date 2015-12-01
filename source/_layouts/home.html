@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+{% include html-head.html %}
+
+<!-- PAGE CSS -->
+<link rel="stylesheet" type="text/css" media="screen" href="{% asset_path main.css %}" />
+</head>
+<body>
+<div class="page-transition animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="500">
+<div id="intro-container">
+	<div class="bg-container">
+		<div class="logo">{% image "logo.svg" alt="UC Santa Cruz" %}</div>
+		<div class="title-container"><h1>FIFTY</h1><h2>ways<span class="normal">TO BE AMAZING</span></h2></div>
+		<div class="home-teaser-main">
+			<p> UC Santa Cruz began, it was hailed by then-UC President Clark Kerr as "the most significant educational experiment in the history of the University of California." It still is.</p>
+
+			<p>In our first 50 years, we've assembled the DNA sequence of the human genome and made it publicly available; pioneered the country's first organic farm and garden program&#59; and developed the first computer game design major in the UC system.</p>
+
+			<p>All this is taking place on one of the most visually stunning campus settings in the world, a magical stretch of rolling meadows and majestic redwoods overlooking Monterey Bay. The place invites collaboration, and encourages original thinking, while cultivating an offbeat charm and endearing quirkiness that captures global attention.</p>
+
+			<p>And we're just getting started</p>
+
+			<p><strong>IN HONOR OF THE CAMPUS'S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</strong></p>
+			<a href="#list" class="read">Read More</a>
+		</div>
+	</div>
+</div>
+<!--MOBILE INTRO-->
+<div class="mobile-container">
+	<div class="mobile-text">
+		<div class="title-container"><h1>FIFTY</h1><h2>ways<span class="normal">TO BE AMAZING</span></h2></div>
+		<div class="home-teaser">
+			<p> UC Santa Cruz began, it was hailed by then-UC President Clark Kerr as "the most significant educational experiment in the history of the University of California." It still is.</p>
+
+			<p>In our first 50 years, we've assembled the DNA sequence of the human genome and made it publicly available; pioneered the country's first organic farm and garden program&#59; and developed the first computer game design major in the UC system.</p>
+
+			<p>All this is taking place on one of the most visually stunning campus settings in the world, a magical stretch of rolling meadows and majestic redwoods overlooking Monterey Bay. The place invites collaboration, and encourages original thinking, while cultivating an offbeat charm and endearing quirkiness that captures global attention.</p>
+
+			<p>And we're just getting started</p>
+
+			<p><strong>IN HONOR OF THE CAMPUS'S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</strong></p>
+			<a href="#list" class="read">Read More</a>
+		</div>
+	</div>
+</div>
+ <!-- PAGINATION -->
+    {% if paginator.total_pages > 1 %}
+<div class="pagination-container">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+     <!-- END PAGINATION -->
+<div id="list-container">
+	<ul class="number">
+	<a name="list"></a>
+	{% for post in site.categories.list reversed %}
+	<a href="{{ post.url | prepend: site.baseurl }}" class="animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="2000">
+	<li class="number" style="background:url('{{ post.teaser-image }}') no-repeat; background-size: 100%; ">
+		<div class="title">
+			<div class="vert-align">
+				<h1>{{ post.title-one }}</h1><h2><em>{{ post.title-two }}</em> {{ post.title-three }}</h2>
+				<span class="arrow"></span>
+			</div>
+		</div>
+	</li>
+	</a>
+	{% endfor %}
+	</ul>
+</div>
+</div>
+</body>
+</html>

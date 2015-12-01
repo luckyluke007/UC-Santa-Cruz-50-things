@@ -1,0 +1,18 @@
+---
+layout: full
+title:  "30 live for saturday night"
+title-one: "30"
+title-two: "live for"
+title-three: "saturday night"
+img: /images/30.jpg
+mimg: /images/30-mobile.jpg
+alt: "Adam Samberg - SNL"
+teaser-image: /images/list-photos/30.jpg
+date:   2015-09-16
+categories: list
+number: 30
+tags:
+- ucsc
+- 50amazing
+---
+In case you haven't noticed, there is an undeniable UC Santa Cruz-Saturday Night Live connection. Famed actress Maya Rudolph, a former cast member of SNL who later became known for her lead role in the movie Bridesmaids, was a 1995 graduate of Porter College (art/photography). Alumnus Akiva Schaffer (Oakes '00, film and digital media), who also wrote for SNL, formed the sketch comedy troupe The Lonely Island with childhood friends Jorma Taccone and Andy Samberg-the latter of whom attended UC Santa Cruz before joining the spotlight as an actor and SNL cast member.

@@ -1,0 +1,18 @@
+---
+layout: full
+title:  "34 go organic"
+title-one: "34"
+title-two: "go"
+title-three: "organic"
+img: /images/34.jpg
+mimg: /images/list-photos/34.jpg
+alt: "Banana Slug"
+teaser-image: /images/list-photos/34.jpg
+date:   2015-09-16
+categories: list
+number: 34
+tags:
+- ucsc
+- 50amazing
+---
+Organic produce is now available in mainstream grocery stores thanks in part to alumnus Drew Goodman (College Eight '83, environmental studies/environmental design). Goodman and his wife, Myra, built their pioneering company, Earthbound Farm, into the world’s largest producer of organic produce. In 1986 they became the first company to successfully market prewashed, packaged greens for retail sale, starting a salad revolution and introducing organic produce to big-name retailers.

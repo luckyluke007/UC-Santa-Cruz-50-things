@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+{% include html-head.html %}
+
+<!-- PAGE CSS -->
+<link rel="stylesheet" type="text/css" media="screen" href="{% asset_path page-full.css %}" />
+<style>
+  body, html {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  body::after, html::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (max-width: 37.4375em) {
+    .page-transition {
+      background: #fff;
+    }
+  }
+  @media screen and (min-width: 37.5em) {
+      .page-transition {
+      background: #fff;
+      }
+    }
+  @media screen and (min-width: 48em) {
+    .page-transition {
+      background: #fff;
+    }
+  }
+  @media screen and (min-width: 60em) {
+    .page-transition {
+      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("{{ page.img }}");
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width:100%;
+      height: 100%;
+    }
+  }
+</style>
+{% if page.custom_css %}{{ page.custom_css | stylesheet }}{% endif %}
+</head>
+<body>
+<div class="page-transition animsition">
+<div class="container">
+	<div class="content-container">
+    <div class="left">
+  			<h1>{{ page.title-one }}</h1>
+        <img src="{% asset_path blue-logo.svg%}" class="desktop-logo" alt="UC Santa Cruz">
+    </div>
+
+    <div class="content-box">
+      <h1>{{ page.title-one }}</h1>
+      <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
+      <img src="{{ page.img }}" alt="page.alt" class="mphoto">
+      <div class="text-box">
+      {{ page.content }}
+
+      {% include sharing.html %}
+
+      <img src="{% asset_path blue-logo.svg %}" class="logo" alt="UC Santa Cruz">
+      <div class="pagination-container">
+    <div class="PageNavigation">
+    <a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
+      {% if page.previous.url %}
+        <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="{{page.next.url}}"><span>Next &raquo;</span></a>
+      {% endif %}
+    </div>
+  </div>
+      </div>
+    </div>
+	</div>
+
+  </div>
+  </div>
+</body>
+</html>

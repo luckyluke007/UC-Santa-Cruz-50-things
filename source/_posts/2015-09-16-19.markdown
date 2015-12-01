@@ -1,0 +1,18 @@
+---
+layout: vertical
+title:  "19 talk to the universe"
+title-one: "19"
+title-two: "talk to the"
+title-three: "universe"
+img: /images/19.jpg
+mimg: /images/19-mobile.jpg
+alt: "Redwoods"
+teaser-image: /images/list-photos/19.jpg
+date:   2015-09-16
+categories: list
+number: 19
+tags:
+- ucsc
+- 50amazing
+---
+Linguistics Professor Beth Ann Hockey collaborated with NASA to develop the first spoken dialogue system ever used in space, allowing astronauts to talk to their computers and get spoken responses to their questions and commands. Designed to assist astronauts in executing procedures on the International Space Station, "Clarissa" was a forerunner to mobile apps like Siri. Hockey later led a UC Santa Cruz/Ford Motors research project on dialogue in cars and taught an innovative course at UC Santa Cruz on spoken dialogue systems. 

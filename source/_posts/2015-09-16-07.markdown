@@ -1,0 +1,18 @@
+---
+layout: vertical
+title:  "Seven make play serious"
+title-one: "Seven"
+title-two: "make play"
+title-three: "serious"
+img: /images/7.jpg
+mimg: /images/7-mobile.jpg
+alt: "Print letters"
+teaser-image: /images/list-photos/7.jpg
+date:   2015-09-16
+categories: list
+number: 7
+tags:
+- ucsc
+- 50amazing
+---
+When we started our popular computer game design major in 2006, it was the first of its kind in the UC system. Today, UC Santa Cruz's graduate programs in game design are among the top 10 in the country, according to the Princeton Review. 

@@ -1,0 +1,18 @@
+---
+layout: side-by-side
+title:  "35 just keep truckin' on"
+title-one: "35"
+title-two: "just keep"
+title-three: "truckin' on"
+img: /images/35.jpg
+mimg: /images/list-photos/35.jpg
+alt: "Banana Slug"
+teaser-image: /images/list-photos/35.jpg
+date:   2015-09-16
+categories: list
+number: 35
+tags:
+- ucsc
+- 50amazing
+---
+When it comes to significant pop culture collections, we can't be beat. McHenry Library is home to the archives of the iconic band, the Grateful Dead, along with a "Dead-icated" exhibition space known as "Dead Central." With several hundred thousand artifacts that cover the years 1966 to 2002, the collection includes everything from business contracts to elaborate fan art to three of the skeleton puppets used in the band’s Touch of Grey video.

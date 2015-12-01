@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+{% include html-head.html %}
+
+<!-- PAGE CSS -->
+<link rel="stylesheet" type="text/css" media="screen" href="{% asset_path page-side-by-side.css %}" />
+
+</head>
+<body>
+<div class="container animsition">
+	<div class="content-container">
+		<div class="photo-box"><img src="{{ page.img }}" alt="{{ post.alt }}"></div>
+		<div class="content-box">
+			<div class="title-container">
+				<h1>{{ page.title-one }}</h1><em>{{ page.title-two }}</em><h2>{{ page.title-three }}</h2>
+			</div>
+			<img src="{{ page.img }}" class="mobile-photo" alt="{{ post.alt }}">
+			<div class="text-box">
+			<p>{{ content }}</p>
+
+			{% include sharing.html %}
+
+			<img src="{% asset_path blue-logo.svg %}" class="logo" alt="UC Santa Cruz">
+
+			<div class="pagination-container">
+    <div class="PageNavigation">
+	   	<a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
+	  {% if page.previous.url %}
+	    <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
+	  {% endif %}
+	  {% if page.next.url %}
+	    <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="{{page.next.url}}"><span>Next &raquo;</span></a>
+	  {% endif %}
+</div>
+  </div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

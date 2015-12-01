@@ -1,0 +1,20 @@
+---
+layout: side-by-side
+title:  "12 be a sport"
+title-one: "13"
+title-two: "be a"
+title-three: "sport"
+img: /images/12.jpg
+mimg: 
+alt: "Emily Brodsky"
+teaser-image: /images/list-photos/12.jpg
+date:   2015-09-16
+categories: list
+number: 12
+tags:
+- ucsc
+- 50amazing
+---
+A campus doesn't need to have a football stadium 
+or throw tailgate parties to prove its devotion to the sporting life. We have vibrant club and intramural programs, hosting a diversity of teams including Ultimate Frisbee, basketball, softball, soccer, 
+flag football, water polo, tennis, volleyball, sailing, and—yes—surfing. Holding true to our countercultural flair, we even sport an active dodgeball team. Eat your heart out, Ben Stiller. 

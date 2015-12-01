@@ -1,3 +1,9 @@
+gems: [bourbon, neat, jekyll-assets]
+
+# Structure configuration
+source: ./source
+destination: ./build
+
 # Site settings
 title: UC Santa Cruz - Fifty ways to be amazing
 email: pio@ucsc.edu

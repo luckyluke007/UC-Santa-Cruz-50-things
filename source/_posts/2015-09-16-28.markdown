@@ -1,0 +1,20 @@
+---
+layout: side-by-side
+title:  "28 raise your hand"
+title-one: "28"
+title-two: "raise"
+title-three: "your hand"
+img: /images/28.jpg
+mimg: /images/28-mobile.jpg
+alt: "Space Shuttle"
+teaser-image: /images/list-photos/28.jpg
+date:   2015-09-16
+categories: list
+number: 28
+tags:
+- ucsc
+- 50amazing
+---
+Idealism has always been a cornerstone of the 
+UC Santa Cruz ethic. Since the first days of 
+the Peace Corps, 807 of our alumni have heeded the call to work in developing countries for the volunteer leadership experience program, putting us in the top 20 among schools our size for the number of alumni who have served. 

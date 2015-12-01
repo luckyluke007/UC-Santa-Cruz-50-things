@@ -1,0 +1,18 @@
+---
+layout: full
+title:  "22 branch out"
+title-one: "22"
+title-two: "branch"
+title-three: "out"
+img: /images/22.jpg
+mimg: /images/list-photos/23.jpg
+alt: "Redwoods"
+teaser-image: /images/list-photos/22.jpg
+date:   2015-09-16
+categories: list
+number: 22
+tags:
+- ucsc
+- 50amazing
+---
+Who says academics are stuffy and boring? Our unique History of Consciousness program is an interdisciplinary graduate program in the humanities with links to the sciences, social sciences, and arts. The program was started in the first year of the campus by a small group of faculty members. William "Bro" Adams, chair of the National Endowment for the Humanities, is a graduate, earning his Ph.D. in 1982. Another well-known graduate is Huey P. Newton, cofounder of the Black Panther Party. Newton received his Ph.D. here in 1980.

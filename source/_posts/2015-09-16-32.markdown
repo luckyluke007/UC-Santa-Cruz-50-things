@@ -1,0 +1,18 @@
+---
+layout: side-by-side
+title:  "32 tune in"
+title-one: "32"
+title-two: "tune"
+title-three: "in"
+img: /images/32.jpg
+mimg: /images/list-photos/32.jpg
+alt: "NPR logo"
+teaser-image: /images/list-photos/32.jpg
+date:   2015-09-16
+categories: list
+number: 32
+tags:
+- ucsc
+- 50amazing
+---
+Not only is there a UC Santa Cruz-Saturday Night Live connection (see No. 30), but there seems to be a National Public Radio one, too. NPR's famous duo, the Kitchen Sisters-Nikki Silva (Porter '73, aesthetic studies) and Davia Nelson (Stevenson '75, politics)-have attracted devoted listeners to several series, including Lost & Found Sound, Hidden Kitchens, and the Sonic Memorial Project. Also, three NPR journalists are alumni-science correspondents Richard Harris (Crown '80, biology) and Joe Palca (Ph.D. '82, psychology), and international correspondent Carrie Kahn (College Eight '87, biology). Additionally, public radio show host Jesse Thorn (Porter '03, American studies) hosts and produces the radio show and podcast Bullseye (formerly The Sound of Young America ), which is distributed by NPR to 59 public radio stations in 17 states, and Stephanie Foo (Stevenson '08, modern literature) is a producer for This American Life, which is heard on many NPR stations.

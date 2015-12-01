@@ -1,0 +1,17 @@
+---
+layout: full
+title:  "Nine use your words"
+title-one: "Nine"
+title-two: "use your"
+title-three: "words"
+img: /images/9.jpg
+alt: "Print letters"
+teaser-image: /images/list-photos/9.jpg
+date:   2015-09-16
+categories: list
+number: 9
+tags:
+- ucsc
+- 50amazing
+---
+Linguist Marc Okrand (Stevenson '70, interdisciplinary studies) is the creator of the Klingon language for Star Trek movies, introducing such useful phrases as "So'wI' vIchu'ta'" into the popular culture. (That's Klingon for "I have engaged the cloaking device.") See also No. 24.

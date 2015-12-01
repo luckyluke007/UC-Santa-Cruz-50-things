@@ -1,0 +1,18 @@
+---
+layout: full
+title:  "43 celebrate education"
+title-one: "43"
+title-two: "celebrate"
+title-three: "education"
+img: /images/43.jpg
+mimg: /images/list-photos/43.jpg
+alt: "students jump"
+teaser-image: /images/list-photos/43.jpg
+date:   2015-09-16
+categories: list
+number: 43
+tags:
+- ucsc
+- 50amazing
+---
+We open the doors of higher education. Forty-two percent of graduates in 2015 were the first in their family to earn a four-year university degree. And 43 percent of incoming freshman students in fall 2015 are from families where neither parent has a four-year degree.

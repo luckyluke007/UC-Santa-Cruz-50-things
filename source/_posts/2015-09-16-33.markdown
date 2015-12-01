@@ -1,0 +1,18 @@
+---
+layout: full
+title:  "33 entertain big ideas"
+title-one: "33"
+title-two: "entertain"
+title-three: "big ideas"
+img: /images/33.jpg
+mimg: /images/list-photos/33.jpg
+alt: "Banana Slug"
+teaser-image: /images/list-photos/33.jpg
+date:   2015-09-16
+categories: list
+number: 33
+tags:
+- ucsc
+- 50amazing
+---
+A number of our alumni have gone on to become movers and shakers in the entertainment industry, including Emmy-winning True Detective director Cary Fukunaga (College Eight '99, history); Nebraska producer Ron Yerxa (Grad Division '74); Lionsgate Television chairman Kevin Beggs (Porter '89, politics/theater arts); Mad Men television writer and producer Marti Noxon (Oakes '87, theater arts); Jurassic Park, Lincoln, and Avatar production designer and Academy Award–winner Rick Carter (Kresge '74, art); Star Trek writer and executive producer Brannon Braga (Crown '90, film and digital media) see No. 24; Emmy-winning Days of Our Lives producer/composer Kenneth Corday (Porter '75, aesthetic studies); Jennie Morris (Porter '93, individual major), of Participant Media/Pivot TV; and the Academy Award–winning film editor Stephen Mirrione (Porter '91, music/theater arts) of Traffic and Birdman fame.
