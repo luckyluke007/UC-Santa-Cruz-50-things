@@ -14,7 +14,7 @@ permalink: "/:title/"
 timezone: America/Los_Angeles
 
 # Build settings
-exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'Guardfile']
+exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'Guardfile', '.asset-cache']
 
 
 # Build settings
