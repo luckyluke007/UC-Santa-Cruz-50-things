@@ -13,7 +13,8 @@ body, html {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100%;
   background: #fff;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
 
 .container {
   display: block;
