@@ -6,7 +6,7 @@
 
 <!-- PAGE CSS -->
 <link rel="stylesheet" type="text/css" media="screen" href="{% asset_path page-side-by-side.css %}" />
-
+{% if page.custom_css %}{{ page.custom_css | stylesheet }}{% endif %}
 </head>
 <body>
 <div class="container animsition">
@@ -23,7 +23,6 @@
 			{% include sharing.html %}
 
 			<img src="{% asset_path blue-logo.svg %}" class="logo" alt="UC Santa Cruz">
-			</div>
 			<div class="pagination-container">
 			    <div class="PageNavigation">
 				   	<a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
@@ -35,8 +34,8 @@
 				  {% endif %}
 				</div>
   			</div>
+			</div>
 		</div>
 	</div>
-
 </body>
 </html>

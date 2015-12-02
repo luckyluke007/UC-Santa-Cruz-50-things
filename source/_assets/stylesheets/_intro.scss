@@ -1,5 +1,9 @@
 // 50 things home intro
-
+body,
+html {
+	overflow-x: hidden; 
+	-webkit-overflow-scrolling: touch;
+}
 #intro-container {
 	width: 100%;
 	padding: 0;
@@ -240,7 +244,7 @@
 	}
 	a.read, a.read:active {
 		display: block;
-		background:url('/css/images/arrow-down.svg') no-repeat 0 0;
+		background:url('/images/arrow-down.svg') no-repeat 0 0;
 		overflow: -9000px;
 		text-indent: -9000px;
 		margin: 0 auto;
@@ -522,7 +526,6 @@
 #list-container {
 	width: 100%;
 	margin: 0 auto;
-	//background: $blue;
 	clear: both;
 	padding: 0;
 }
