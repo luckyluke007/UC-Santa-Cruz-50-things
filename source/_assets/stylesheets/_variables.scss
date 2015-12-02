@@ -46,7 +46,7 @@ $mobile-portrait:    new-breakpoint(max-width em(498) 12);
 /* MIXINS */
 
 @mixin background-opacity($color, $opacity: .3) {
-    background: $color; /* The Fallback */
+    background-color: $color; /* The Fallback */
     background: rgba($color, $opacity);
 }
 

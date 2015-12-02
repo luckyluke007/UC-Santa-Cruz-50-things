@@ -18,7 +18,8 @@ body, html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
@@ -111,7 +112,7 @@ h6 {
       bottom: 0;
       z-index: 100;
       margin-left: -1em;
-      background: #c5c5c6;
+      background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
   @media screen and (min-width: 31.1875em) {
@@ -121,7 +122,7 @@ h6 {
       bottom: 0;
       z-index: 100;
       margin-left: -1em;
-      background: #c5c5c6;
+      background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
   @media screen and (min-width: 37.5em) {
@@ -131,7 +132,7 @@ h6 {
       bottom: 0;
       z-index: 100;
       margin-left: -1em;
-      background: #c5c5c6;
+      background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
   @media screen and (min-width: 48em) {
@@ -141,7 +142,7 @@ h6 {
       bottom: 0;
       z-index: 100;
       margin-left: -1em;
-      background: #c5c5c6;
+      background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6;
       border-radius: 0;
@@ -156,7 +157,7 @@ h6 {
       display: block;
       margin-right: 2.35765%;
       width: 100%;
-      background: #c5c5c6;
+      background-color: #c5c5c6;
       /* The Fallback */
       background: rgba(197, 197, 198, 0.2);
       border-radius: 5px;
@@ -411,7 +412,7 @@ h6 {
 
 .home-teaser-main {
   clear: both;
-  background: #27578c;
+  background-color: #27578c;
   /* The Fallback */
   background: rgba(39, 87, 140, 0.9);
   padding: 1em;
@@ -516,7 +517,7 @@ h6 {
       display: table; }
     .mobile-container .mobile-text .home-teaser {
       clear: both;
-      background: #27578c;
+      background-color: #27578c;
       /* The Fallback */
       background: rgba(39, 87, 140, 0.9);
       padding: 1em;
@@ -761,7 +762,7 @@ a li.number {
     margin-right: 0; }
 
 .title {
-  background: #27578c;
+  background-color: #27578c;
   /* The Fallback */
   background: rgba(39, 87, 140, 0.9);
   max-height: 25.75em;
