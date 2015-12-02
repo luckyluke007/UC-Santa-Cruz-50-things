@@ -905,7 +905,7 @@ a li.number {
 
 .arrow {
   display: block;
-  background: url("/css/images/arrow-right.svg") no-repeat 0 0;
+  background: url("/images/arrow-right.svg") no-repeat 0 0;
   margin: .5em 0 1em 0;
   overflow: -9000px;
   text-indent: -9000px; }
@@ -937,7 +937,7 @@ a li.number {
 
 a.arrow, a.arrow:active {
   display: block;
-  background: url("/css/images/arrow-right.svg") no-repeat 0 0;
+  background: url("/images/arrow-right.svg") no-repeat 0 0;
   margin: .5em 0 1em 0;
   overflow: -9000px;
   text-indent: -9000px; }
