@@ -5,7 +5,7 @@ title-one: "Two"
 title-two: "share your"
 title-three: "work"
 img: /images/two.jpg
-alt: "UC Santa Cruz grad student holding chemical cylinders"
+alt: "David Haussler"
 teaser-image: /images/list-photos/2.jpg
 date:   2015-09-16
 categories: list
