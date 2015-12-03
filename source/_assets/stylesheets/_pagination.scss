@@ -3,8 +3,7 @@
 	height: 100%;
 }
 
-.pagination-container {
-	display: block;
+#pagination-container {
 	padding: .5em;
 	text-align: center;
 	margin-top: 1em;
@@ -52,39 +51,44 @@
 		position: absolute;
 		top: -999em;
 	}
+	
 	@include media($mobile-portrait) {
 		width: 100%;
 		position: fixed;
 		bottom: 0;
-		z-index:100;
-		margin-left: -1em;
+		left: 0;
+		z-index: 9999;
 		@include background-opacity($gray, 1);
 	}
+	
 	@include media($mobile) {
 		width: 100%;
 		position: fixed;
 		bottom: 0;
+		left: 0;
 		z-index:100;
-		margin-left: -1em;
 		@include background-opacity($gray, 1);
 	}
+	
 	@include media($portrait) {
 		width: 100%;
 		position: fixed;
 		bottom: 0;
-		z-index:100;
-		margin-left: -1em;
+		left: 0;
+		z-index: 9999;
 		@include background-opacity($gray, 1);
 	}
+	
 	@include media($tablet) {
 		width: 100%;
 		position: fixed;
 		bottom: 0;
-		z-index:100;
-		margin-left: -1em;
+		left: 0;
+		z-index: 9999;
 		@include background-opacity($gray, 1);
 		@include border-radius(0);
 	}
+	
 	@include media($desktop) {
 		position: relative;
 		z-index: 0;

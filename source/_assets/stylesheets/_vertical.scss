@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
 	margin: 0;
 	padding: 0;
 	font-family: $sans-serif-font;
@@ -6,14 +7,18 @@ body, html {
 	overflow-x: hidden; 
 	-webkit-overflow-scrolling: touch;
 }
-
 .container {
 	display: block;
 	width: 100%;
 	padding: 0;
 	margin: 0 0 3em;
+	height:100%;
 }
 
+.content-container {
+	display: block;
+	height: 100%;
+}
 
 .title-container {
 	@include span-columns(12);
@@ -37,6 +42,7 @@ body, html {
 	}
 }
 .content-box {
+	margin-bottom: 2em;
 	@include media($mobile-portrait) {
 		@include span-columns(12);
 	}
@@ -118,8 +124,6 @@ body, html {
 	}
 }
 
-
-
 .photo-box {
 	@include span-columns(6);
 	height: 100%;
@@ -147,7 +151,7 @@ h1 {
 	color: $yellow;
 	text-transform: uppercase;
 	@include span-columns(12);
-	font-weight:500 !important;
+	font-weight: 700;
 	@include media($mobile-portrait){
 		font-size: $font-size-h1/1.35;
 	}

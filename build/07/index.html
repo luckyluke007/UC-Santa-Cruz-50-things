@@ -72,17 +72,17 @@ $(document).ready(function() {
 <!-- PAGE CSS -->
 <link rel="stylesheet" type="text/css" media="screen" href="/assets/page-vertical.css" />
 <style>
-	.content-container {
+	body, html {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
   }
-  .content-container::after {
+  body::after, html::after {
     clear: both;
     content: "";
     display: table; }
   @media screen and (max-width: 37.4375em) {
-    .content-container {
+    .page-transition {
       background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("/images/7.jpg");
       background-size: cover;
       -webkit-background-size: cover;
@@ -91,19 +91,10 @@ $(document).ready(function() {
       background-repeat: no-repeat;
       background-position: center center;
       height: 100%;
+      overflow: auto;
       } }
   @media screen and (min-width: 37.5em) {
-    .content-container {
-      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("/images/7.jpg");
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 100%; } }
-  @media screen and (min-width: 48em) {
-    .content-container {
+    .page-transition {
       background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("/images/7.jpg");
       background-size: cover;
       -webkit-background-size: cover;
@@ -112,15 +103,28 @@ $(document).ready(function() {
       background-repeat: no-repeat;
       background-position: center center;
       height: 100%;
+      overflow: auto; } }
+  @media screen and (min-width: 48em) {
+    .page-transition {
+      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("/images/7.jpg");
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 100%;
+      overflow: auto;
       } }
   @media screen and (min-width: 60em) {
-    .content-container {
+    .page-transition {
       background: none; } }
 </style>
 
 </head>
 <body>
-<div class="container animsition">
+<div class="page-transition animsition">
+<div class="container">
 	<div class="content-container">
 			<div class="photo-box" style="background: url(/images/7.jpg); background-size: cover; -webkit-background-size: cover; -moz-background-size:cover; background-position: center center; background-repeat: no-repeat;">
 				<div class="title-container">
@@ -168,5 +172,6 @@ $(document).ready(function() {
 				</div>
 			</div>
   </div>
+</div>
 </body>
 </html>

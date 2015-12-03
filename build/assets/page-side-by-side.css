@@ -68,16 +68,15 @@ html {
   width: 100%;
   height: 100%; }
 
-.pagination-container {
-  display: block;
+#pagination-container {
   padding: .5em;
   text-align: center;
   margin-top: 1em; }
-  .pagination-container .PageNavigation {
+  #pagination-container .PageNavigation {
     display: block;
     width: 320px;
     margin: 0 auto 0 auto; }
-  .pagination-container a.home, .pagination-container a.home:active {
+  #pagination-container a.home, #pagination-container a.home:active {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -85,9 +84,9 @@ html {
     background-size: 60px;
     float: left;
     margin-right: 7.2em; }
-  .pagination-container a.home:hover {
+  #pagination-container a.home:hover {
     background-position: -30px 0; }
-  .pagination-container a.prev, .pagination-container a.prev:active {
+  #pagination-container a.prev, #pagination-container a.prev:active {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -95,57 +94,57 @@ html {
     background: url("/images/arrow-prev.svg") no-repeat 0 0;
     background-size: 60px;
     float: left; }
-  .pagination-container a.prev:hover {
+  #pagination-container a.prev:hover {
     background-position: -30px 0; }
-  .pagination-container a.next, .pagination-container a.next:active {
+  #pagination-container a.next, #pagination-container a.next:active {
     display: inline-block;
     width: 30px;
     height: 30px;
     background: url("/images/arrow-next.svg") no-repeat 0 0;
     background-size: 60px;
     float: left; }
-  .pagination-container a.next:hover {
+  #pagination-container a.next:hover {
     background-position: -30px 0; }
-  .pagination-container a.next span, .pagination-container a.prev span, .pagination-container a.home span {
+  #pagination-container a.next span, #pagination-container a.prev span, #pagination-container a.home span {
     position: absolute;
     top: -999em; }
   @media screen and (max-width: 31.125em) {
-    .pagination-container {
+    #pagination-container {
       width: 100%;
       position: fixed;
       bottom: 0;
-      z-index: 100;
-      margin-left: -1em;
+      left: 0;
+      z-index: 9999;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
   @media screen and (min-width: 31.1875em) {
-    .pagination-container {
+    #pagination-container {
       width: 100%;
       position: fixed;
       bottom: 0;
+      left: 0;
       z-index: 100;
-      margin-left: -1em;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
   @media screen and (min-width: 37.5em) {
-    .pagination-container {
+    #pagination-container {
       width: 100%;
       position: fixed;
       bottom: 0;
-      z-index: 100;
-      margin-left: -1em;
+      left: 0;
+      z-index: 9999;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
   @media screen and (min-width: 48em) {
-    .pagination-container {
+    #pagination-container {
       width: 100%;
       position: fixed;
       bottom: 0;
-      z-index: 100;
-      margin-left: -1em;
+      left: 0;
+      z-index: 9999;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6;
@@ -154,7 +153,7 @@ html {
       -moz-border-radius: 0;
       -o-border-radius: 0; } }
   @media screen and (min-width: 60em) {
-    .pagination-container {
+    #pagination-container {
       position: relative;
       z-index: 0;
       float: left;
@@ -168,7 +167,7 @@ html {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -o-border-radius: 5px; }
-      .pagination-container:last-child {
+      #pagination-container:last-child {
         margin-right: 0; } }
 
 body, html {

@@ -14,22 +14,27 @@ html {
   width: 100%;
 
   @include media($mobile-portrait) {
+    background: $white;
     padding: 0 0 4em;
   }
 
   @include media($mobile) {
+    background: $white;
     padding: 0 0 4em;
   }
 
   @include media($portrait) {
+    background: $white;
     padding: 0 0 4em;
   }
 
   @include media($tablet) {
+    background: $white;
     padding: 0 0 4em;
   }
 
   @include media($desktop) {
+    background: none;
     margin: 0;
     padding: 0;
   }
@@ -110,7 +115,6 @@ h1 {
 }
 
 .content-box {
-
   @include media($mobile-portrait) {
     @include span-columns(12);
   }

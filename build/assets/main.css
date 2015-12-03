@@ -103,8 +103,8 @@ h6 {
       width: 100%;
       position: fixed;
       bottom: 0;
-      z-index: 100;
-      margin-left: -1em;
+      left: 0;
+      z-index: 9999;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
@@ -113,8 +113,8 @@ h6 {
       width: 100%;
       position: fixed;
       bottom: 0;
+      left: 0;
       z-index: 100;
-      margin-left: -1em;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
@@ -123,8 +123,8 @@ h6 {
       width: 100%;
       position: fixed;
       bottom: 0;
-      z-index: 100;
-      margin-left: -1em;
+      left: 0;
+      z-index: 9999;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6; } }
@@ -133,8 +133,8 @@ h6 {
       width: 100%;
       position: fixed;
       bottom: 0;
-      z-index: 100;
-      margin-left: -1em;
+      left: 0;
+      z-index: 9999;
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6;
@@ -164,48 +164,41 @@ body,
 html {
   background: #27578c url("/images/bg-seal.svg") no-repeat center center;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-attachment: fixed;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden; }
 
-#intro-container {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+.intro-container {
   clear: both;
+  display: block;
+  margin: 0;
+  max-height: 681px;
+  padding: 0;
   text-align: center;
-  max-height: 681px; }
+  width: 100%; }
   @media screen and (max-width: 31.125em) {
-    #intro-container {
+    .intro-container {
       height: 70%; } }
   @media screen and (min-width: 31.1875em) {
-    #intro-container {
+    .intro-container {
       height: 50%; } }
   @media screen and (min-width: 37.5em) {
-    #intro-container {
+    .intro-container {
       height: 70%; } }
   @media screen and (min-width: 48em) {
-    #intro-container {
+    .intro-container {
       height: 80%; } }
   @media screen and (min-width: 60em) {
-    #intro-container {
+    .intro-container {
       height: 100%; } }
 
 .bg-container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
-  background: url("/images/front-photo.jpg");
+  background: url("/images/front-photo.jpg") no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  max-height: 681px;
-  background-repeat: no-repeat; }
+  margin: 0 auto;
+  max-height: 681px; }
   .bg-container::after {
     clear: both;
     content: "";
