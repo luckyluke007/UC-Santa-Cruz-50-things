@@ -207,7 +207,7 @@ em {
   color: $blue;
   font-family: $serif-font;
   font-style: italic;
-  line-height: $font-size-h2;
+  line-height: .8em;
 
   @include media($mobile-portrait) {
     font-size: $font-size-h2 * 1.5;
@@ -229,6 +229,7 @@ em {
 h2 {
   @include span-columns(12);
   color: $yellow;
+  font-weight: 500;
   margin: 0;
 
   @include media($mobile-portrait) {

@@ -143,6 +143,7 @@ h1 {
   h1 {
     color: $yellow;
     font-size: $font-size-h1 * 1.25;
+    font-weight: 500;
     padding-left: .1em;
     text-transform: uppercase;
 
@@ -169,6 +170,7 @@ h1 {
 
   h2 {
     color: $yellow;
+    font-weight: 500;
 
     @include media($mobile-portrait) {
       font-size: $font-size-h2 * 1.5;

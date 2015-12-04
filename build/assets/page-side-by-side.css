@@ -386,7 +386,7 @@ em {
   color: #27578c;
   font-family: "Gilda Display", serif;
   font-style: italic;
-  line-height: 30px; }
+  line-height: .8em; }
   em:last-child {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
@@ -408,6 +408,7 @@ h2 {
   margin-right: 2.35765%;
   width: 100%;
   color: #f1b521;
+  font-weight: 500;
   margin: 0; }
   h2:last-child {
     margin-right: 0; }
@@ -456,14 +457,6 @@ ol,
 dl,
 figure {
   margin-bottom: Infinitypx; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300; }
 
 blockquote {
   border-left: 4px solid #6689a3;

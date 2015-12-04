@@ -148,6 +148,7 @@ h1 {
 .content-box h1 {
   color: #f1b521;
   font-size: 125px;
+  font-weight: 500;
   padding-left: .1em;
   text-transform: uppercase; }
   @media screen and (max-width: 31.125em) {
@@ -166,7 +167,8 @@ h1 {
     .content-box h1 {
       display: none; } }
 .content-box h2 {
-  color: #f1b521; }
+  color: #f1b521;
+  font-weight: 500; }
   @media screen and (max-width: 31.125em) {
     .content-box h2 {
       font-size: 45px;
@@ -495,14 +497,6 @@ ol,
 dl,
 figure {
   margin-bottom: Infinitypx; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300; }
 
 blockquote {
   border-left: 4px solid #6689a3;
