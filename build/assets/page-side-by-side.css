@@ -176,13 +176,14 @@ html {
     position: absolute;
     top: -999em; }
 
-body, html {
-  margin: 0;
-  padding: 0;
+body,
+html {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100%;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch; }
+  padding: 0; }
 
 .container {
   display: block;
@@ -190,22 +191,22 @@ body, html {
   @media screen and (max-width: 31.125em) {
     .container {
       margin: 0;
-      padding: 0 0 4em 0; } }
+      padding: 0 0 4em; } }
   @media screen and (min-width: 31.1875em) {
     .container {
       margin: 0;
-      padding: 0 0 4em 0; } }
+      padding: 0 0 4em; } }
   @media screen and (min-width: 37.5em) {
     .container {
       margin: 0;
-      padding: 0 0 4em 0; } }
+      padding: 0 0 4em; } }
   @media screen and (min-width: 48em) {
     .container {
       margin: 0;
-      padding: 0 0 4em 0; } }
+      padding: 0 0 4em; } }
   @media screen and (min-width: 60em) {
     .container {
-      margin: 2% 0 0 0;
+      margin: 2% 0 0;
       padding: 0; } }
 
 .content-container {
@@ -267,13 +268,13 @@ body, html {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
     .content-box .title-container {
-      padding: 0 1em 0 1em; } }
+      padding: 0 1em; } }
   @media screen and (min-width: 31.1875em) {
     .content-box .title-container {
-      padding: 0 1em 0 1em; } }
+      padding: 0 1em; } }
   @media screen and (min-width: 37.5em) {
     .content-box .title-container {
-      padding: 0 1em 0 1em; } }
+      padding: 0 1em; } }
   @media screen and (min-width: 48em) {
     .content-box .title-container {
       padding: 2em; } }
@@ -285,8 +286,8 @@ body, html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  float: right;
   color: #27578c;
+  float: right;
   line-height: 24px; }
   .content-box .text-box:last-child {
     margin-right: 0; }
@@ -306,10 +307,10 @@ body, html {
     .content-box .text-box {
       padding: 0; } }
   .content-box .text-box .logo {
+    bottom: 0;
     display: block;
-    width: 100%;
     max-width: 300px;
-    bottom: 0; }
+    width: 100%; }
 .content-box .mobile-photo {
   float: left;
   display: block;
@@ -338,8 +339,8 @@ body, html {
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
-  margin-top: 2em;
-  float: left; }
+  float: left;
+  margin-top: 2em; }
   .photo-box:last-child {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
@@ -361,14 +362,14 @@ body, html {
     width: 100%; }
 
 h1 {
-  color: #f1b521;
-  text-transform: uppercase;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  font-weight: 500 !important;
-  margin: 0; }
+  color: #f1b521;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase; }
   h1:last-child {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
@@ -385,13 +386,13 @@ h1 {
       font-size: 125px; } }
 
 em {
-  color: #27578c;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  font-style: italic;
+  color: #27578c;
   font-family: "Gilda Display", serif;
+  font-style: italic;
   line-height: 30px; }
   em:last-child {
     margin-right: 0; }
@@ -409,11 +410,11 @@ em {
       font-size: 60px; } }
 
 h2 {
-  color: #f1b521;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  color: #f1b521;
   margin: 0; }
   h2:last-child {
     margin-right: 0; }
