@@ -33,41 +33,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
 
-<!-- PAGE TRANSITION -->
-<link rel="stylesheet" type="text/css" media="screen" href="/assets/animsition.min.css" />
-<script type="text/javascript" src="/assets/animsition.min.js"></script>
-
-<script>
-
-$(document).ready(function() {
-
-    $(".animsition").animsition({
-
-      inClass               :   'fade-in-left',
-      outClass              :   'fade-out-right',
-      inDuration            :    700,
-      outDuration           :    800,
-      linkElement           :   '.animsition-link',
-      // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-      loading               :    true,
-      loadingParentElement  :   'body', //animsition wrapper element
-      loadingClass          :   'animsition-loading',
-      unSupportCss          : [ 'animation-duration',
-                                '-webkit-animation-duration',
-                                '-o-animation-duration'
-                              ],
-      //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-      //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-
-      overlay               :   false,
-
-      overlayClass          :   'animsition-overlay-slide',
-      overlayParentElement  :   'body'
-    });
-});
-
-</script>
-
 
 <!-- PAGE CSS -->
 <link rel="stylesheet" type="text/css" media="screen" href="/assets/page-vertical.css" />
@@ -123,7 +88,7 @@ $(document).ready(function() {
 
 </head>
 <body>
-<div class="page-transition animsition">
+<div class="page-transition">
 <div class="container">
 	<div class="content-container">
 			<div class="photo-box" style="background: url(/images/18.jpg); background-size: cover; -webkit-background-size: cover; -moz-background-size:cover; background-position: center center; background-repeat: no-repeat;">
@@ -160,12 +125,12 @@ $(document).ready(function() {
 				<img src="/assets/blue-logo.svg" class="logo" alt="UC Santa Cruz">
         <div class="pagination-container">
 <div class="pagenavigation">
-    <a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
+    <a href="/index.html" class="home"><span>Home</span></a>
   
-    <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="/17/"><span>&laquo; Prev</span></a>
+    <a class="prev"><span>&laquo; Prev</span></a>
   
   
-    <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="/19/"><span>Next &raquo;</span></a>
+    <a class="next" href="/19/"><span>Next &raquo;</span></a>
   
   </div>
 </div>
