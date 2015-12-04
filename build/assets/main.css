@@ -55,97 +55,60 @@ h6 {
   clear: both; }
 
 .page-transition {
-  width: 100%;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
-#pagination-container {
+.pagination-container {
+  display: block;
+  margin-top: 1em;
   padding: .5em;
-  text-align: center;
-  margin-top: 1em; }
-  #pagination-container .PageNavigation {
-    display: block;
-    width: 320px;
-    margin: 0 auto 0 auto; }
-  #pagination-container a.home, #pagination-container a.home:active {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url("/images/home-icon.svg") no-repeat 0 0;
-    background-size: 60px;
-    float: left;
-    margin-right: 7.2em; }
-  #pagination-container a.home:hover {
-    background-position: -30px 0; }
-  #pagination-container a.prev, #pagination-container a.prev:active {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-right: 6em;
-    background: url("/images/arrow-prev.svg") no-repeat 0 0;
-    background-size: 60px;
-    float: left; }
-  #pagination-container a.prev:hover {
-    background-position: -30px 0; }
-  #pagination-container a.next, #pagination-container a.next:active {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url("/images/arrow-next.svg") no-repeat 0 0;
-    background-size: 60px;
-    float: left; }
-  #pagination-container a.next:hover {
-    background-position: -30px 0; }
-  #pagination-container a.next span, #pagination-container a.prev span, #pagination-container a.home span {
-    position: absolute;
-    top: -999em; }
+  text-align: center; }
   @media screen and (max-width: 31.125em) {
-    #pagination-container {
-      width: 100%;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      z-index: 9999;
+    .pagination-container {
       background-color: #c5c5c6;
       /* The Fallback */
-      background: #c5c5c6; } }
+      background: #c5c5c6;
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 9999; } }
   @media screen and (min-width: 31.1875em) {
-    #pagination-container {
-      width: 100%;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      z-index: 100;
+    .pagination-container {
       background-color: #c5c5c6;
       /* The Fallback */
-      background: #c5c5c6; } }
+      background: #c5c5c6;
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 9999; } }
   @media screen and (min-width: 37.5em) {
-    #pagination-container {
-      width: 100%;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      z-index: 9999;
+    .pagination-container {
       background-color: #c5c5c6;
       /* The Fallback */
-      background: #c5c5c6; } }
-  @media screen and (min-width: 48em) {
-    #pagination-container {
-      width: 100%;
-      position: fixed;
+      background: #c5c5c6;
       bottom: 0;
       left: 0;
-      z-index: 9999;
+      position: fixed;
+      width: 100%;
+      z-index: 9999; } }
+  @media screen and (min-width: 48em) {
+    .pagination-container {
       background-color: #c5c5c6;
       /* The Fallback */
       background: #c5c5c6;
       border-radius: 0;
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
-      -o-border-radius: 0; } }
+      -o-border-radius: 0;
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 9999; } }
   @media screen and (min-width: 60em) {
-    #pagination-container {
-      position: relative;
-      z-index: 0;
+    .pagination-container {
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -156,9 +119,52 @@ h6 {
       border-radius: 5px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
-      -o-border-radius: 5px; }
-      #pagination-container:last-child {
+      -o-border-radius: 5px;
+      position: relative;
+      z-index: 0; }
+      .pagination-container:last-child {
         margin-right: 0; } }
+  .pagination-container .pagenavigation {
+    display: block;
+    margin: 0 auto;
+    width: 320px; }
+  .pagination-container .home,
+  .pagination-container .home:active {
+    background: url("/images/home-icon.svg") no-repeat 0 0;
+    background-size: 60px;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    margin-right: 7.2em;
+    width: 30px; }
+  .pagination-container .home:hover {
+    background-position: -30px 0; }
+  .pagination-container .prev,
+  .pagination-container .prev:active {
+    background: url("/images/arrow-prev.svg") no-repeat 0 0;
+    background-size: 60px;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    margin-right: 6em;
+    width: 30px; }
+  .pagination-container .prev:hover {
+    background-position: -30px 0; }
+  .pagination-container .next,
+  .pagination-container .next:active {
+    background: url("/images/arrow-next.svg") no-repeat 0 0;
+    background-size: 60px;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 30px; }
+  .pagination-container .next:hover {
+    background-position: -30px 0; }
+  .pagination-container .next span,
+  .pagination-container .prev span,
+  .pagination-container .home span {
+    position: absolute;
+    top: -999em; }
 
 body,
 html {
