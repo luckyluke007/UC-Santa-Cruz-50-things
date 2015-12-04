@@ -4,9 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-/* VARIABLES */
-/* BREAKPOINTS */
-/* MIXINS */
 .sharing-container {
   display: block;
   padding: .5em;
@@ -83,7 +80,6 @@ html {
   @media screen and (max-width: 31.125em) {
     .pagination-container {
       background-color: #c5c5c6;
-      /* The Fallback */
       background: #c5c5c6;
       bottom: 0;
       left: 0;
@@ -93,7 +89,6 @@ html {
   @media screen and (min-width: 31.1875em) {
     .pagination-container {
       background-color: #c5c5c6;
-      /* The Fallback */
       background: #c5c5c6;
       bottom: 0;
       left: 0;
@@ -103,7 +98,6 @@ html {
   @media screen and (min-width: 37.5em) {
     .pagination-container {
       background-color: #c5c5c6;
-      /* The Fallback */
       background: #c5c5c6;
       bottom: 0;
       left: 0;
@@ -113,12 +107,8 @@ html {
   @media screen and (min-width: 48em) {
     .pagination-container {
       background-color: #c5c5c6;
-      /* The Fallback */
       background: #c5c5c6;
       border-radius: 0;
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      -o-border-radius: 0;
       bottom: 0;
       left: 0;
       position: fixed;
@@ -131,12 +121,8 @@ html {
       margin-right: 2.35765%;
       width: 100%;
       background-color: #c5c5c6;
-      /* The Fallback */
       background: rgba(197, 197, 198, 0.2);
       border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -o-border-radius: 5px;
       position: relative;
       z-index: 0; }
       .pagination-container:last-child {
