@@ -416,57 +416,64 @@ h1 {
 .sharing-container {
   display: block;
   padding: .5em;
-  width: 100%;
-  text-align: right; }
+  text-align: right;
+  width: 100%; }
   .sharing-container .container {
     display: block;
     float: right;
     width: auto; }
   .sharing-container span {
+    color: #c5c5c6;
     float: left;
-    padding-right: .5em;
-    color: #c5c5c6; }
-  .sharing-container a.twitter, .sharing-container a.twitter:active {
-    display: inline-block;
-    width: 23px;
-    height: 23px;
+    padding-right: .5em; }
+  .sharing-container .twitter,
+  .sharing-container .twitter:active {
     background: url("/images/twitter.svg") no-repeat 0 0;
     background-size: 46px;
-    float: left;
-    margin-right: 1em; }
-  .sharing-container a.twitter:hover {
-    background-position: -23px 0; }
-  .sharing-container a.facebook, .sharing-container a.facebook:active {
     display: inline-block;
-    width: 23px;
+    float: left;
     height: 23px;
+    margin-right: 1em;
+    width: 23px; }
+  .sharing-container .twitter:hover {
+    background-position: -23px 0; }
+  .sharing-container .facebook,
+  .sharing-container .facebook:active {
     background: url("/images/facebook.svg") no-repeat 0 0;
     background-size: 46px;
-    float: left;
-    margin-right: 1em; }
-  .sharing-container a.facebook:hover {
-    background-position: -23px 0; }
-  .sharing-container a.google, .sharing-container a.google:active {
     display: inline-block;
-    width: 23px;
+    float: left;
     height: 23px;
+    margin-right: 1em;
+    width: 23px; }
+  .sharing-container .facebook:hover {
+    background-position: -23px 0; }
+  .sharing-container .google,
+  .sharing-container .google:active {
     background: url("/images/google.svg") no-repeat 0 0;
     background-size: 46px;
-    float: left;
-    margin-right: 1em; }
-  .sharing-container a.google:hover {
-    background-position: -23px 0; }
-  .sharing-container a.linkedin, .sharing-container a.linkedin:active {
     display: inline-block;
-    width: 23px;
+    float: left;
     height: 23px;
+    margin-right: 1em;
+    width: 23px; }
+  .sharing-container .google:hover {
+    background-position: -23px 0; }
+  .sharing-container .linkedin,
+  .sharing-container .linkedin:active {
     background: url("/images/linkedin.svg") no-repeat 0 0;
     background-size: 46px;
+    display: inline-block;
     float: left;
-    margin-right: .6em; }
-  .sharing-container a.linkedin:hover {
+    height: 23px;
+    margin-right: .6em;
+    width: 23px; }
+  .sharing-container .linkedin:hover {
     background-position: -23px 0; }
-  .sharing-container a.twitter span, .sharing-container a.facebook span, .sharing-container a.google span, .sharing-container a.linkedin span {
+  .sharing-container .twitter span,
+  .sharing-container .facebook span,
+  .sharing-container .google span,
+  .sharing-container .linkedin span {
     position: absolute;
     top: -999em; }
 
