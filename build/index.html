@@ -32,6 +32,39 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
 
+<!-- PAGE TRANSITION -->
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/animsition.min.css" />
+<script type="text/javascript" src="/assets/animsition.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 500,
+    outDuration: 500,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 500,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+
+</script>
+
 
 <!-- PAGE CSS -->
 <link rel="stylesheet" type="text/css" media="screen" href="/assets/main.css" />
@@ -203,7 +236,7 @@
 	<li class="number-list" style="background:url('/images/list-photos/12.jpg') no-repeat; background-size: 100%; ">
 		<div class="title">
 			<div class="vert-align">
-				<h1>13</h1><h2><em>be a</em> sport</h2>
+				<h1>12</h1><h2><em>be a</em> sport</h2>
 				<span class="arrow"></span>
 			</div>
 		</div>

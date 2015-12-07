@@ -1,7 +1,7 @@
 ---
 layout: side-by-side
 title:  "12 be a sport"
-title-one: "13"
+title-one: "12"
 title-two: "be a"
 title-three: "sport"
 img: /images/12.jpg

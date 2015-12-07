@@ -404,6 +404,10 @@ html {
   }
 
   @include media($tablet) {
+    display: block;
+  }
+
+  @include media($desktop) {
     display: none;
   }
 }

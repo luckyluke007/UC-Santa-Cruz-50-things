@@ -65,7 +65,7 @@ html {
   }
 
   .title-container {
-    @include span-columns(12);
+    @include span-columns(11.9);
     float: right;
 
     @include media($mobile-portrait) {
