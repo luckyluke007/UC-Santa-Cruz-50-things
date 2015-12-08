@@ -81,7 +81,7 @@ html {
     }
 
     @include media($tablet) {
-      padding: 2em 2em 0;
+      padding: 0 2em 0;
     }
 
     @include media($desktop) {
@@ -214,22 +214,22 @@ h2 {
   margin: 0;
 
   @include media($mobile-portrait) {
-    font-size: $font-size-h2 * 1.25;
+    font-size: $font-size-h2 * 1.35;
     margin-bottom: .25em;
   }
 
   @include media($mobile) {
-    font-size: $font-size-h2 * 1.25;
+    font-size: $font-size-h2 * 1.35;
     margin-bottom: .25em;
   }
 
   @include media($portrait) {
-    font-size: $font-size-h2 * 1.25;
+    font-size: $font-size-h2 * 1.35;
     margin-bottom: .25em;
   }
 
   @include media($tablet) {
-    font-size: $font-size-h2 * 2;
+    font-size: $font-size-h2 * 1.5;
   }
 }
 
@@ -241,21 +241,22 @@ em {
   line-height: .8em;
 
   @include media($mobile-portrait) {
-    font-size: $font-size-h2 * 1.5;
+    font-size: $font-size-h2 * 1.35;
     margin-bottom: .25em;
   }
 
   @include media($mobile) {
-    font-size: $font-size-h2 * 1.5;
+    font-size: $font-size-h2 * 1.35;
     margin-bottom: .25em;
   }
 
   @include media($portrait) {
-    font-size: $font-size-h2 * 1.5;
+    font-size: $font-size-h2 * 1.35;
     margin-bottom: .25em;
   }
 
   @include media($tablet) {
-    font-size: $font-size-h2 * 2;
+    font-size: $font-size-h2 * 1.5;
+    margin-bottom: 0;
   }
 }

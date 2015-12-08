@@ -270,7 +270,7 @@ html {
       padding: 0 1em; } }
   @media screen and (min-width: 48em) {
     .content-box .title-container {
-      padding: 2em 2em 0; } }
+      padding: 0 2em 0; } }
   @media screen and (min-width: 60em) {
     .content-box .title-container {
       padding: 0; } }
@@ -395,19 +395,19 @@ h2 {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
     h2 {
-      font-size: 37.5px;
+      font-size: 40.5px;
       margin-bottom: .25em; } }
   @media screen and (min-width: 31.1875em) {
     h2 {
-      font-size: 37.5px;
+      font-size: 40.5px;
       margin-bottom: .25em; } }
   @media screen and (min-width: 37.5em) {
     h2 {
-      font-size: 37.5px;
+      font-size: 40.5px;
       margin-bottom: .25em; } }
   @media screen and (min-width: 48em) {
     h2 {
-      font-size: 60px; } }
+      font-size: 45px; } }
 
 em {
   float: left;
@@ -422,19 +422,20 @@ em {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
     em {
-      font-size: 45px;
+      font-size: 40.5px;
       margin-bottom: .25em; } }
   @media screen and (min-width: 31.1875em) {
     em {
-      font-size: 45px;
+      font-size: 40.5px;
       margin-bottom: .25em; } }
   @media screen and (min-width: 37.5em) {
     em {
-      font-size: 45px;
+      font-size: 40.5px;
       margin-bottom: .25em; } }
   @media screen and (min-width: 48em) {
     em {
-      font-size: 60px; } }
+      font-size: 45px;
+      margin-bottom: 0; } }
 
 body,
 p,
