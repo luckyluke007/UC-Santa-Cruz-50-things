@@ -270,7 +270,7 @@ html {
       padding: 0 1em; } }
   @media screen and (min-width: 48em) {
     .content-box .title-container {
-      padding: 0 2em 0; } }
+      padding: 0 2em; } }
   @media screen and (min-width: 60em) {
     .content-box .title-container {
       padding: 0; } }
