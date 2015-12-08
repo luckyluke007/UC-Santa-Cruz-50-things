@@ -105,6 +105,7 @@ html {
 }
 
 h1 {
+  @include span-columns(12);
   color: $yellow;
   display: block;
   font-weight: 500;
