@@ -92,7 +92,6 @@ html {
   .text-box {
     @include span-columns(12);
     color: $blue;
-    float: right;
     line-height: $line-height;
 
     @include media($mobile-portrait) {
@@ -116,7 +115,7 @@ html {
     }
 
     .logo {
-      bottom: 0;
+      bottom: 4em;
       display: block;
       max-width: 300px;
       width: 100%;
@@ -128,18 +127,22 @@ html {
 
     @include media($mobile-portrait) {
       display: block;
+      margin-top: 1em;
     }
 
     @include media($mobile) {
       display: block;
+      margin-top: 1em;
     }
 
     @include media($portrait) {
       display: block;
+      margin-top: 1em;
     }
 
     @include media($tablet) {
       display: block;
+      margin-top: 1em;
     }
 
     @include media($desktop) {
@@ -182,6 +185,7 @@ h1 {
   @include span-columns(12);
   color: $yellow;
   font-weight: 500;
+  line-height: 1em;
   margin: 0;
   text-transform: uppercase;
 
@@ -202,6 +206,33 @@ h1 {
   }
 }
 
+h2 {
+  @include span-columns(12);
+  color: $yellow;
+  font-weight: 500;
+  line-height: .8em;
+  margin: 0;
+
+  @include media($mobile-portrait) {
+    font-size: $font-size-h2 * 1.25;
+    margin-bottom: .25em;
+  }
+
+  @include media($mobile) {
+    font-size: $font-size-h2 * 1.25;
+    margin-bottom: .25em;
+  }
+
+  @include media($portrait) {
+    font-size: $font-size-h2 * 1.25;
+    margin-bottom: .25em;
+  }
+
+  @include media($tablet) {
+    font-size: $font-size-h2 * 2;
+  }
+}
+
 em {
   @include span-columns(12);
   color: $blue;
@@ -211,37 +242,17 @@ em {
 
   @include media($mobile-portrait) {
     font-size: $font-size-h2 * 1.5;
+    margin-bottom: .25em;
   }
 
   @include media($mobile) {
     font-size: $font-size-h2 * 1.5;
+    margin-bottom: .25em;
   }
 
   @include media($portrait) {
     font-size: $font-size-h2 * 1.5;
-  }
-
-  @include media($tablet) {
-    font-size: $font-size-h2 * 2;
-  }
-}
-
-h2 {
-  @include span-columns(12);
-  color: $yellow;
-  font-weight: 500;
-  margin: 0;
-
-  @include media($mobile-portrait) {
-    font-size: $font-size-h2 * 1.5;
-  }
-
-  @include media($mobile) {
-    font-size: $font-size-h2 * 1.5;
-  }
-
-  @include media($portrait) {
-    font-size: $font-size-h2 * 1.5;
+    margin-bottom: .25em;
   }
 
   @include media($tablet) {

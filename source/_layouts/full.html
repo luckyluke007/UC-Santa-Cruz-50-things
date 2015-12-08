@@ -57,7 +57,8 @@
 
     <div class="content-box">
       <h1>{{ page.title-one }}</h1>
-      <h2><em>{{ page.title-two }}</em> {{ page.title-three }}</h2>
+      
+      <h2><em>{{ page.title-two }}</em>  {{ page.title-three }}</h2>
       <img src="{{ page.img }}" alt="page.alt" class="mphoto">
       <div class="text-box">
       {{ page.content }}
@@ -65,6 +66,7 @@
       {% include sharing.html %}
 
       <img src="{% asset_path blue-logo.svg %}" class="logo" alt="UC Santa Cruz">
+      <div class="clear"></div>
       {% include pagination.html %}
       </div>
     </div>

@@ -79,13 +79,128 @@ html {
     display: block;
     text-align: right;
   }
+
+  h1 { // Desktop h1
+
+    @include media($mobile-portrait) {
+      display: none;
+    }
+
+    @include media($mobile) {
+      display: none;
+    }
+
+    @include media($portrait) {
+      display: none;
+    }
+
+    @include media($tablet) {
+      display: none;
+    }
+
+    @include media($desktop) {
+      display: block;
+    }
+  }
 }
 
 h1 {
   color: $yellow;
-  font-size: $font-size-h1 * 1.25;
+  display: block;
   font-weight: 500;
+  line-height: 1em;
+  margin: 0 0 .05em;
+  padding-left: .1em;
   text-transform: uppercase;
+
+  @include media($mobile-portrait) {
+    font-size: $font-size-h1 / 1.35;
+  }
+
+  @include media($mobile) {
+    font-size: $font-size-h1 / 1.35;
+  }
+
+  @include media($portrait) {
+    font-size: $font-size-h1 / 1.35;
+  }
+
+  @include media($tablet) {
+    font-size: $font-size-h1 * 1.25;
+  }
+
+  @include media($desktop) {
+    font-size: $font-size-h1 * 1.25;
+  }
+}
+
+h2 {
+  color: $yellow;
+  display: block;
+  font-weight: 500;
+  line-height: 1.05em;
+  margin: 0 0 .25em;
+
+  @include media($mobile-portrait) {
+    font-size: $font-size-h2 * 1.25;
+    padding-left: .25em;
+  }
+
+  @include media($mobile) {
+    font-size: $font-size-h2 * 1.25;
+    padding-left: .25em;
+  }
+
+  @include media($portrait) {
+    font-size: $font-size-h2 * 1.25;
+    padding-left: .25em;
+  }
+
+  @include media($tablet) {
+    font-size: $font-size-h2 * 1.5;
+    padding-left: .25em;
+    text-shadow: 0 0 $light-gray;
+  }
+
+  @include media($desktop) {
+    padding-left: 0;
+    text-shadow: 1px 1px $light-gray;
+  }
+}
+
+em {
+  color: $blue;
+  font-family: $serif-font;
+  font-style: italic;
+  line-height: .8em;
+  margin: 0 0 .05em;
+
+  @include media($mobile-portrait) {
+    @include span-columns(12);
+    font-size: $font-size-h2 * 1.5;
+  }
+
+  @include media($mobile) {
+    @include span-columns(12);
+    font-size: $font-size-h2 * 1.5;
+  }
+
+  @include media($portrait) {
+    @include span-columns(12);
+    font-size: $font-size-h2 * 1.5;
+  }
+
+  @include media($tablet) {
+    @include span-columns(12);
+    font-size: $font-size-h2 * 1.5;
+    text-shadow: 0 0 $light-gray;
+  }
+
+  @include media($desktop) {
+    padding: .20em .35em 0 0;
+    text-shadow: 1px 1px $light-gray;
+    width: auto;
+  }
 }
 
 .desktop-logo {
@@ -137,15 +252,10 @@ h1 {
   @include media($desktop) {
 
     @include span-columns(8);
-    padding-top: 1.25em;
+    padding: 1.25em 0 0 1.25em;
   }
 
-  h1 {
-    color: $yellow;
-    font-size: $font-size-h1 * 1.25;
-    font-weight: 500;
-    padding-left: .1em;
-    text-transform: uppercase;
+  h1 { // Mobile h1
 
     @include media($mobile-portrait) {
       display: block;
@@ -167,71 +277,6 @@ h1 {
       display: none;
     }
   }
-
-  h2 {
-    color: $yellow;
-    font-weight: 500;
-
-    @include media($mobile-portrait) {
-      font-size: $font-size-h2 * 1.5;
-      padding-left: .25em;
-    }
-
-    @include media($mobile) {
-      font-size: $font-size-h2 * 1.5;
-      padding-left: .25em;
-    }
-
-    @include media($portrait) {
-      font-size: $font-size-h2 * 1.5;
-      padding-left: .25em;
-    }
-
-    @include media($tablet) {
-      font-size: $font-size-h2 * 2;
-      padding-left: .25em;
-      text-shadow: 0 0 $light-gray;
-    }
-
-    @include media($desktop) {
-      padding-left: 0;
-      text-shadow: 1px 1px $light-gray;
-    }
-
-    em {
-      color: $blue;
-      font-family: $serif-font;
-      font-style: italic;
-      line-height: $font-size-h2;
-
-      @include media($mobile-portrait) {
-        @include span-columns(12);
-        font-size: $font-size-h2 * 1.5;
-      }
-
-      @include media($mobile) {
-        @include span-columns(12);
-        font-size: $font-size-h2 * 1.5;
-      }
-
-      @include media($portrait) {
-        @include span-columns(12);
-        font-size: $font-size-h2 * 1.5;
-      }
-
-      @include media($tablet) {
-        @include span-columns(12);
-        font-size: $font-size-h2 * 2;
-        text-shadow: 0 0 $light-gray;
-      }
-
-      @include media($desktop) {
-        padding: .40em .25em 0 0;
-        text-shadow: 1px 1px $light-gray;
-        width: auto;
-      }
-   }
-}
 
   .text-box {
     @include span-columns(12);
@@ -260,7 +305,7 @@ h1 {
     }
 
     .logo {
-      bottom: 0;
+      bottom: 2em;
       max-width: 300px;
       width: 100%;
 
@@ -292,18 +337,22 @@ h1 {
 
   @include media($mobile-portrait) {
     display: block;
+    margin-top: 1em;
   }
 
   @include media($mobile) {
     display: block;
+    margin-top: 1em;
   }
 
   @include media($portrait) {
     display: block;
+    margin-top: 1em;
   }
 
   @include media($tablet) {
     display: block;
+    margin-top: 1em;
   }
 
   @include media($desktop) {

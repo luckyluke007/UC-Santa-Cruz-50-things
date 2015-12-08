@@ -280,7 +280,6 @@ html {
   margin-right: 2.35765%;
   width: 100%;
   color: #27578c;
-  float: right;
   line-height: 24px; }
   .content-box .text-box:last-child {
     margin-right: 0; }
@@ -300,7 +299,7 @@ html {
     .content-box .text-box {
       padding: 0; } }
   .content-box .text-box .logo {
-    bottom: 0;
+    bottom: 4em;
     display: block;
     max-width: 300px;
     width: 100%; }
@@ -313,16 +312,20 @@ html {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
     .content-box .mobile-photo {
-      display: block; } }
+      display: block;
+      margin-top: 1em; } }
   @media screen and (min-width: 31.1875em) {
     .content-box .mobile-photo {
-      display: block; } }
+      display: block;
+      margin-top: 1em; } }
   @media screen and (min-width: 37.5em) {
     .content-box .mobile-photo {
-      display: block; } }
+      display: block;
+      margin-top: 1em; } }
   @media screen and (min-width: 48em) {
     .content-box .mobile-photo {
-      display: block; } }
+      display: block;
+      margin-top: 1em; } }
   @media screen and (min-width: 60em) {
     .content-box .mobile-photo {
       display: none; } }
@@ -361,6 +364,7 @@ h1 {
   width: 100%;
   color: #f1b521;
   font-weight: 500;
+  line-height: 1em;
   margin: 0;
   text-transform: uppercase; }
   h1:last-child {
@@ -378,6 +382,33 @@ h1 {
     h1 {
       font-size: 125px; } }
 
+h2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  color: #f1b521;
+  font-weight: 500;
+  line-height: .8em;
+  margin: 0; }
+  h2:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 31.125em) {
+    h2 {
+      font-size: 37.5px;
+      margin-bottom: .25em; } }
+  @media screen and (min-width: 31.1875em) {
+    h2 {
+      font-size: 37.5px;
+      margin-bottom: .25em; } }
+  @media screen and (min-width: 37.5em) {
+    h2 {
+      font-size: 37.5px;
+      margin-bottom: .25em; } }
+  @media screen and (min-width: 48em) {
+    h2 {
+      font-size: 60px; } }
+
 em {
   float: left;
   display: block;
@@ -391,47 +422,21 @@ em {
     margin-right: 0; }
   @media screen and (max-width: 31.125em) {
     em {
-      font-size: 45px; } }
+      font-size: 45px;
+      margin-bottom: .25em; } }
   @media screen and (min-width: 31.1875em) {
     em {
-      font-size: 45px; } }
+      font-size: 45px;
+      margin-bottom: .25em; } }
   @media screen and (min-width: 37.5em) {
     em {
-      font-size: 45px; } }
+      font-size: 45px;
+      margin-bottom: .25em; } }
   @media screen and (min-width: 48em) {
     em {
-      font-size: 60px; } }
-
-h2 {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  color: #f1b521;
-  font-weight: 500;
-  margin: 0; }
-  h2:last-child {
-    margin-right: 0; }
-  @media screen and (max-width: 31.125em) {
-    h2 {
-      font-size: 45px; } }
-  @media screen and (min-width: 31.1875em) {
-    h2 {
-      font-size: 45px; } }
-  @media screen and (min-width: 37.5em) {
-    h2 {
-      font-size: 45px; } }
-  @media screen and (min-width: 48em) {
-    h2 {
       font-size: 60px; } }
 
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 pre,

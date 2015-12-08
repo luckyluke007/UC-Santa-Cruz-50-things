@@ -168,6 +168,14 @@ html {
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden; }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0; }
+
 .intro-container {
   clear: both;
   display: block;
@@ -954,12 +962,6 @@ a:first-child .number-list {
     background-position: -40px 0; } }
 
 body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 pre,
