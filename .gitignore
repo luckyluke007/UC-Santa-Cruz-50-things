@@ -1,6 +1,7 @@
+build
 _site
+.asset-cache
 .sass-cache
-
 *.cache
 
 /source/.asset-cache/*
