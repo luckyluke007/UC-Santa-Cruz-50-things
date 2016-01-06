@@ -225,8 +225,8 @@ em {
   @include media($desktop) {
     display: block;
     float: right;
-    margin-top: -1em;
-    max-width: 275px;
+    margin-top: 1em;
+    max-width: 260px;
   }
 }
 

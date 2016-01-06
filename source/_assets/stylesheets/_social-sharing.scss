@@ -15,72 +15,57 @@
     float: left;
     padding-right: .5em;
   }
-
-  .twitter,
-  .twitter:active {
-    background: url('/images/twitter.svg') no-repeat 0 0;
-    background-size: 46px;
-    display: inline-block;
-    float: left;
-    height: 23px;
-    margin-right: 1em;
-    width: 23px;
-  }
-
-  .twitter:hover {
-    background-position: -23px 0;
-  }
-
-  .facebook,
-  .facebook:active {
-    background: url('/images/facebook.svg') no-repeat 0 0;
-    background-size: 46px;
-    display: inline-block;
-    float: left;
-    height: 23px;
-    margin-right: 1em;
-    width: 23px;
-  }
-
-  .facebook:hover {
-    background-position: -23px 0;
-  }
-
-  .google,
-  .google:active {
-    background: url('/images/google.svg') no-repeat 0 0;
-    background-size: 46px;
-    display: inline-block;
-    float: left;
-    height: 23px;
-    margin-right: 1em;
-    width: 23px;
-  }
-
-  .google:hover {
-    background-position: -23px 0;
-  }
-
-  .linkedin,
-  .linkedin:active {
-    background: url('/images/linkedin.svg') no-repeat 0 0;
-    background-size: 46px;
-    display: inline-block;
-    float: left;
-    height: 23px;
-    margin-right: .6em;
-    width: 23px;
-  }
-
-  .linkedin:hover {
-    background-position: -23px 0;
-  }
-
-  .twitter span,
-  .facebook span,
-  .google span,
-  .linkedin span {
-    position: absolute;
-    top: -999em;
-  }
 }
+
+.twitter,
+.twitter:active {
+  background: url('/images/twitter.svg') no-repeat 0 0;
+}
+
+.facebook,
+.facebook:active {
+  background: url('/images/facebook.svg') no-repeat 0 0;
+}
+
+.google,
+.google:active {
+  background: url('/images/google.svg') no-repeat 0 0;
+}
+
+.linkedin,
+.linkedin:active {
+  background: url('/images/linkedin.svg') no-repeat 0 0;
+  margin-right: .6em;
+}
+
+.twitter,
+.twitter:active,
+.facebook,
+.facebook:active,
+.google,
+.google:active,
+.linkedin,
+.linkedin:active {
+  background-size: 46px;
+  display: block;
+  float: left;
+  height: 23px;
+  margin-right: 1em;
+  width: 23px;
+}
+
+.twitter:hover,
+.facebook:hover,
+.google:hover,
+.linkedin:hover {
+  background-position: -23px 0;
+}
+
+.twitter span,
+.facebook span,
+.google span,
+.linkedin span {
+  position: absolute;
+  top: -999em;
+}
+
