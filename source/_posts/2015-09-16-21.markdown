@@ -4,10 +4,10 @@ title:  "21 safety first"
 title-one: "21"
 title-two: "safety"
 title-three: "first"
-img: /images/21.jpg
-mimg: /images/list-photos/21.jpg
+img: images/21.jpg
+mimg: images/list-photos/21.jpg
 alt: "Redwoods"
-teaser-image: /images/list-photos/21.jpg
+teaser-image: images/list-photos/21.jpg
 date:   2015-09-16
 categories: list
 number: 21

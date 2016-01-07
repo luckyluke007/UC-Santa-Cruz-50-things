@@ -4,10 +4,10 @@ title:  "11 walk to the beat of your own drum"
 title-one: "11"
 title-two: "walk to the beat"
 title-three: "of your own drum"
-img: /images/11.jpg
-mimg: /images/11-mobile.jpg
+img: images/11.jpg
+mimg: images/11-mobile.jpg
 alt: "Playing drum"
-teaser-image: /images/list-photos/11.jpg
+teaser-image: images/list-photos/11.jpg
 date:   2015-09-16
 categories: list
 number: 11

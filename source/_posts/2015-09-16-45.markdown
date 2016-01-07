@@ -4,10 +4,10 @@ title:  "45 honor diversity"
 title-one: "45"
 title-two: "honor"
 title-three: "diversity"
-img: /images/45.jpg
+img: images/45.jpg
 mimg: 
 alt: "Hispanic student smiling at graduation"
-teaser-image: /images/list-photos/45.jpg
+teaser-image: images/list-photos/45.jpg
 date:   2015-09-16
 categories: list
 number: 45

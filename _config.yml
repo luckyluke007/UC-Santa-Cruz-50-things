@@ -10,6 +10,8 @@ email: pio@ucsc.edu
 description: In honor of the campus's 50th year — here are 50 ways to become just as amazing as UC Santa Cruz.
 url: "" # the base hostname & protocol for your site
 
+baseurl: "/50-ways/"
+
 permalink: "/:title/"
 timezone: America/Los_Angeles
 

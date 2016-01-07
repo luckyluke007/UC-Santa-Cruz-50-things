@@ -4,10 +4,10 @@ title:  "29 write up a storm"
 title-one: "29"
 title-two: "write up"
 title-three: "a storm"
-img: /images/29.jpg
-mimg: /images/29-mobile.jpg
+img: images/29.jpg
+mimg: images/29-mobile.jpg
 alt: "Space Shuttle"
-teaser-image: /images/list-photos/29.jpg
+teaser-image: images/list-photos/29.jpg
 date:   2015-09-16
 categories: list
 number: 29

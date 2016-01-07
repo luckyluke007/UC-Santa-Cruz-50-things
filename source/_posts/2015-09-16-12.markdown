@@ -4,10 +4,10 @@ title:  "12 be a sport"
 title-one: "12"
 title-two: "be a"
 title-three: "sport"
-img: /images/12.jpg
+img: images/12.jpg
 mimg: 
 alt: "Emily Brodsky"
-teaser-image: /images/list-photos/12.jpg
+teaser-image: images/list-photos/12.jpg
 date:   2015-09-16
 categories: list
 number: 12

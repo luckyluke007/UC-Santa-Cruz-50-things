@@ -4,10 +4,10 @@ title:  "Five seek imaginative friends"
 title-one: "Five"
 title-two: "seek"
 title-three: "imaginative friends"
-img: /images/5.jpg
+img: images/5.jpg
 mimg: 
 alt: "Print letters"
-teaser-image: /images/list-photos/5.jpg
+teaser-image: images/list-photos/5.jpg
 date:   2015-09-16
 categories: list
 number: 5

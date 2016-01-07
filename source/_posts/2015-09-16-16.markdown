@@ -4,10 +4,10 @@ title:  "16 explore uncharted waters"
 title-one: "16"
 title-two: "explore"
 title-three: "uncharted waters"
-img: /images/16.jpg
+img: images/16.jpg
 mimg: 
 alt: "Terrie Williams"
-teaser-image: /images/list-photos/16.jpg
+teaser-image: images/list-photos/16.jpg
 date:   2015-09-16
 categories: list
 number: 16

@@ -4,10 +4,10 @@ title:  "Seven make play serious"
 title-one: "Seven"
 title-two: "make play"
 title-three: "serious"
-img: /images/7.jpg
-mimg: /images/7-mobile.jpg
+img: images/7.jpg
+mimg: images/7-mobile.jpg
 alt: "Print letters"
-teaser-image: /images/list-photos/7.jpg
+teaser-image: images/list-photos/7.jpg
 date:   2015-09-16
 categories: list
 number: 7

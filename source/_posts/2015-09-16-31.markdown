@@ -4,10 +4,10 @@ title:  "31 always explore"
 title-one: "31"
 title-two: "always"
 title-three: "explore"
-img: /images/31.jpg
-mimg: /images/31-mobile.jpg
+img: images/31.jpg
+mimg: images/31-mobile.jpg
 alt: "Space Shuttle"
-teaser-image: /images/list-photos/31.jpg
+teaser-image: images/list-photos/31.jpg
 date:   2015-09-16
 categories: list
 number: 31

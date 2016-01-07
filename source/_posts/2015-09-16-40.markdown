@@ -4,10 +4,10 @@ title:  "40 host writers"
 title-one: "40"
 title-two: "host"
 title-three: "writers"
-img: /images/40.jpg
-mimg: /images/list-photos/40.jpg
+img: images/40.jpg
+mimg: images/list-photos/40.jpg
 alt: "students jump"
-teaser-image: /images/list-photos/40.jpg
+teaser-image: images/list-photos/40.jpg
 date:   2015-09-16
 categories: list
 number: 40
@@ -15,4 +15,6 @@ tags:
 - ucsc
 - 50amazing
 ---
-Our students have benefited from learning from great visiting artists, including the celebrated short story writer Raymond Carver and acclaimed performer and writer Spalding Gray. Carver taught at the campus for three years. Gray taught a summer session course, an experience that helped spark his interest in dramatic monologue. See also No. 17.
+Our students have benefited from learning from great visiting artists, including the celebrated short story writer Raymond Carver and acclaimed performer and writer Spalding Gray. Carver taught at the campus for three years. Gray taught a summer session course, an experience that helped spark his interest in dramatic monologue. See also No. 17.
+
+

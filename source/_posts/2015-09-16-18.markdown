@@ -4,10 +4,10 @@ title:  "18 shake up the paradigm"
 title-one: "18"
 title-two: "shake up"
 title-three: "the paradigm"
-img: /images/18.jpg
-mimg: /images/18-mobile.jpg
+img: images/18.jpg
+mimg: images/18-mobile.jpg
 alt: "Hands holding bone and wood"
-teaser-image: /images/list-photos/18.jpg
+teaser-image: images/list-photos/18.jpg
 date:   2015-09-16
 categories: list
 number: 18

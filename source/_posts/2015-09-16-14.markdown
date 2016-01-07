@@ -4,10 +4,10 @@ title:  "14 look deep"
 title-one: "14"
 title-two: "look"
 title-three: "deep"
-img: /images/14.jpg
+img: images/14.jpg
 mimg: 
 alt: "Emily Brodsky"
-teaser-image: /images/list-photos/14.jpg
+teaser-image: images/list-photos/14.jpg
 date:   2015-09-16
 categories: list
 number: 14

@@ -4,10 +4,10 @@ title:  "39 celebrate history"
 title-one: "39"
 title-two: "celebrate"
 title-three: "history"
-img: /images/39.jpg
-mimg: /images/list-photos/39.jpg
+img: images/39.jpg
+mimg: images/list-photos/39.jpg
 alt: "Historical houses"
-teaser-image: /images/list-photos/39.jpg
+teaser-image: images/list-photos/39.jpg
 date:   2015-09-16
 categories: list
 number: 39
@@ -15,4 +15,5 @@ tags:
 - ucsc
 - 50amazing
 ---
-UC Santa Cruz is located on the site of the former Cowell Ranch. The Davis and Cowell, and later Henry Cowell, companies mined limestone here and used wood-burning kilns to convert it into lime in the late 19th and early 20th centuries. Lime was critical in the manufacture of cement and was used in the rebuilding of San Francisco after the 1906 earthquake. The campus’s Cowell Lime Works Historic District is listed on the National Register of Historic Places. Historic ranch buildings still remain near the entrance of campus to this day. 
+UC Santa Cruz is located on the site of the former Cowell Ranch. The Davis and Cowell, and later Henry Cowell, companies mined limestone here and used wood-burning kilns to convert it into lime in the late 19th and early 20th centuries. Lime was critical in the manufacture of cement and was used in the rebuilding of San Francisco after the 1906 earthquake. The campus’s Cowell Lime Works Historic District is listed on the National Register of Historic Places. Historic ranch buildings still remain near the entrance of campus to this day. 
+

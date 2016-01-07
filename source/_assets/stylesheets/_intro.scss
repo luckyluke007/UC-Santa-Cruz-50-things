@@ -1,7 +1,7 @@
 // 50 things home intro
 body,
 html {
-  background: $blue url('/images/bg-seal.svg') no-repeat center center;
+  background: $blue url('/50-ways/images/bg-seal.svg') no-repeat center center;
   background-size: cover;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
@@ -48,7 +48,7 @@ h5 {
 
 .bg-container {
   @include outer-container;
-  background: url('/images/front-photo.jpg') no-repeat;
+  background: url('/50-ways/images/front-photo.jpg') no-repeat;
   background-size: cover;
   margin: 0 auto;
   max-height: 681px;
@@ -565,7 +565,7 @@ h5 {
 }
 
 .read-mobile {
-  background: url('/images/arrow-down.svg') no-repeat 0 0;
+  background: url('/50-ways/images/arrow-down.svg') no-repeat 0 0;
   display: block;
   margin: 0 auto;
   overflow: -9000px;
@@ -815,7 +815,7 @@ a:first-child .number-list {
 }
 
 .arrow {
-  background: url('/images/arrow-right.svg') no-repeat 0 0;
+  background: url('/50-ways/images/arrow-right.svg') no-repeat 0 0;
   display: block;
   margin: .5em 0 1em;
   overflow: -9000px;

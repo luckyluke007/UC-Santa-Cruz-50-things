@@ -4,10 +4,10 @@ title:  "Three ignore the naysayers"
 title-one: "Three"
 title-two: "ignore the"
 title-three: "naysayers"
-img: /images/three.jpg
-mimg: /images/three-mobile.jpg
+img: images/three.jpg
+mimg: images/three-mobile.jpg
 alt: "UC Santa Cruz grad student holding chemical cylinders"
-teaser-image: /images/list-photos/3.jpg
+teaser-image: images/list-photos/3.jpg
 date:   2015-09-16
 categories: list
 number: 03

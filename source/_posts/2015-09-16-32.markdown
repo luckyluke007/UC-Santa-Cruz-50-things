@@ -4,10 +4,10 @@ title:  "32 tune in"
 title-one: "32"
 title-two: "tune"
 title-three: "in"
-img: /images/32.jpg
-mimg: /images/list-photos/32.jpg
+img: images/32.jpg
+mimg: images/list-photos/32.jpg
 alt: "NPR logo"
-teaser-image: /images/list-photos/32.jpg
+teaser-image: images/list-photos/32.jpg
 date:   2015-09-16
 categories: list
 number: 32

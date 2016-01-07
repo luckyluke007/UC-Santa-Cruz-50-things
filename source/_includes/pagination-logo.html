@@ -3,12 +3,12 @@
 <div class="clear"></div>
 <div class="pagination-container">
 <div class="pagenavigation">
-    <a href="/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
+    <a href="/50-ways/index.html" class="home animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="500"><span>Home</span></a>
   {% if page.previous.url %}
-    <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="{{page.previous.url}}"><span>&laquo; Prev</span></a>
+    <a class="prev animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="{{ site.baseurl }}{{page.previous.url}}"><span>&laquo; Prev</span></a>
   {% endif %}
   {% if page.next.url %}
-    <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="{{page.next.url}}"><span>Next &raquo;</span></a>
+    <a class="next animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="500" href="{{ site.baseurl }}{{page.next.url}}"><span>Next &raquo;</span></a>
   {% endif %}
   </div>
 </div>

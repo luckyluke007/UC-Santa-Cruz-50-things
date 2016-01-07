@@ -4,10 +4,10 @@ title:  "Four tell the truth"
 title-one: "Four"
 title-two: "tell"
 title-three: "the truth"
-img: /images/no-photo.jpg
+img: images/no-photo.jpg
 mimg: 
 alt: "UC Santa Cruz's seal"
-teaser-image: /images/list-photos/no-photo.jpg
+teaser-image: images/list-photos/no-photo.jpg
 date:   2015-09-16
 categories: list
 number: 4

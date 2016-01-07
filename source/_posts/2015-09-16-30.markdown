@@ -4,10 +4,10 @@ title:  "30 live for saturday night"
 title-one: "30"
 title-two: "live for"
 title-three: "saturday night"
-img: /images/30.jpg
-mimg: /images/30-mobile.jpg
+img: images/30.jpg
+mimg: images/30-mobile.jpg
 alt: "Adam Samberg - SNL"
-teaser-image: /images/list-photos/30.jpg
+teaser-image: images/list-photos/30.jpg
 date:   2015-09-16
 categories: list
 number: 30

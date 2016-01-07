@@ -4,10 +4,10 @@ title:  "22 branch out"
 title-one: "22"
 title-two: "branch"
 title-three: "out"
-img: /images/22.jpg
-mimg: /images/list-photos/23.jpg
+img: images/22.jpg
+mimg: images/list-photos/23.jpg
 alt: "Redwoods"
-teaser-image: /images/list-photos/22.jpg
+teaser-image: images/list-photos/22.jpg
 date:   2015-09-16
 categories: list
 number: 22

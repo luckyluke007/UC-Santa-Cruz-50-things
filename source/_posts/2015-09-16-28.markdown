@@ -4,10 +4,10 @@ title:  "28 raise your hand"
 title-one: "28"
 title-two: "raise"
 title-three: "your hand"
-img: /images/28.jpg
-mimg: /images/28-mobile.jpg
+img: images/28.jpg
+mimg: images/28-mobile.jpg
 alt: "Space Shuttle"
-teaser-image: /images/list-photos/28.jpg
+teaser-image: images/list-photos/28.jpg
 date:   2015-09-16
 categories: list
 number: 28

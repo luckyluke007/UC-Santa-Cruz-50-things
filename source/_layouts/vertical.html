@@ -18,7 +18,7 @@
     display: table; }
   @media screen and (max-width: 37.4375em) {
     .page-transition {
-      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ site.baseurl }}{{ page.img }}");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -30,7 +30,7 @@
       } }
   @media screen and (min-width: 37.5em) {
     .page-transition {
-      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ site.baseurl }}{{ page.img }}");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -41,7 +41,7 @@
       overflow: auto; } }
   @media screen and (min-width: 48em) {
     .page-transition {
-      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("{{ site.baseurl }}{{ page.img }}");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -61,7 +61,7 @@
 <div class="page-transition animsition">
 <div class="container">
 	<div class="content-container">
-			<div class="photo-box" style="background: url({{ page.img }}); background-size: cover; -webkit-background-size: cover; -moz-background-size:cover; background-position: center center; background-repeat: no-repeat;">
+			<div class="photo-box" style="background: url({{ site.baseurl }}{{ page.img }}); background-size: cover; -webkit-background-size: cover; -moz-background-size:cover; background-position: center center; background-repeat: no-repeat;">
 				<div class="title-container">
 					<h1>{{ page.title-one }}</h1><em>{{ page.title-two }}</em><h2>{{ page.title-three }}</h2>
 				</div>
@@ -70,7 +70,7 @@
 				<div class="mtitle-container">
 					<h1>{{ page.title-one }}</h1><em>{{ page.title-two }}</em><h2>{{ page.title-three }}</h2>
 				</div>
-        <img src="{{ page.mimg }}" alt="{{ page.alt }}" class="mobile-photo">
+        <img src="{{ site.baseurl }}{{ page.mimg }}" alt="{{ page.alt }}" class="mobile-photo">
 				<div class="text-box">
 				<p>{{ content }}</p>
 

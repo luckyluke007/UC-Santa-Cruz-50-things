@@ -4,10 +4,10 @@ title:  "36 make unusual choices"
 title-one: "36"
 title-two: "make unusual"
 title-three: "choices"
-img: /images/36.jpg
-mimg: /images/list-photos/36.jpg
+img: images/36.jpg
+mimg: images/list-photos/36.jpg
 alt: "Banana Slug"
-teaser-image: /images/list-photos/36.jpg
+teaser-image: images/list-photos/36.jpg
 date:   2015-09-16
 categories: list
 number: 36
@@ -15,4 +15,5 @@ tags:
 - ucsc
 - 50amazing
 ---
-Our famous Banana Slug mascot almost didn't survive the '80s. Back when we joined the NCAA, the chancellor changed the campus mascot to the fiercer-sounding sea lion. In 1986, an overwhelming pro-Slug vote by students persuaded the chancellor to make the humble but beloved Banana Slug our official mascot. UC Santa Cruz athletic teams have taunted opposing squads by wearing T-shirts with the slogan, "Banana Slugs-No Known Predators." But that's not exactly true. On campus, known predators include California giant salamanders, garter snakes, shrews, and raccoons. Even humans have been known to eat banana slugs, in emergencies. Interestingly, a statue of a sea lion stands proudly outside Thimann Lecture Hall, but there is no statue of the mighty Banana Slug anywhere on campus.
+Our famous Banana Slug mascot almost didn't survive the '80s. Back when we joined the NCAA, the chancellor changed the campus mascot to the fiercer-sounding sea lion. In 1986, an overwhelming pro-Slug vote by students persuaded the chancellor to make the humble but beloved Banana Slug our official mascot. UC Santa Cruz athletic teams have taunted opposing squads by wearing T-shirts with the slogan, "Banana Slugs-No Known Predators." But that's not exactly true. On campus, known predators include California giant salamanders, garter snakes, shrews, and raccoons. Even humans have been known to eat banana slugs, in emergencies. Interestingly, a statue of a sea lion stands proudly outside Thimann Lecture Hall, but there is no statue of the mighty Banana Slug anywhere on campus.
+

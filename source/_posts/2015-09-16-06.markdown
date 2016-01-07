@@ -4,10 +4,10 @@ title:  "Six protect the vulnerable"
 title-one: "Six"
 title-two: "protect"
 title-three: "the vulnerable"
-img: /images/6.jpg
-mimg: /images/6-mobile.jpg
+img: images/6.jpg
+mimg: images/6-mobile.jpg
 alt: "Print letters"
-teaser-image: /images/list-photos/6.jpg
+teaser-image: images/list-photos/6.jpg
 date:   2015-09-16
 categories: list
 number: 6
