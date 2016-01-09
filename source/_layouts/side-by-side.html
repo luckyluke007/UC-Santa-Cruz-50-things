@@ -12,12 +12,12 @@
 <div class="page-transition animsition">
   <div class="container">
 	<div class="content-container">
-		<div class="photo-box"><img src="/50-ways/{{ page.img }}" alt="{{ page.alt }}"></div>
+		<div class="photo-box"><img src="{{ page.img | prepend: site.baseurl }}" alt="{{ page.alt }}"></div>
 		<div class="content-box">
 			<div class="title-container">
 				<h1>{{ page.title-one }}</h1><em>{{ page.title-two }}</em><h2>{{ page.title-three }}</h2>
-			</div>
-			<img src="{{ site.baseurl }}{{ page.img }}" class="mobile-photo" alt="{{ page.alt }}">
+			</div>			
+			<img src="{{ page.img | prepend: site.baseurl }}" class="mobile-photo" alt="{{ page.alt }}">
 			<div class="text-box">
 			<p>{{ content }}</p>
 

@@ -20,7 +20,7 @@
 
 			<p>All this is taking place on one of the most visually stunning campus settings in the world, a magical stretch of rolling meadows and majestic redwoods overlooking Monterey Bay. The place invites collaboration, and encourages original thinking, while cultivating an offbeat charm and endearing quirkiness that captures global attention.</p>
 
-			<p>And we're just getting started</p>
+			<p>And we're just getting started.</p>
 
 			<p><strong>Here are 50 ways to become just as amazing as UC Santa Cruz.</strong></p>
 			<a href="#list" class="read">Read More</a>
@@ -38,9 +38,9 @@
 
 			<p>All this is taking place on one of the most visually stunning campus settings in the world, a magical stretch of rolling meadows and majestic redwoods overlooking Monterey Bay. The place invites collaboration, and encourages original thinking, while cultivating an offbeat charm and endearing quirkiness that captures global attention.</p>
 
-			<p>And we're just getting started</p>
+			<p>And we're just getting started.</p>
 
-			<p><strong>IN HONOR OF THE CAMPUS'S 50TH YEAR, HERE ARE 50 WAYS TO BECOME JUST AS AMAZING AS UC SANTA CRUZ.</strong></p>
+			<p><strong>Here are 50 ways to become just as amazing as UC Santa Cruz.</strong></p>
 			<a href="#list" class="read-mobile">Read More</a>
 		</div>
 	</div>
@@ -50,7 +50,7 @@
 	<a name="list"></a>
 	{% for post in site.categories.list reversed %}
 	<a href="{{ post.url | prepend: site.baseurl }}" class="animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="2000">
-	<li class="number-list" style="background:url('{{ post.teaser-image }}') no-repeat; background-size: 100%; ">
+	<li class="number-list" style="background:url('{{ post.teaser-image | prepend: site.baseurl }}') no-repeat; background-size: 100%; ">
 		<div class="title">
 			<div class="vert-align">
 				<h1>{{ post.title-one }}</h1><h2><em>{{ post.title-two }}</em> {{ post.title-three }}</h2>

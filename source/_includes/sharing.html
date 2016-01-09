@@ -1,6 +1,6 @@
 {% assign tagStr = '' %}
 
-{% capture shareurl %}{{ site.url }}{{ page.url }}{% endcapture %}
+{% capture shareurl %}{{ page.url | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
 
 {% for tag in page.tags %}
     {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}

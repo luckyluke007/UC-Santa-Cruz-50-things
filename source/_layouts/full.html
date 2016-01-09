@@ -32,7 +32,7 @@
   }
   @media screen and (min-width: 60em) {
     .page-transition {
-      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("/50-ways/{{ page.img }}");
+      background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("{{ page.img | prepend: site.baseurl }}");
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
