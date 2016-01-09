@@ -1,12 +1,12 @@
 ---
 layout: full
-title:  "One be quietly influential"
+title: "One: be quietly influential"
 title-one: "One"
 title-two: "be quietly"
 title-three: "influential"
-img: images/one.jpg
+img: /images/one.jpg
 alt: "UC Santa Cruz grad student holding chemical cylinders"
-teaser-image: images/list-photos/1.jpg
+teaser-image: /images/list-photos/1.jpg
 date:   2015-09-16
 categories: list
 number: 01

@@ -1,13 +1,13 @@
 ---
 layout: side-by-side
-title:  "27 learn from the best"
+title: "27: learn from the best"
 title-one: "27"
 title-two: "learn from"
 title-three: "the best"
-img: images/27.jpg
+img: /images/27.jpg
 mimg: 
 alt: "Elliot Aronson"
-teaser-image: images/list-photos/27.jpg
+teaser-image: /images/list-photos/27.jpg
 date:   2015-09-16
 categories: list
 number: 27

@@ -1,13 +1,13 @@
 ---
 layout: vertical
-title:  "19 talk to the universe"
+title: "19: talk to the universe"
 title-one: "19"
 title-two: "talk to the"
 title-three: "universe"
-img: images/19.jpg
-mimg: images/19-mobile.jpg
+img: /images/19.jpg
+mimg: /images/19-mobile.jpg
 alt: "Redwoods"
-teaser-image: images/list-photos/19.jpg
+teaser-image: /images/list-photos/19.jpg
 date:   2015-09-16
 categories: list
 number: 19

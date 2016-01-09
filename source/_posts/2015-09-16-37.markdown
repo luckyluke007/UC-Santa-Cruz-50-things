@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "37 learn from nature"
+title: "37: learn from nature"
 title-one: "37"
 title-two: "learn from"
 title-three: "nature"
-img: images/37.jpg
-mimg: images/list-photos/37.jpg
+img: /images/37.jpg
+mimg: /images/list-photos/37.jpg
 alt: "Historical houses"
-teaser-image: images/list-photos/37.jpg
+teaser-image: /images/list-photos/37.jpg
 date:   2015-09-16
 categories: list
 number: 37

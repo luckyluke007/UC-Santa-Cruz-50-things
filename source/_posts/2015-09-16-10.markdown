@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "10 look to the stars"
+title: "10: look to the stars"
 title-one: "10"
 title-two: "look to"
 title-three: "the stars"
-img: images/10.jpg
-mimg: images/10-mobile.jpg
+img: /images/10.jpg
+mimg: /images/10-mobile.jpg
 alt: "Playing drum"
-teaser-image: images/list-photos/10.jpg
+teaser-image: /images/list-photos/10.jpg
 date:   2015-09-16
 categories: list
 number: 10

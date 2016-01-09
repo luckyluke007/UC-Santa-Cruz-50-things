@@ -1,13 +1,13 @@
 ---
 layout: side-by-side
-title:  "42 cherish special things"
+title: "42: cherish special things"
 title-one: "42"
 title-two: "cherish"
 title-three: "special things"
-img: images/42.jpg
-mimg: images/list-photos/42.jpg
+img: /images/42.jpg
+mimg: /images/list-photos/42.jpg
 alt: "students jump"
-teaser-image: images/list-photos/42.jpg
+teaser-image: /images/list-photos/42.jpg
 date:   2015-09-16
 categories: list
 number: 42

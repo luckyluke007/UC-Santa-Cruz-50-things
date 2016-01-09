@@ -1,13 +1,13 @@
 ---
 layout: side-by-side
-title:  "23 make the oceans your classroom"
+title: "23: make the oceans your classroom"
 title-one: "23"
 title-two: "make the oceans"
 title-three: "your classroom"
-img: images/23.jpg
+img: /images/23.jpg
 mimg: 
 alt: "Campus view bike trail at night"
-teaser-image: images/list-photos/23.jpg
+teaser-image: /images/list-photos/23.jpg
 date:   2015-09-16
 categories: list
 number: 23

@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "34 go organic"
+title: "34: go organic"
 title-one: "34"
 title-two: "go"
 title-three: "organic"
-img: images/34.jpg
-mimg: images/list-photos/34.jpg
+img: /images/34.jpg
+mimg: /images/list-photos/34.jpg
 alt: "Banana Slug"
-teaser-image: images/list-photos/34.jpg
+teaser-image: /images/list-photos/34.jpg
 date:   2015-09-16
 categories: list
 number: 34

@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "43 celebrate education"
+title: "43: celebrate education"
 title-one: "43"
 title-two: "celebrate"
 title-three: "education"
-img: images/43.jpg
-mimg: images/list-photos/43.jpg
+img: /images/43.jpg
+mimg: /images/list-photos/43.jpg
 alt: "students jump"
-teaser-image: images/list-photos/43.jpg
+teaser-image: /images/list-photos/43.jpg
 date:   2015-09-16
 categories: list
 number: 43

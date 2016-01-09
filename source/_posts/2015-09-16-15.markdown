@@ -1,13 +1,13 @@
 ---
 layout: full-nophoto
-title:  "15 herd cats"
+title: "15: herd cats"
 title-one: "15"
 title-two: "herd"
 title-three: "cats"
-img: images/no-photo.jpg
+img: /images/no-photo.jpg
 mimg: 
 alt: "UC Santa Cruz 50th"
-teaser-image: images/list-photos/no-photo.jpg
+teaser-image: /images/list-photos/no-photo.jpg
 date:   2015-09-16
 categories: list
 number: 15

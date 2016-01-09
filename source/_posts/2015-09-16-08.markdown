@@ -1,12 +1,12 @@
 ---
 layout: full
-title:  "Eight crunch the data"
+title: "Eight: crunch the data"
 title-one: "Eight"
 title-two: "crunch the"
 title-three: "data"
-img: images/8.jpg
+img: /images/8.jpg
 alt: "Print letters"
-teaser-image: images/list-photos/8.jpg
+teaser-image: /images/list-photos/8.jpg
 date:   2015-09-16
 categories: list
 number: 8

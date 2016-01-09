@@ -1,13 +1,13 @@
 ---
 layout: vertical
-title:  "49 waste not"
+title: "49: waste not"
 title-one: "49"
 title-two: "waste"
 title-three: "not"
-img: images/49.jpg
-mimg: images/49-mobile.jpg
+img: /images/49.jpg
+mimg: /images/49-mobile.jpg
 alt: "Peace sign folk"
-teaser-image: images/list-photos/49.jpg
+teaser-image: /images/list-photos/49.jpg
 date:   2015-09-16
 categories: list
 number: 49

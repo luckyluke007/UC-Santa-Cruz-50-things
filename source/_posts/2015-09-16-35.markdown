@@ -1,13 +1,13 @@
 ---
 layout: side-by-side
-title:  "35 just keep truckin' on"
+title: "35: just keep truckin' on"
 title-one: "35"
 title-two: "just keep"
 title-three: "truckin' on"
-img: images/35.jpg
-mimg: images/list-photos/35.jpg
+img: /images/35.jpg
+mimg: /images/list-photos/35.jpg
 alt: "Banana Slug"
-teaser-image: images/list-photos/35.jpg
+teaser-image: /images/list-photos/35.jpg
 date:   2015-09-16
 categories: list
 number: 35

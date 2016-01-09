@@ -1,13 +1,13 @@
 ---
 layout: vertical
-title:  "40 host writers"
+title: "40: host writers"
 title-one: "40"
 title-two: "host"
 title-three: "writers"
-img: images/40.jpg
-mimg: images/list-photos/40.jpg
+img: /images/40.jpg
+mimg: /images/list-photos/40.jpg
 alt: "students jump"
-teaser-image: images/list-photos/40.jpg
+teaser-image: /images/list-photos/40.jpg
 date:   2015-09-16
 categories: list
 number: 40

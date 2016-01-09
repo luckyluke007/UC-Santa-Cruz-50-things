@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "46 think globally"
+title: "46: think globally"
 title-one: "46"
 title-two: "think"
 title-three: "globally"
-img: images/46.jpg
+img: /images/46.jpg
 mimg: 
 alt: "Country Flags"
-teaser-image: images/list-photos/46.jpg
+teaser-image: /images/list-photos/46.jpg
 date:   2015-09-16
 categories: list
 number: 46

@@ -1,12 +1,12 @@
 ---
 layout: side-by-side
-title:  "Two share your work"
+title: "Two: share your work"
 title-one: "Two"
 title-two: "share your"
 title-three: "work"
-img: images/two.jpg
+img: /images/two.jpg
 alt: "David Haussler"
-teaser-image: images/list-photos/2.jpg
+teaser-image: /images/list-photos/2.jpg
 date:   2015-09-16
 categories: list
 number: 02

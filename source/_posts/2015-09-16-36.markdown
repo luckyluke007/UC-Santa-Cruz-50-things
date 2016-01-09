@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "36 make unusual choices"
+title: "36: make unusual choices"
 title-one: "36"
 title-two: "make unusual"
 title-three: "choices"
-img: images/36.jpg
-mimg: images/list-photos/36.jpg
+img: /images/36.jpg
+mimg: /images/list-photos/36.jpg
 alt: "Banana Slug"
-teaser-image: images/list-photos/36.jpg
+teaser-image: /images/list-photos/36.jpg
 date:   2015-09-16
 categories: list
 number: 36

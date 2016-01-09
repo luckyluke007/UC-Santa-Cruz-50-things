@@ -1,13 +1,13 @@
 ---
 layout: vertical
-title:  "50 share your passion"
+title: "50: share your passion"
 title-one: "50"
 title-two: "share your"
 title-three: "passion"
-img: images/50.jpg
-mimg: images/list-photos/50.jpg
+img: /images/50.jpg
+mimg: /images/list-photos/50.jpg
 alt: "Peace sign folk"
-teaser-image: images/list-photos/50.jpg
+teaser-image: /images/list-photos/50.jpg
 date:   2015-09-16
 categories: list
 number: 50

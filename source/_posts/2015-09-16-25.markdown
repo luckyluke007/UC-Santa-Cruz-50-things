@@ -1,13 +1,13 @@
 ---
 layout: vertical
-title:  "25 examine history"
+title: "25: examine history"
 title-one: "25"
 title-two: "examine"
 title-three: "history"
-img: images/25.jpg
-mimg: images/25-mobile.jpg
+img: /images/25.jpg
+mimg: /images/25-mobile.jpg
 alt: "holding old photo"
-teaser-image: images/list-photos/25.jpg
+teaser-image: /images/list-photos/25.jpg
 date:   2015-09-16
 categories: list
 number: 25

@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "24 study film and prosper"
+title: "24: study film and prosper"
 title-one: "24"
 title-two: "study film"
 title-three: "and prosper"
-img: images/24.jpg
+img: /images/24.jpg
 mimg: 
 alt: "Campus view bike trail at night"
-teaser-image: images/list-photos/24.jpg
+teaser-image: /images/list-photos/24.jpg
 date:   2015-09-16
 categories: list
 number: 24

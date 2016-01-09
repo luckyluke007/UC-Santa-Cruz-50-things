@@ -1,13 +1,13 @@
 ---
 layout: side-by-side
-title:  "47 keep reserves"
+title: "47: keep reserves"
 title-one: "47"
 title-two: "keep"
 title-three: "reserves"
-img: images/47.jpg
+img: /images/47.jpg
 mimg: 
 alt: "Peace sign folk"
-teaser-image: images/list-photos/47.jpg
+teaser-image: /images/list-photos/47.jpg
 date:   2015-09-16
 categories: list
 number: 47

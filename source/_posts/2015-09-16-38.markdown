@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "38 help others fly"
+title: "38: help others fly"
 title-one: "38"
 title-two: "help others"
 title-three: "fly"
-img: images/38.jpg
-mimg: images/list-photos/38.jpg
+img: /images/38.jpg
+mimg: /images/list-photos/38.jpg
 alt: "Historical houses"
-teaser-image: images/list-photos/38.jpg
+teaser-image: /images/list-photos/38.jpg
 date:   2015-09-16
 categories: list
 number: 38

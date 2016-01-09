@@ -1,13 +1,13 @@
 ---
 layout: side-by-side
-title:  "41 create a name for yourself"
+title: "41: create a name for yourself"
 title-one: "41"
 title-two: "create a name"
 title-three: "for yourself"
-img: images/41.jpg
-mimg: images/list-photos/41.jpg
+img: /images/41.jpg
+mimg: /images/list-photos/41.jpg
 alt: "students jump"
-teaser-image: images/list-photos/41.jpg
+teaser-image: /images/list-photos/41.jpg
 date:   2015-09-16
 categories: list
 number: 41

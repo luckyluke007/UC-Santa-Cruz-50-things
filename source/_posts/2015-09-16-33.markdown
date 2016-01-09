@@ -1,13 +1,13 @@
 ---
 layout: full
-title:  "33 entertain big ideas"
+title: "33: entertain big ideas"
 title-one: "33"
 title-two: "entertain"
 title-three: "big ideas"
-img: images/33.jpg
-mimg: images/list-photos/33.jpg
+img: /images/33.jpg
+mimg: /images/list-photos/33.jpg
 alt: "Banana Slug"
-teaser-image: images/list-photos/33.jpg
+teaser-image: /images/list-photos/33.jpg
 date:   2015-09-16
 categories: list
 number: 33
