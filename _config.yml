@@ -8,9 +8,9 @@ destination: ./build
 title: UC Santa Cruz - Fifty ways to be amazing
 email: pio@ucsc.edu
 description: In honor of the campus's 50th year — here are 50 ways to become just as amazing as UC Santa Cruz.
-url: "http://www.ucsc.edu/50-ways/" # the base hostname & protocol for your site
+url: "http://www.ucsc.edu" # the base hostname & protocol for your site
 
-baseurl: "/50-ways/"
+baseurl: "/50-ways"
 
 permalink: "/:title/"
 timezone: America/Los_Angeles
@@ -18,10 +18,7 @@ timezone: America/Los_Angeles
 # Build settings
 exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'Guardfile', '.asset-cache', '/source/.asset-cache']
 
-
 # Build settings
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-
-encoding: 'utf-8'
