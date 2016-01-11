@@ -7,14 +7,14 @@
 <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" name="viewport"/>
 
 <!-- SOCIAL -->
-<meta content="{{ page.title }}" property="og:title"/>
-<meta content="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-<meta content="article" property="og:type"/>
-<meta content="{{ page.img | prepend: site.baseurl | prepend: site.url }}" property="og:image"/>
-<meta content="og:description" content="{% if page.content %}{{ page.content | strip_html | truncate: 25, '' }}{% else %}{{ site.description }}{% endif %}"/>
-<meta content="{{ site.title }}" property="og:site_name"/>
-<meta content="1322847221,508316988" property="fb:admins"/>
-<meta content="https://www.facebook.com/ucsantacruz" property="article:publisher"/>
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{ page.img | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:description" content="{% if page.content %}{{ page.content | strip_html | truncatewords: 20, '...' }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="fb:admins" content="1322847221,508316988" />
+<meta property="article:publisher" content="https://www.facebook.com/ucsantacruz" />
 
 <meta content="summary" name="twitter:card"/>
 <meta content="@ucsc" name="twitter:site"/>
