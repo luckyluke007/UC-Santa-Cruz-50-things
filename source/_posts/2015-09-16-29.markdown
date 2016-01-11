@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "29: write up a storm"
+title: "29: Write up a storm"
 title-one: "29"
 title-two: "write up"
 title-three: "a storm"

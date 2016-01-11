@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "34: go organic"
+title: "34: Go organic"
 title-one: "34"
 title-two: "go"
 title-three: "organic"

@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "Two: share your work"
+title: "Two: Share your work"
 title-one: "Two"
 title-two: "share your"
 title-three: "work"

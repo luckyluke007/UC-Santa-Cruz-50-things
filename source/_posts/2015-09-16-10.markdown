@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "10: look to the stars"
+title: "10: Look to the stars"
 title-one: "10"
 title-two: "look to"
 title-three: "the stars"

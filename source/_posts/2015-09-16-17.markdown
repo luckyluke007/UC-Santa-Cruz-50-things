@@ -1,6 +1,6 @@
 ---
 layout: full-nophoto
-title: "17: write to live"
+title: "17: Write to live"
 title-one: "17"
 title-two: "write to"
 title-three: "live"

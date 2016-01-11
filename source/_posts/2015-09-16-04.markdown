@@ -1,6 +1,6 @@
 ---
 layout: full-nophoto
-title: "Four: tell the truth"
+title: "Four: Tell the truth"
 title-one: "Four"
 title-two: "tell"
 title-three: "the truth"

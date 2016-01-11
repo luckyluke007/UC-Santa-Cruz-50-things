@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "Nine: use your words"
+title: "Nine: Use your words"
 title-one: "Nine"
 title-two: "use your"
 title-three: "words"

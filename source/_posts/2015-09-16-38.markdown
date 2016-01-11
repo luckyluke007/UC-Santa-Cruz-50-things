@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "38: help others fly"
+title: "38: Help others fly"
 title-one: "38"
 title-two: "help others"
 title-three: "fly"

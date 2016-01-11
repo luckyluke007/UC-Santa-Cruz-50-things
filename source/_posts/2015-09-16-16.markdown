@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "16: explore uncharted waters"
+title: "16: Explore uncharted waters"
 title-one: "16"
 title-two: "explore"
 title-three: "uncharted waters"

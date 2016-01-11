@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "45: honor diversity"
+title: "45: Honor diversity"
 title-one: "45"
 title-two: "honor"
 title-three: "diversity"

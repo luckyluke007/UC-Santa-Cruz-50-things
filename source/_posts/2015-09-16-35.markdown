@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "35: just keep truckin' on"
+title: "35: Just keep truckin' on"
 title-one: "35"
 title-two: "just keep"
 title-three: "truckin' on"

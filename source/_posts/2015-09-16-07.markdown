@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "Seven: make play serious"
+title: "Seven: Make play serious"
 title-one: "Seven"
 title-two: "make play"
 title-three: "serious"

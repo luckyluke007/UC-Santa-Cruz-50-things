@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "19: talk to the universe"
+title: "19: Talk to the universe"
 title-one: "19"
 title-two: "talk to the"
 title-three: "universe"

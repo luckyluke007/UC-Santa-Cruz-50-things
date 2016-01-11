@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "48: watch and learn"
+title: "48: Watch and learn"
 title-one: "48"
 title-two: "watch and"
 title-three: "learn"

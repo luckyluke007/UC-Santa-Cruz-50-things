@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "24: study film and prosper"
+title: "24: Study film and prosper"
 title-one: "24"
 title-two: "study film"
 title-three: "and prosper"

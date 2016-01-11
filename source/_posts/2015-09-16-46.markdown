@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "46: think globally"
+title: "46: Think globally"
 title-one: "46"
 title-two: "think"
 title-three: "globally"

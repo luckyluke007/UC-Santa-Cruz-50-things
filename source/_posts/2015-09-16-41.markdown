@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "41: create a name for yourself"
+title: "41: Create a name for yourself"
 title-one: "41"
 title-two: "create a name"
 title-three: "for yourself"

@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "12: be a sport"
+title: "12: Be a sport"
 title-one: "12"
 title-two: "be a"
 title-three: "sport"

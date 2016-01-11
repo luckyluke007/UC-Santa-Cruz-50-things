@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "47: keep reserves"
+title: "47: Keep reserves"
 title-one: "47"
 title-two: "keep"
 title-three: "reserves"

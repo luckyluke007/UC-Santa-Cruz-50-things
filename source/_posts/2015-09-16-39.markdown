@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "39: celebrate history"
+title: "39: Celebrate history"
 title-one: "39"
 title-two: "celebrate"
 title-three: "history"

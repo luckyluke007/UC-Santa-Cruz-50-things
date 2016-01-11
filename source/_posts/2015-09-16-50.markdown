@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "50: share your passion"
+title: "50: Share your passion"
 title-one: "50"
 title-two: "share your"
 title-three: "passion"

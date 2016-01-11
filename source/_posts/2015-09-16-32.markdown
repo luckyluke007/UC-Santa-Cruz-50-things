@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "32: tune in"
+title: "32: Tune in"
 title-one: "32"
 title-two: "tune"
 title-three: "in"

@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "33: entertain big ideas"
+title: "33: Entertain big ideas"
 title-one: "33"
 title-two: "entertain"
 title-three: "big ideas"

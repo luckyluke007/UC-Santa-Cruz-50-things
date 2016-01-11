@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "22: branch out"
+title: "22: Branch out"
 title-one: "22"
 title-two: "branch"
 title-three: "out"

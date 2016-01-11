@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "20: go beyond"
+title: "20: Go beyond"
 title-one: "20"
 title-two: "go"
 title-three: "beyond"

@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "30: live for Saturday night"
+title: "30: Live for Saturday night"
 title-one: "30"
 title-two: "live for"
 title-three: "saturday night"

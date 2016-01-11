@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "28: raise your hand"
+title: "28: Raise your hand"
 title-one: "28"
 title-two: "raise"
 title-three: "your hand"

@@ -1,6 +1,6 @@
 ---
 layout: full-nophoto
-title: "13: lawyer up"
+title: "13: Lawyer up"
 title-one: "13"
 title-two: "lawyer"
 title-three: "up"

@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "49: waste not"
+title: "49: Waste not"
 title-one: "49"
 title-two: "waste"
 title-three: "not"

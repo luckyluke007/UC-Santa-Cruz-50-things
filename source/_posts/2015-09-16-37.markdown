@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "37: learn from nature"
+title: "37: Learn from nature"
 title-one: "37"
 title-two: "learn from"
 title-three: "nature"

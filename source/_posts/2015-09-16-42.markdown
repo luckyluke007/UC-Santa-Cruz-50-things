@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "42: cherish special things"
+title: "42: Cherish special things"
 title-one: "42"
 title-two: "cherish"
 title-three: "special things"

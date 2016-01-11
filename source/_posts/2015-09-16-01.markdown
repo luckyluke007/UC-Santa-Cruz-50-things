@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "One: be quietly influential"
+title: "One: Be quietly influential"
 title-one: "One"
 title-two: "be quietly"
 title-three: "influential"

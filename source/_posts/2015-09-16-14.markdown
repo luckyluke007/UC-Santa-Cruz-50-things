@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "14: look deep"
+title: "14: Look deep"
 title-one: "14"
 title-two: "look"
 title-three: "deep"

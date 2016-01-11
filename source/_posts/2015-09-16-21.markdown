@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "21: safety first"
+title: "21: Safety first"
 title-one: "21"
 title-two: "safety"
 title-three: "first"

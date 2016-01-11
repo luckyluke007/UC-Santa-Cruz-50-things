@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "36: make unusual choices"
+title: "36: Make unusual choices"
 title-one: "36"
 title-two: "make unusual"
 title-three: "choices"

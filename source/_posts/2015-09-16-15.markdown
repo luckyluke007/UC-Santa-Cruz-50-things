@@ -1,6 +1,6 @@
 ---
 layout: full-nophoto
-title: "15: herd cats"
+title: "15: Herd cats"
 title-one: "15"
 title-two: "herd"
 title-three: "cats"

@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "11: walk to the beat of your own drum"
+title: "11: Walk to the beat of your own drum"
 title-one: "11"
 title-two: "walk to the beat"
 title-three: "of your own drum"

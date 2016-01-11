@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "26: know your roots"
+title: "26: Know your roots"
 title-one: "26"
 title-two: "know"
 title-three: "your roots"

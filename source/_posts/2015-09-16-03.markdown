@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "Three: ignore the naysayers"
+title: "Three: Ignore the naysayers"
 title-one: "Three"
 title-two: "ignore the"
 title-three: "naysayers"

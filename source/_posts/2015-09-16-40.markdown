@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "40: host writers"
+title: "40: Host writers"
 title-one: "40"
 title-two: "host"
 title-three: "writers"

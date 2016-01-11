@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "25: examine history"
+title: "25: Examine history"
 title-one: "25"
 title-two: "examine"
 title-three: "history"

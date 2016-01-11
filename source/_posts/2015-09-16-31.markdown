@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "31: always explore"
+title: "31: Always explore"
 title-one: "31"
 title-two: "always"
 title-three: "explore"

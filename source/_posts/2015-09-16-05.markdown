@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "Five: seek imaginative friends"
+title: "Five: Seek imaginative friends"
 title-one: "Five"
 title-two: "seek"
 title-three: "imaginative friends"

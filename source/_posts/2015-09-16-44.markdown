@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "44: start young"
+title: "44: Start young"
 title-one: "44"
 title-two: "start"
 title-three: "young"

@@ -1,6 +1,6 @@
 ---
 layout: vertical
-title: "18: shake up the paradigm"
+title: "18: Shake up the paradigm"
 title-one: "18"
 title-two: "shake up"
 title-three: "the paradigm"

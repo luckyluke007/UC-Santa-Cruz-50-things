@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "27: learn from the best"
+title: "27: Learn from the best"
 title-one: "27"
 title-two: "learn from"
 title-three: "the best"

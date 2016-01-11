@@ -1,6 +1,6 @@
 ---
 layout: full
-title: "Eight: crunch the data"
+title: "Eight: Crunch the data"
 title-one: "Eight"
 title-two: "crunch the"
 title-three: "data"

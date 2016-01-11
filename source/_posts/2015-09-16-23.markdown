@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "23: make the oceans your classroom"
+title: "23: Make the oceans your classroom"
 title-one: "23"
 title-two: "make the oceans"
 title-three: "your classroom"

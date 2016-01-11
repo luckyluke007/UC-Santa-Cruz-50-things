@@ -1,6 +1,6 @@
 ---
 layout: side-by-side
-title: "Six: protect the vulnerable"
+title: "Six: Protect the vulnerable"
 title-one: "Six"
 title-two: "protect"
 title-three: "the vulnerable"
