@@ -20,7 +20,7 @@
 <meta content="@ucsc" name="twitter:site"/>
 <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" name="twitter:url"/>
 <meta content="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-<meta content="twitter:description" content="{% if page.content %}{{ page.content  | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.description }}{% endif %}"/>
+<meta content="twitter:description" content="{% if page.content %}{{ page.content | markdownify | strip_html | truncatewords: 20, '...' }}{% else %}{{ site.description }}{% endif %}"/>
 <meta content="{{ page.img | prepend: site.baseurl | prepend: site.url }}" name="twitter:image"/>
 
 <script type="text/javascript" src="{% asset_path modernizr-2.7.1.min.js %}"></script>
