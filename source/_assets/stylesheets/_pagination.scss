@@ -48,16 +48,16 @@
 
   @include media($desktop) {
     @include span-columns(12);
-    @include background-opacity($gray, .2);
+    @include background-opacity($gray, 0);
     @include border-radius(5px);
     position: relative;
     z-index: 0;
   }
 
   .pagenavigation {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    width: 320px;
   }
 
   .home,
@@ -67,7 +67,7 @@
     display: inline-block;
     float: left;
     height: 30px;
-    margin-right: 7.2em;
+    margin-right: 2em;
     width: 30px;
   }
 
@@ -82,7 +82,7 @@
     display: inline-block;
     float: left;
     height: 30px;
-    margin-right: 6em;
+    margin-right: 2em;
     width: 30px;
   }
 

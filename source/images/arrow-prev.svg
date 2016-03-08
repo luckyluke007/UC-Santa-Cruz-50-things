@@ -3,8 +3,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="50px" viewBox="0 0 100 50" enable-background="new 0 0 100 50" xml:space="preserve">
-<circle fill="#C5C5C6" cx="25" cy="25" r="25"/>
-<circle fill="#C5C5C6" cx="75" cy="25" r="25"/>
+<circle fill="#00458c" cx="25" cy="25" r="25"/>
+<circle fill="#00458c" cx="75" cy="25" r="25"/>
 <polygon fill="#FFFFFF" points="30.88,25.002 36.062,40.84 22.344,32.918 8.624,25.002 22.344,17.078 36.062,9.16 "/>
 <polygon fill="#F0B51F" points="81.539,25 86.719,40.84 73,32.918 59.281,25 73,17.078 86.719,9.16 "/>
 </svg>
